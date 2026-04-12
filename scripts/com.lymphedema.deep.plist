@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.lymphedema.deep</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-l</string>
+        <string>/Users/geertzaal/Developer/Lymphedema_research/scripts/deep.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <!-- Run Sunday at 09:00 -->
+        <key>Weekday</key><integer>0</integer>
+        <key>Hour</key><integer>9</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/geertzaal/Developer/Lymphedema_research/output/logs/launchd-deep.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/geertzaal/Developer/Lymphedema_research/output/logs/launchd-deep-err.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/geertzaal/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+</dict>
+</plist>

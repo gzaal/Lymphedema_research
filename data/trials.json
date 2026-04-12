@@ -1,0 +1,2562 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01521741",
+      "title": "Prospective Screening for Breast Cancer-related Lymphedema",
+      "sponsor": "Massachusetts General Hospital",
+      "intervention": "Breast Cancer-Related Lymphedema Screening",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 10000,
+      "start_date": "2009-08",
+      "expected_completion": "2026-10",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT02743858",
+      "title": "Lymphedema Surveillance Study",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "intervention": "Bilateral arm measurements, Body mass index (BMI), Quality of Life Questionnaire, Blood draw",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 1250,
+      "start_date": "2016-04",
+      "expected_completion": "2026-04",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06532955",
+      "title": "The Robot-LVA Study: Robot-assisted Microsurgical Lymphaticovenous Anastomosis in Breast Cancer-related Lymphedema",
+      "sponsor": "Maastricht University Medical Center",
+      "intervention": "Lymphaticovenous anastomosis using Microsure Motion Stabilizer, Lymphaticovenous anastomosis (manual)",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2017-06-01",
+      "expected_completion": "2026-01-01",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema Arm",
+        "Lymphedema of Upper Arm",
+        "Lymphedema of Upper Limb",
+        "Lymphedema; Surgical",
+        "Lymphedema, Secondary",
+        "Lymphedema of Limb",
+        "Lymphedema, Breast Cancer",
+        "Lymphedema, Non-Filarial"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT03941756",
+      "title": "Lymphovenous Bypass Procedure Before Underarm Lymph Node Surgery in Preventing Lymphedema in Patients With Inflammatory or Locally Advanced Non-inflammatory Breast Cancer or Melanoma",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "intervention": "Indocyanine Green, Lymphangiography, Lymphovenous Bypass",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 252,
+      "start_date": "2018-08-14",
+      "expected_completion": "2025-12-31",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Anatomic Stage III Breast Cancer AJCC v8",
+        "Breast Inflammatory Carcinoma",
+        "Locally Advanced Breast Carcinoma",
+        "Melanoma"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06321653",
+      "title": "Lymphedema Evaluation After Adjuvant Hypofractionated Radiotherapy for 1-2 Macrometastatic Sentinel Lymph Nodes",
+      "sponsor": "European Institute of Oncology",
+      "intervention": "Hypofractionated radiotherapy scheme",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 120,
+      "start_date": "2019-04-18",
+      "expected_completion": "2024-12-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Arm Lymphedema",
+        "Breast Cancer",
+        "Radiotherapy Side Effect"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04356235",
+      "title": "Examining and Comparing the Temporal Changes and Results of Cosmetic, Quality of Life and Patient Satisfaction Achieved With Immediate and Delayed-immediate Implant-based Breast Reconstruction Procedures and Contralateral Symmetrization Techniques",
+      "sponsor": "National Institute of Oncology, Hungary",
+      "intervention": "A: expander-silicone implant exchange and contralateral symmetrization with mastopexy and if needed with volume reduction, B: expander-silicone implant exchange with contralateral symmetrization with mastopexy and Ultrapro sling, C: expander-silicone implant exchange and contralateral symmetrization with mastopexy and silicone implant augmentation, D: expander-silicone implant exchange and contralateral symmetrization with mastopexy and Utrapro sling and silicone implant augmentation, E: unilateral simple mastectomy, F: after bilateral SSM, ASM, NSM, expander-implant exchange",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 528,
+      "start_date": "2020-04-27",
+      "expected_completion": "2022-04-10",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Mastectomy; Lymphedema",
+        "Breast Cancer",
+        "Quality of Life"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04665882",
+      "title": "Nomogram to Predict Breast Cancer Related Lymphedema",
+      "sponsor": "Wuhan University",
+      "intervention": "Axillary surgery based on lymphedema prediction nomogram",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 600,
+      "start_date": "2020-12-11",
+      "expected_completion": "2022-12-31",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer",
+        "Axillary Lymph Node Dissection",
+        "Breast Cancer Related Lymphedema",
+        "Axillary Reverse Mapping"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05601037",
+      "title": "LymphoVenous Anastomosis to Prevent Breast Cancer Related Lymphedema",
+      "sponsor": "University Hospital, Ghent",
+      "intervention": "Axilla dissection + Lymphovenous anastomosis",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 80,
+      "start_date": "2021-06-30",
+      "expected_completion": "2025-12-27",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema, Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05115799",
+      "title": "Effects of a Manual Therapy Program to Reduce the Evolution Time of Axillary Web Syndrome",
+      "sponsor": "University of Malaga",
+      "intervention": "Manual Therapy, Physiotherapy, Kinesiology, Scar Massage, Kinesiotherapy, Physiotherapy, Health Education",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 46,
+      "start_date": "2021-12-01",
+      "expected_completion": "2024-10-01",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer",
+        "Mastectomy; Lymphedema",
+        "Thrombi",
+        "Thrombosis",
+        "Shoulder Syndrome",
+        "Movement Disorders"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05300308",
+      "title": "Lymphoedema and Nocturia/Nocturnal Polyuria After Pelvic LND for Urogenital Cancer",
+      "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+      "intervention": "usual care",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 150,
+      "start_date": "2022-01-21",
+      "expected_completion": "2026-11",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Urogenital Cancer",
+        "Lower Limb Lymphedema",
+        "Nocturia",
+        "Nocturnal Polyuria"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05269264",
+      "title": "Development of a Clinical Screening, Diagnostic and Evaluation Tool for Patients With Lower Limb Lymphedema: Aim 1",
+      "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+      "intervention": "Assessor A (first measurement): measurement methods and questionnaires for the assessment of LLL, Assessor B: measurement methods and questionnaires for the assessment of LLL, Assessor A (second measurement: measurement methods and questionnaires for the assessment of LLL, Assessor A (2 weeks later): measurement methods and questionnaires for the assessment of LLL",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 200,
+      "start_date": "2022-02-07",
+      "expected_completion": "2025-09",
+      "dimensions": [
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lower Limb Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05469945",
+      "title": "Lymphedema After Gyneco-oncologic Treatment",
+      "sponsor": "University Hospital, Ghent",
+      "intervention": "Compressive garments class II",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 218,
+      "start_date": "2022-06-22",
+      "expected_completion": "2027-06-30",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Genital Neoplasm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05731141",
+      "title": "A Prospective Natural History Study of Lymphatic Anomalies",
+      "sponsor": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 1200,
+      "start_date": "2023-03-20",
+      "expected_completion": "2026-12-31",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphatic Diseases",
+        "Lymphatic Abnormalities"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05725265",
+      "title": "LLLT for BCRL: a Randomized, Placebo-controlled Study",
+      "sponsor": "National Taiwan University Hospital",
+      "intervention": "Large-area low-level laser therapy(Venusure), Conventional low-level laser therapy",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 54,
+      "start_date": "2023-10-24",
+      "expected_completion": "2025-07-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Breast Cancer Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05695924",
+      "title": "Surgical Evaluation for Upper Extremity Lymphedema (BioBridge)",
+      "sponsor": "Fibralign Corporation",
+      "intervention": "BioBridge® Collagen Matrix, Vascularized Lymph Node Transfer (VLNT)",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2023-11-01",
+      "expected_completion": "2025-10-01",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Edema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06144164",
+      "title": "A Study of a Comprehensive Prevention Program to Reduce Lymphedema After Axillary Lymph Node Dissection in People With Breast Cancer",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "intervention": "Immediate Lymphatic Reconstruction, Volumetric arm measurements, Lymphatic massage, Range of motion exercises, Compression garment use",
+      "phase": "PHASE3",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 285,
+      "start_date": "2023-11-16",
+      "expected_completion": "2030-03-16",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema Arm",
+        "Lymphedema of Upper Arm",
+        "Breast Cancer",
+        "Breast Carcinoma",
+        "Female Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05825157",
+      "title": "Evaluation of Combination Therapy for Upper Extremity Lymphedema",
+      "sponsor": "Stanford University",
+      "intervention": "BioBridge",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2023-11-17",
+      "expected_completion": "2027-01-01",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05910411",
+      "title": "Inelastic Compression in Edema After Revascularization",
+      "sponsor": "Centre Hospitalier Universitaire de Nice",
+      "intervention": "Inelastic compression",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 20,
+      "start_date": "2023-12-11",
+      "expected_completion": "2026-06-01",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05629026",
+      "title": "Study of Lymphatic Dysfunction in Primary and Secondary Lymphedema",
+      "sponsor": "University Hospital, Toulouse",
+      "intervention": "Micro-biopsies",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2024-02-21",
+      "expected_completion": "2026-02",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "genetics",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06454734",
+      "title": "Shock Wave Therapy for Lower Limb Lymphedema",
+      "sponsor": "Parc de Salut Mar",
+      "intervention": "Extracorporeal shock wave therapy by radial device, Placebo extracorporeal shock wave therapy by radial device, DLT",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 30,
+      "start_date": "2024-05-28",
+      "expected_completion": "2026-07",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lymphedema, Lower Limb"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06574022",
+      "title": "Post-mastectomy Recovery: Comparing Preoperative PECS-II Blocks With Intraoperative Pectoral Blocks",
+      "sponsor": "University of Cincinnati",
+      "intervention": "Bupivacain, Exparel, Intraoperative Pecs II block (IOB) & superior AT (EX or BP), Preoperative Pecs II block (POB) & superior AT (EX or BP)",
+      "phase": "PHASE4",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 100,
+      "start_date": "2024-09-25",
+      "expected_completion": "2026-08-01",
+      "dimensions": [
+        "general"
+      ],
+      "conditions": [
+        "Mastectomy; Lymphedema",
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06327490",
+      "title": "A Study Evaluating the Feasibility and Compliance of Manual Lymphatic Drainage Comparing Indocyanine-Green (ICG) Guided vs. Traditional Guided in Patients Undergoing Axillary Node Dissection for the Treatment of Breast Cancer",
+      "sponsor": "University of Florida",
+      "intervention": "ICG-guided manual lymphatic drainage, Traditional manual lymphatic drainage, Indocyanine green",
+      "phase": "PHASE2",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 30,
+      "start_date": "2024-10-15",
+      "expected_completion": "2028-06",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06708754",
+      "title": "Impact of Photobiomodulation (PBM) on Biomarkers of Radiation Lymphedema and Fibrosis in Head and Neck Cancer Patients",
+      "sponsor": "NYU Langone Health",
+      "intervention": "Photobiomodulation (PBM) Therapy, Sham PBM",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2025-02-13",
+      "expected_completion": "2028-02-13",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Radiation Lymphedema",
+        "Radiation Fibrosis",
+        "Head and Neck Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07472803",
+      "title": "Longitudinal Body Composition Assessment in Breast Cancer Patients",
+      "sponsor": "Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 100,
+      "start_date": "2025-05-19",
+      "expected_completion": "2027-12-31",
+      "dimensions": [
+        "pharmacological",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Neoplasms",
+        "Body Composition",
+        "Sarcopenia",
+        "Fat Redistribution",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06725030",
+      "title": "A Post-market, Real-world Experience: Expanding Access to Care by Incorporating the Symani® Surgical System and Enabling Surgeons",
+      "sponsor": "MMI (Medical Microinstruments, Inc.)",
+      "intervention": "Symani Surgical System",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 455,
+      "start_date": "2025-09-22",
+      "expected_completion": "2027-09-01",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Open Surgery",
+        "Lymphedema",
+        "Free Tissue Transfer",
+        "Microsurgery",
+        "Anastomosis, Surgical"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07215169",
+      "title": "Manual Lymph Drainage for External Lymphedema",
+      "sponsor": "Lund University",
+      "intervention": "HIT, LIT",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2025-10-01",
+      "expected_completion": "2026-12",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema of Face",
+        "Neoplasms",
+        "Radiotherapy Side Effect",
+        "Lymphedema Due to Radiation"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07187726",
+      "title": "Arm Swelling Occurence in Breast Cancer Patients With Nodal Radiotherapy: Impact of Informing Them of AI-predicted Risk",
+      "sponsor": "UNICANCER",
+      "intervention": "XAINET AI tool",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 724,
+      "start_date": "2025-10-07",
+      "expected_completion": "2029-01-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Unilateral Breast Neoplasms"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07257679",
+      "title": "Gentle Touch for Post-Mastectomy Lymphedema",
+      "sponsor": "I.R.C.C.S. Fondazione Santa Lucia",
+      "intervention": "Gentle Touch (GT) Lymphatic Drainage (ANDOS technique), Passive Mobilization and Active-Assisted Exercises for the Upper Limb",
+      "phase": "PHASE4",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 36,
+      "start_date": "2025-11-01",
+      "expected_completion": "2027-01-15",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema, Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07358910",
+      "title": "Risk Assessment of Community Spread of Multiple Endemic Infectious Diseases in a One Health Perspective",
+      "sponsor": "Institut Pasteur du Cambodge",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 10000,
+      "start_date": "2025-12-18",
+      "expected_completion": "2026-04-16",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Dengue",
+        "Chikungunya",
+        "Zika Virus Infection",
+        "Japanese Encephalitis",
+        "West Nile Virus",
+        "Tick-borne Encephalitis (TBE)",
+        "Severe Fever With Thrombocytopenia Syndrome",
+        "Nipah Virus Infection",
+        "Hantavirus Infections",
+        "Hepatitis E",
+        "Brucellosis",
+        "Q Fever",
+        "Leptospirosis",
+        "Melioidosis",
+        "Influenza A and B",
+        "Malaria",
+        "Yellow Fever",
+        "Mayaro Fever",
+        "Usutu Virus Infection",
+        "Oropouche Fever",
+        "Rift Valley Fever",
+        "Arenavirus Infections",
+        "Measles",
+        "Mumps",
+        "Rubella",
+        "Human Papilloma Virus (HPV)",
+        "Rotavirus Disease",
+        "Pertussis",
+        "Diphteria",
+        "Tetanus",
+        "Varicella",
+        "Hepatitis A",
+        "Norovirus Infections",
+        "Enterovirus",
+        "Adenovirus",
+        "Rhinovirus",
+        "Parvovirus",
+        "Respiratory Syncytial Virus (RSV)",
+        "Cytomegalovirus",
+        "Epstein Barr Virus",
+        "Salmonella Typhi",
+        "Vibrio Cholerae",
+        "Legionella Pneumophila Pneumonia",
+        "Mycoplasma",
+        "Chlamydia",
+        "Lymphatic Filariasis",
+        "Toxoplasma Gondii",
+        "Giardiasis",
+        "Entamoeba Histolytica",
+        "Leishmaniasis",
+        "Strongyloides Stercoralis Infection",
+        "Ascaris Lumbricoides",
+        "Trichuris Trichiura",
+        "Clonorchis Sinensis",
+        "Opisthorchis Viverrini",
+        "Schistosomiasis",
+        "Streptococcus Pneumoniae",
+        "Meningitis"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07140172",
+      "title": "Axillary Radiotherapy or Axillary Lymph Node Dissection in Patients With Clinically Node- Positive Breast Cancer Undergoing Upfront Tailored Axillary Surgery",
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "intervention": "Axillary lymph node dissection (ALND), Axillary radiotherapy (ART)",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 1060,
+      "start_date": "2026-01-01",
+      "expected_completion": "2029-12-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06866197",
+      "title": "CONNECT: A Multi-Cohort, Prospective Investigation of the Symani® Surgical System",
+      "sponsor": "MMI (Medical Microinstruments, Inc.)",
+      "intervention": "Symani Surgical System",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 180,
+      "start_date": "2026-01-20",
+      "expected_completion": "2028-01-20",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Microsurgery",
+        "Lymphedema",
+        "Free Tissue Transfer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07448467",
+      "title": "Investigation of the Effectiveness of Progressive Resistance Exercise Training in the Management of Lymphedema.",
+      "sponsor": "Uskudar University",
+      "intervention": "control, exercise",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 50,
+      "start_date": "2026-03-06",
+      "expected_completion": "2026-06-30",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07489248",
+      "title": "Multimodal Ultrasound for Differentiating Lymphedema and Lipedema",
+      "sponsor": "Kayseri City Hospital",
+      "intervention": "Multimodal Ultrasound Assessment",
+      "phase": "N/A",
+      "status": "RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 75,
+      "start_date": "2026-03-19",
+      "expected_completion": "2026-08-01",
+      "dimensions": [
+        "genetics",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lipedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT00984269",
+      "title": "Lymphedema Following Hand/Wrist Surgery in Women Post Axillary Node Dissection",
+      "sponsor": "OrthoCarolina Research Institute, Inc.",
+      "intervention": "Tourniquet Use",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 67,
+      "start_date": "2009-08-19",
+      "expected_completion": "2020-08-20",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT01649089",
+      "title": "Studying the Physical Function and Quality of Life Before and After Surgery in Patients With Stage I Cervical Cancer",
+      "sponsor": "GOG Foundation",
+      "intervention": "Conization, Quality-of-Life Assessment, Questionnaire Administration, Therapeutic Conventional Surgery, Therapeutic Lymphadenectomy",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 224,
+      "start_date": "2013-06-05",
+      "expected_completion": "2024-12-01",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Cervical Adenocarcinoma",
+        "Cervical Adenosquamous Carcinoma",
+        "Cervical Squamous Cell Carcinoma",
+        "Lymphedema",
+        "Stage IA1 Cervical Cancer AJCC v6 and v7",
+        "Stage IA2 Cervical Cancer AJCC v6 and v7",
+        "Stage IB1 Cervical Cancer AJCC v6 and v7"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT03127995",
+      "title": "Hypofractionated vs Standard Radiotherapy in Breast Cancer With an Indication for Regional Lymph Node Irradiation About Lymphedema Occurrence",
+      "sponsor": "UNICANCER",
+      "intervention": "HYPOFRACTIONATED, NORMOFRACTIONATED",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 1265,
+      "start_date": "2016-09",
+      "expected_completion": "2022-12-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Breast Cancer Female"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05142800",
+      "title": "Screening For BCRL In Targeted Therapy For Breast Cancer",
+      "sponsor": "Massachusetts General Hospital",
+      "intervention": "Perometer, SOZO device",
+      "phase": "N/A",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 166,
+      "start_date": "2018-12-13",
+      "expected_completion": "2026-09-30",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema Arm",
+        "Lymphedema of Upper Arm",
+        "Lymphedema of Upper Limb",
+        "Lymphedema of the Hands",
+        "Edema",
+        "Edema Arm",
+        "Breast Cancer Lymphedema",
+        "Breast Cancer Metastatic",
+        "Breast Cancer Stage",
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT03861975",
+      "title": "Exploring the Efficacy and Feasibility of the LymphaTech Scanner for Breast Cancer-Related Lymphedema Screening",
+      "sponsor": "Massachusetts General Hospital",
+      "intervention": "Breast Cancer-Related Lymphedema Measurements",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 100,
+      "start_date": "2019-01-30",
+      "expected_completion": "2026-05-30",
+      "dimensions": [
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT03990610",
+      "title": "An Investigational Surgical Procedure (Vascularized Lymph Node Transfer) in Reducing the Risk of Lymphedema in Patients With Breast Cancer Undergoing Breast Reconstruction",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "intervention": "Mammoplasty, Vascularized Lymph Node Transfer",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 30,
+      "start_date": "2019-05-24",
+      "expected_completion": "2026-04-30",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Carcinoma"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT03927027",
+      "title": "Axillary Reverse Mapping in Preventing Lymphedema in Patients With Breast Cancer Undergoing Axillary Lymph Node Dissection",
+      "sponsor": "Alliance for Clinical Trials in Oncology",
+      "intervention": "Isosulfan Blue, Axillary Lymph Node Dissection, Mapping, Quality-of-Life Assessment, Questionnaire Administration",
+      "phase": "PHASE3",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 534,
+      "start_date": "2019-07-29",
+      "expected_completion": "2026-11-26",
+      "dimensions": [
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Breast Cancer Stage I",
+        "Breast Cancer Stage II",
+        "Breast Cancer Stage III"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04228991",
+      "title": "Hypofractionated LocoRegional Radiotherapy in Breast Cancer",
+      "sponsor": "Ontario Clinical Oncology Group (OCOG)",
+      "intervention": "Locoregional radiation treatment - Conventional fractionation, Locoregional radiation treatment - Hypofractionation",
+      "phase": "PHASE3",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 588,
+      "start_date": "2021-02-10",
+      "expected_completion": "2028-07",
+      "dimensions": [
+        "pharmacological"
+      ],
+      "conditions": [
+        "Breast Neoplasms",
+        "Radiotherapy",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05246592",
+      "title": "Effect of the Axillary Lymphatic /Vein Reflux Ratio on Postoperative Upper Limb Edema and Dysfunction in Breast Cancer",
+      "sponsor": "Xiangyun Zong",
+      "intervention": "Branches Sparing, None Branches Sparing",
+      "phase": "N/A",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 258,
+      "start_date": "2022-01-01",
+      "expected_completion": "2024-04-01",
+      "dimensions": [
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Breast Cancer Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05441943",
+      "title": "Lymphaticovenous Anastomosis as Treatment for Lymphedema",
+      "sponsor": "Odense University Hospital",
+      "intervention": "Lymphovenous anastomosis",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 10,
+      "start_date": "2022-05-11",
+      "expected_completion": "2026-12-31",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer Lymphedema",
+        "Secondary Lymphedema",
+        "Iatrogenic Lymphedema",
+        "Lymphedema",
+        "Lymphedema of Upper Limb",
+        "Lymphedema Arm",
+        "Lymphedema, Breast Cancer",
+        "Breast Neoplasm",
+        "Neoplasms",
+        "Breast Cancer",
+        "Breast Diseases",
+        "Lymphatic Diseases",
+        "Skin Diseases",
+        "Postoperative Complications",
+        "Pathologic Processes",
+        "Anastomose",
+        "Surgery",
+        "Surgical; Lymphedema, Postmastectomy",
+        "Postmastectomy Lymphedema",
+        "Postmastectomy Lymphedema Syndrome Left Upper Limb",
+        "Postmastectomy Lymphedema Syndrome Right Upper Limb",
+        "Postmastectomy Lymphedema Syndrome"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05203835",
+      "title": "Trial of Acebilustat for the Treatment of Upper Arm Lymphedema",
+      "sponsor": "Stanford University",
+      "intervention": "Acebilustat, Placebo",
+      "phase": "PHASE2",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2022-07-27",
+      "expected_completion": "2025-10-21",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lymphedema of Upper Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05682885",
+      "title": "The Effectiveness of Lymphatic Bypass Supermicrosurgery",
+      "sponsor": "Dharmais National Cancer Center Hospital",
+      "intervention": "Lymphatic Bypass Supermicrosurgery",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 140,
+      "start_date": "2022-10-06",
+      "expected_completion": "2027-10-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Breast Cancer Related Lymphedema",
+        "Lymphedema Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06783543",
+      "title": "Efficacy of Home-based Treatment for Breast Cancer-related Lymphedema",
+      "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+      "intervention": "Comprehensive detumescence treatment with education video, Comprehensive detumescence treatment",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2024-11-13",
+      "expected_completion": "2025-11-13",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lymphedema Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07043140",
+      "title": "Mobile Self-Management Training for Lymphedema Prevention",
+      "sponsor": "Inonu University",
+      "intervention": "mobile application",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 120,
+      "start_date": "2025-02-02",
+      "expected_completion": "2026-04-30",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07037316",
+      "title": "Effect of PRE With LT Versus PRE With Compression Bandages on Lymphedema in Pregnant Females",
+      "sponsor": "Superior University",
+      "intervention": "progressive resistance exercise with lymphatic taping, progressive resistance exercise with compression Bandage",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 59,
+      "start_date": "2025-03-04",
+      "expected_completion": "2025-06-01",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06914258",
+      "title": "Effects of Inhibition Compression Versus Scapular Mobilization Technique on Shoulder in Patients With Mastectomy",
+      "sponsor": "Superior University",
+      "intervention": "Inhibition Compression, Scapular Mobilization Technique",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 44,
+      "start_date": "2025-03-20",
+      "expected_completion": "2025-06-20",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Mastectomy; Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07154771",
+      "title": "Development and Usability Evaluation of an Arm Circumference Measurement Tool For Patients Undergoing Breast Surgery",
+      "sponsor": "Saglik Bilimleri Universitesi Gulhane Tip Fakultesi",
+      "intervention": "First with the arm circumference measurement tool, then with the traditional tape measure, First with the traditional tape measure , then with the arm circumference measurement tool",
+      "phase": "NA",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 35,
+      "start_date": "2025-07-10",
+      "expected_completion": "2025-09-20",
+      "dimensions": [
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Breast Surgery",
+        "Breast Cancer",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT02285868",
+      "title": "ATI Evidence-based Guide Investigating Clinical Services",
+      "sponsor": "ATI Holdings, LLC",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "primary_endpoint": "",
+      "enrollment": 4000000,
+      "start_date": "2026-02-24",
+      "expected_completion": "2029-02-24",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Primary Body Region (Arranged Most Common to Least)",
+        "Lumbar/SI",
+        "Knee",
+        "Shoulder",
+        "Cervical/Thoracic",
+        "Foot/Ankle",
+        "Hip",
+        "Elbow",
+        "Neurological",
+        "Vestibular",
+        "Pelvic Floor",
+        "TMJ",
+        "Fibromyalgia",
+        "Headaches",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05937269",
+      "title": "Assessing Impact of Early Physiotherapy on Lymphatic Dysfunction in Head and Neck Cancer Survivorship",
+      "sponsor": "The University of Texas Health Science Center, Houston",
+      "intervention": "Near-infrared fluorescence lymphatic imaging, advanced pneumatic compression therapy",
+      "phase": "PHASE1",
+      "status": "ENROLLING_BY_INVITATION",
+      "primary_endpoint": "",
+      "enrollment": 20,
+      "start_date": "2023-10-12",
+      "expected_completion": "2026-02-28",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema of Face",
+        "Head and Neck Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06786091",
+      "title": "Late Side-effects After Cervical Cancer Treatment - Prevention and Treatment",
+      "sponsor": "St. Olavs Hospital",
+      "intervention": "Pelvic floor muscle training rehabilitation",
+      "phase": "NA",
+      "status": "ENROLLING_BY_INVITATION",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2025-02-04",
+      "expected_completion": "2026-02",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Pelvic Floor Disorder",
+        "Female Pelvic Floor Dysfunction",
+        "Female Sexual Dysfunction",
+        "Female Urinary Incontinence",
+        "Fecal Incontinence",
+        "Secondary Lymphedema",
+        "Pelvic Pain"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT02061254",
+      "title": "Transient Elastography DEdicated to Cosmetology And Dermatology (TEDECAD)",
+      "sponsor": "University Hospital, Tours",
+      "intervention": "Cutometer, High resolution ultrasonography (echography), Elastography, Skin biopsy",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 130,
+      "start_date": "2014-04",
+      "expected_completion": "2015-06",
+      "dimensions": [
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Venous Insufficiency",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT02506530",
+      "title": "Treatment Pathway of Patients Suffering From a Breast Cancer Related Lymphoedema",
+      "sponsor": "University Hospital, Toulouse",
+      "intervention": "intensive decongestive treatment, Cellu M6",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 93,
+      "start_date": "2015-09",
+      "expected_completion": "2018-12",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT02992782",
+      "title": "Decongestive Exercise and Compression for Breast Cancer Related Lymphedema Management",
+      "sponsor": "University of Alberta",
+      "intervention": "Standard Care, Exercise and Compression Garment, Exercise and Adjustable Compression Wrap",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2017-06-01",
+      "expected_completion": "2023-08-14",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Neoplasm",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04410406",
+      "title": "Moxidectin for LF, Cote d'Ivoire (DOLF)",
+      "sponsor": "Washington University School of Medicine",
+      "intervention": "Ivermectin, Diethylcarbamazine, Albendazole, Moxidectin",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 164,
+      "start_date": "2020-08-20",
+      "expected_completion": "2024-10-01",
+      "dimensions": [
+        "dietary",
+        "management"
+      ],
+      "conditions": [
+        "Lymphatic Filariasis"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04625621",
+      "title": "Breast Reconstruction by Exclusive Lipomodulin : Feasibility, Evaluation of the Aesthetic Result and Quality of Life",
+      "sponsor": "Institut Cancerologie de l'Ouest",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 118,
+      "start_date": "2020-11-26",
+      "expected_completion": "2021-01-05",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer",
+        "Mastectomy; Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07315880",
+      "title": "Extracellular Fluid Changes During Neoadjuvant Chemotherapy",
+      "sponsor": "Florence Nightingale Hospital, Istanbul",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 111,
+      "start_date": "2021-01-01",
+      "expected_completion": "2025-05-31",
+      "dimensions": [
+        "pharmacological",
+        "genetics",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04872738",
+      "title": "Patient Experiences With the COVID-19 Vaccination After Breast Cancer Treatment",
+      "sponsor": "Massachusetts General Hospital",
+      "intervention": "Survey",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 714,
+      "start_date": "2021-05-07",
+      "expected_completion": "2023-03-17",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Breast Cancer Related Lymphedema",
+        "Covid19"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04897035",
+      "title": "Study to Evaluate the Safety and Effectiveness of Dayspring for Lower Extremity Lymphedema",
+      "sponsor": "Koya Medical, Inc.",
+      "intervention": "Dayspring Active Wearable Compression System",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 24,
+      "start_date": "2021-06-01",
+      "expected_completion": "2022-06-30",
+      "dimensions": [
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema Lower Extremity",
+        "Chronic Venous Insufficiency",
+        "Secondary Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04908254",
+      "title": "A Multi-center Randomized Control Cross-over Study to Evaluate the Safety and Effectiveness of the Dayspring Active Wearable Compression Device vs. an Advanced Pneumatic Compression Device for Treating Breast Cancer Related Lymphedema",
+      "sponsor": "Koya Medical, Inc.",
+      "intervention": "Crossover Device (PCD or Dayspring - alternate to first group)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 50,
+      "start_date": "2021-06-01",
+      "expected_completion": "2021-12-31",
+      "dimensions": [
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema of Upper Arm",
+        "Lymphedema, Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT04797390",
+      "title": "A Study Evaluating an Advanced Pneumatic Compression Device Versus Usual Care for Treatment of Head and Neck Lymphedema",
+      "sponsor": "Tactile Medical",
+      "intervention": "Advanced Pneumatic Compression Device (APCD), Usual Care",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 236,
+      "start_date": "2021-09-23",
+      "expected_completion": "2024-12-03",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema of Face",
+        "Lymphedema, Secondary",
+        "Lymphedema Due to Radiation",
+        "Lymphedema; Surgical"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07376213",
+      "title": "Effects of a Home-Based Exercise Program During Radiotherapy",
+      "sponsor": "Burak Ertürk",
+      "intervention": "Home-based exercise",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 24,
+      "start_date": "2022-01-02",
+      "expected_completion": "2025-01-15",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "community"
+      ],
+      "conditions": [
+        "Head and Neck Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05255393",
+      "title": "Survey on Lymphedema After Sentinel Lymph Node Biopsy in People With Cervical or Vulvar Cancer",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "intervention": "Questionnaires",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 111,
+      "start_date": "2022-02-15",
+      "expected_completion": "2025-11-19",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Cervical Cancer",
+        "Vulvar Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07407179",
+      "title": "Quality of Life and Lymphedema After Surgical Treatment of Gynecological Malignancies",
+      "sponsor": "Institute of Oncology Ljubljana",
+      "intervention": "Radical Surgical Treatment for Gynecological Malignancies",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2022-06-01",
+      "expected_completion": "2022-12-31",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Gynecologic Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05507346",
+      "title": "A Clinical Study to Evaluate the Effectiveness of a Novel Portable Non-Pneumatic Active Compression Device vs. an Advanced Pneumatic Compression Device for Treating Lower Extremity Lymphedema",
+      "sponsor": "Koya Medical, Inc.",
+      "intervention": "Cross over Device (PCD or Dayspring - alternate to first group)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 121,
+      "start_date": "2022-09-06",
+      "expected_completion": "2024-01-09",
+      "dimensions": [
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema of Leg",
+        "Chronic Venous Insufficiency",
+        "Venous Insufficiency",
+        "Lymphedema, Lower Limb"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07252843",
+      "title": "Integrating Clinical, Protein Expression, and Genetic Markers to Predict Lymphedema in Breast Cancer",
+      "sponsor": "Dharmais National Cancer Center Hospital",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 133,
+      "start_date": "2022-10-11",
+      "expected_completion": "2024-03-21",
+      "dimensions": [
+        "dietary",
+        "genetics",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05243069",
+      "title": "Head and Neck Cancer Patient Symptom and Oncologic Outcomes",
+      "sponsor": "Ohio State University Comprehensive Cancer Center",
+      "intervention": "Imaging Technique",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 13,
+      "start_date": "2023-03-31",
+      "expected_completion": "2026-03-02",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema of the Head and Neck"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT05628688",
+      "title": "A Non-randomized, Open-Label Study to Evaluate the Safety and Effectiveness of Insight® Pro Device for Evaluating Lymphatic and Venous Disorders (VOLGA)",
+      "sponsor": "Koya Medical, Inc.",
+      "intervention": "Insight Pro Device for Diagnosis",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 67,
+      "start_date": "2023-08-08",
+      "expected_completion": "2024-08-28",
+      "dimensions": [
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Chronic Venous Insufficiency",
+        "Edema",
+        "Venous Insufficiency of Leg"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06167993",
+      "title": "Complex Decongestive Physiotherapy Applied After Lymphovenous Anastomosis Surgery",
+      "sponsor": "Necmettin Erbakan University",
+      "intervention": "Complex Decongestive Physiotherapy",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 26,
+      "start_date": "2023-08-21",
+      "expected_completion": "2023-08-21",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06203197",
+      "title": "The Effect of Mobile-Based Care and Monitoring on Lymphatic Edema Management and Quality of Life in Breast Surgery",
+      "sponsor": "Sanko University",
+      "intervention": "Patients in the intervention group will use the mobile-based care support application (M-Breast cancer personal care and monitoring system (M-MEKKBİS)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 60,
+      "start_date": "2024-03-15",
+      "expected_completion": "2024-10-30",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06305884",
+      "title": "Transcutaneous Sensors for the Detection of Cancer-Related Lymphedema, Project Limb Rescue Study",
+      "sponsor": "Ohio State University Comprehensive Cancer Center",
+      "intervention": "Bioelectric Impedance Analysis, Exercise, Photoplethysmography, Questionnaire Administration",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 76,
+      "start_date": "2024-04-22",
+      "expected_completion": "2025-12-17",
+      "dimensions": [
+        "dietary",
+        "genetics",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Hematopoietic and Lymphoid System Neoplasm",
+        "Lymphedema",
+        "Malignant Solid Neoplasm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06407791",
+      "title": "Clinical Evaluation of a Device for Treatment of Lymphedema of the Upper Extremity",
+      "sponsor": "Carilion Clinic",
+      "intervention": "LymphaVibe",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 15,
+      "start_date": "2024-05-01",
+      "expected_completion": "2025-01-09",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Lymphedema Arm",
+        "Lymphedema of Upper Arm"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06438133",
+      "title": "Digital Supported Compression Bandaging in Patients With Chronic Edema in the Lower Limbs",
+      "sponsor": "Carsten Bogh Juhl",
+      "intervention": "CIMON, Sens Motion",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 52,
+      "start_date": "2024-06-10",
+      "expected_completion": "2025-12-18",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Compression; Vein",
+        "Venous Insufficiency",
+        "Lymphedema of Leg",
+        "Digital Technology"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07301580",
+      "title": "Prehabilitation of Breast Cancer-Related Lymphedema",
+      "sponsor": "University of Health Sciences Balikesir Hospital Eduation and Research",
+      "intervention": "Prehabilitation Exercise Group",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2024-10-01",
+      "expected_completion": "2025-10-05",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer-Related Arm Lymphedema",
+        "Quality of Life Impairment",
+        "Fatigue Syndrome, Chronic",
+        "Prehabilitation"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07240584",
+      "title": "Exercise Prehabilitation of Breast Cancer",
+      "sponsor": "University of Health Sciences Balikesir Hospital Eduation and Research",
+      "intervention": "Exercise-Based Prehabilitation Program",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 30,
+      "start_date": "2024-10-25",
+      "expected_completion": "2025-11-02",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer",
+        "Shoulder Dysfunction",
+        "Quality of Life",
+        "Postoperative Recovery",
+        "Fatigue",
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06747065",
+      "title": "Polyurethan Versus Non-polyurethan Covered Implants in Combination With Radiotherapy",
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "intervention": "Radiotherapy",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 1000,
+      "start_date": "2024-12-10",
+      "expected_completion": "2025-12-31",
+      "dimensions": [
+        "pharmacological"
+      ],
+      "conditions": [
+        "Mastectomy; Lymphedema",
+        "Breast Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06778837",
+      "title": "Lymphedema Sensor Technology Development Study",
+      "sponsor": "Northwestern University",
+      "intervention": "Wearable devices to detect lymphedema",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 30,
+      "start_date": "2025-01-27",
+      "expected_completion": "2025-12-03",
+      "dimensions": [
+        "clinical_trials"
+      ],
+      "conditions": [
+        "Lymphedema Arm",
+        "Lymphedema",
+        "Cancer"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT06922513",
+      "title": "Clinical Feasibility of Mobile App-Based Self-Management for Breast Cancer-Related Lymphedema",
+      "sponsor": "Samsung Medical Center",
+      "intervention": "digital health (Application and Smart Measuring Tape)",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 58,
+      "start_date": "2025-04-11",
+      "expected_completion": "2025-10-21",
+      "dimensions": [
+        "dietary",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer Related Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07011277",
+      "title": "Gait Characteristics of Women With Breast Cancer-Related Lymphedema",
+      "sponsor": "Gazi University",
+      "intervention": "",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 40,
+      "start_date": "2025-04-20",
+      "expected_completion": "2025-07-20",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "clinical_trials",
+        "community"
+      ],
+      "conditions": [
+        "Breast Cancer Related Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07240324",
+      "title": "The Effect of LymphaTouch® and Manual Lymphatic Drainage on Extremity Circumference Measurements in Lymphedema",
+      "sponsor": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital",
+      "intervention": "No intervention",
+      "phase": "N/A",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 172,
+      "start_date": "2025-10-10",
+      "expected_completion": "2025-10-10",
+      "dimensions": [
+        "pharmacological",
+        "clinical_trials",
+        "management"
+      ],
+      "conditions": [
+        "Lymphedema"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07520942",
+      "title": "TECAR and ESWT in Obesity-Related Lower Limb Lymphedema",
+      "sponsor": "Applied Science Private University",
+      "intervention": "Complex Decongestive Therapy, TECAR Therapy, Extracorporeal Shock Wave Therapy",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "primary_endpoint": "",
+      "enrollment": 45,
+      "start_date": "2025-10-25",
+      "expected_completion": "2026-02-06",
+      "dimensions": [
+        "pharmacological",
+        "dietary",
+        "clinical_trials",
+        "management",
+        "community"
+      ],
+      "conditions": [
+        "Lymphedema",
+        "Obesity & Overweight"
+      ],
+      "latest_results_summary": "",
+      "last_checked": "2026-04-11",
+      "change_log": [
+        {
+          "date": "2026-04-11",
+          "change": "Initial entry from baseline sweep"
+        }
+      ]
+    }
+  ]
+}

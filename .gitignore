@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node (dashboard has its own .gitignore)
+node_modules/
+
+# Raw baseline data (large, regenerable)
+data/raw_baseline/
+
+# Output logs
+output/logs/
+
+# API keys
+data/.api-keys.json
+
+# Claude settings (local)
+.claude/settings.json

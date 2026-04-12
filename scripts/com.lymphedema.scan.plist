@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.lymphedema.scan</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-l</string>
+        <string>/Users/geertzaal/Developer/Lymphedema_research/scripts/scan.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <array>
+        <!-- Run Tuesday, Thursday, Saturday at 08:00 -->
+        <dict>
+            <key>Weekday</key><integer>2</integer>
+            <key>Hour</key><integer>8</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+        <dict>
+            <key>Weekday</key><integer>4</integer>
+            <key>Hour</key><integer>8</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+        <dict>
+            <key>Weekday</key><integer>6</integer>
+            <key>Hour</key><integer>8</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Users/geertzaal/Developer/Lymphedema_research/output/logs/launchd-scan.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/geertzaal/Developer/Lymphedema_research/output/logs/launchd-scan-err.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/geertzaal/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+</dict>
+</plist>
