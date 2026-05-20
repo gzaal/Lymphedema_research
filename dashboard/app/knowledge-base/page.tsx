@@ -19,7 +19,7 @@ export default function KnowledgeBasePage() {
   return (
     <div className="space-y-8 max-w-[1200px]">
       <div>
-        <h1 className="text-4xl font-headline font-bold text-[#002046] mb-1">
+        <h1 className="text-4xl font-headline font-bold text-[#003d1f] mb-1">
           Knowledge Base
         </h1>
         <p className="text-sm text-[#44474e]">
@@ -44,13 +44,13 @@ export default function KnowledgeBasePage() {
               <div className="card-hover h-full p-5 bg-white ghost-border rounded-lg relative overflow-hidden transition-all hover:bg-[#f4f3f1]">
                 <div className="flex items-start gap-3 mb-3">
                   <span
-                    className="material-symbols-outlined text-[#465f88] mt-0.5"
+                    className="material-symbols-outlined text-[#2d6b50] mt-0.5"
                     style={{ fontSize: 22 }}
                   >
                     {icon}
                   </span>
                   <div className="flex-1">
-                    <h3 className="font-headline font-bold text-[#002046] text-sm">
+                    <h3 className="font-headline font-bold text-[#003d1f] text-sm">
                       {file.title}
                     </h3>
                     <p className="text-[10px] text-[#44474e] mt-0.5">

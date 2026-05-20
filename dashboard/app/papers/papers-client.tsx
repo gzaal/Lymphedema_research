@@ -37,15 +37,15 @@ import { Textarea } from "@/components/ui/textarea";
 // ---------------------------------------------------------------------------
 
 const T = {
-  primary: "#002046",
-  primaryContainer: "#1b365d",
+  primary: "#003d1f",
+  primaryContainer: "#1a3d28",
   surface: "#faf9f6",
   surfaceLow: "#f4f3f1",
   surfaceHigh: "#e9e8e5",
-  surfaceTint: "#465f88",
-  secondary: "#486080",
-  secondaryContainer: "#c0d9fe",
-  onSecondaryContainer: "#475f7f",
+  surfaceTint: "#2d6b50",
+  secondary: "#2d6a50",
+  secondaryContainer: "#c8e6c9",
+  onSecondaryContainer: "#2e6b4f",
   onSurface: "#1a1c1a",
   onSurfaceVariant: "#44474e",
   outlineVariant: "rgba(196,198,207,0.15)",
@@ -78,6 +78,35 @@ function relevanceLabel(score: number): { text: string; className: string } {
     text: "LOW",
     className: "bg-gray-100 text-gray-600 text-[10px] font-bold rounded uppercase tracking-wider",
   };
+}
+
+const CLASSIFICATION_META: Record<string, { label: string; className: string }> = {
+  "practice-relevant": { label: "Practice", className: "bg-green-100 text-green-800" },
+  "pipeline-relevant": { label: "Pipeline", className: "bg-green-100 text-green-800" },
+  "hypothesis-generating": { label: "Hypothesis", className: "bg-purple-100 text-purple-800" },
+  "background": { label: "Background", className: "bg-gray-100 text-gray-600" },
+  "tracker-maintenance": { label: "Maintenance", className: "bg-gray-50 text-gray-500" },
+};
+
+function scoreBarColor(value: number): string {
+  if (value >= 8) return "bg-green-500";
+  if (value >= 5) return "bg-amber-500";
+  return "bg-red-400";
+}
+
+function ScoreBar({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="flex items-center gap-1.5 text-[10px]">
+      <span className="w-[14px] text-right tabular-nums text-[#44474e]">{value}</span>
+      <div className="w-[40px] h-[4px] bg-gray-200 rounded-full overflow-hidden">
+        <div
+          className={cn("h-full rounded-full", scoreBarColor(value))}
+          style={{ width: `${value * 10}%` }}
+        />
+      </div>
+      <span className="text-[#44474e] uppercase tracking-wider">{label}</span>
+    </div>
+  );
 }
 
 function statusBadge(paper: PaperWithUserState) {
@@ -206,6 +235,112 @@ function ExpandedRow({
         </p>
       </div>
 
+      {/* Critical Assessment (new multi-axis scoring) */}
+      {(paper.what_happened || paper.classification || paper.scores) && (
+        <div className="rounded-lg border border-[rgba(196,198,207,0.15)] bg-white p-4 space-y-3">
+          <h4 className="label-caps text-[10px] font-bold text-[#003d1f] mb-1">
+            Critical Assessment
+          </h4>
+
+          {/* Structured assessment */}
+          <div className="space-y-1 text-[11px] text-[#44474e]">
+            {paper.what_happened && (
+              <p><span className="font-semibold text-[#003d1f]">What happened:</span> {paper.what_happened}</p>
+            )}
+            {paper.why_it_matters && (
+              <p><span className="font-semibold text-[#003d1f]">Why it matters:</span> {paper.why_it_matters}</p>
+            )}
+            {paper.what_limits_confidence && (
+              <p><span className="font-semibold text-red-700">Limits confidence:</span> {paper.what_limits_confidence}</p>
+            )}
+          </div>
+
+          {/* Classification + publication event badges */}
+          <div className="flex flex-wrap gap-1.5">
+            {paper.lymphedema_type && (
+              <span className={cn(
+                "inline-flex items-center rounded-full px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider",
+                paper.lymphedema_type === "primary" && "bg-emerald-100 text-emerald-800",
+                paper.lymphedema_type === "both" && "bg-teal-100 text-teal-800",
+                paper.lymphedema_type === "unknown" && "bg-slate-100 text-slate-600",
+                paper.lymphedema_type === "secondary" && "bg-red-100 text-red-800",
+              )}>
+                {paper.lymphedema_type}
+              </span>
+            )}
+            {paper.classification && (
+              <span className={cn(
+                "inline-flex items-center rounded-full px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider",
+                CLASSIFICATION_META[paper.classification]?.className ?? "bg-gray-100 text-gray-600"
+              )}>
+                {CLASSIFICATION_META[paper.classification]?.label ?? paper.classification}
+              </span>
+            )}
+            {paper.publication_event && (
+              <span className="inline-flex items-center rounded-full px-2 py-0.5 bg-gray-100 text-gray-600 text-[9px] font-semibold">
+                {paper.publication_event.replace(/-/g, " ")}
+              </span>
+            )}
+            {paper.claim_audit && !paper.claim_audit.is_new_this_week && (
+              <span className="inline-flex items-center rounded-full px-2 py-0.5 bg-amber-100 text-amber-800 text-[9px] font-bold uppercase">
+                Stale
+              </span>
+            )}
+            {paper.claim_audit?.headline_vs_evidence === "overstated" && (
+              <span className="inline-flex items-center rounded-full px-2 py-0.5 bg-red-100 text-red-700 text-[9px] font-bold uppercase">
+                Overstated
+              </span>
+            )}
+          </div>
+
+          {/* Multi-axis scores */}
+          {paper.scores && (
+            <div className="flex gap-4">
+              <ScoreBar label="Importance" value={paper.scores.importance} />
+              <ScoreBar label="Evidence" value={paper.scores.evidence_strength} />
+              <ScoreBar label="Novelty" value={paper.scores.novelty} />
+              <ScoreBar label="Decision" value={paper.scores.decision_usefulness} />
+              <ScoreBar label="Calibration" value={paper.scores.claim_calibration} />
+            </div>
+          )}
+
+          {/* Claim audit details */}
+          {paper.claim_audit && (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-[10px] text-[#44474e]">
+              <div><span className="font-semibold">Design:</span> {paper.claim_audit.study_design?.replace(/-/g, " ")}</div>
+              <div><span className="font-semibold">Endpoint:</span> {paper.claim_audit.endpoint_type?.replace(/-/g, " ")}</div>
+              <div><span className="font-semibold">Comparator:</span> {paper.claim_audit.comparator?.replace(/-/g, " ")}</div>
+              <div><span className="font-semibold">Result:</span> {paper.claim_audit.result_direction?.replace(/-/g, " ")}</div>
+              {paper.claim_audit.conflicts_of_interest && paper.claim_audit.conflicts_of_interest !== "none apparent" && (
+                <div className="col-span-2 md:col-span-4 text-red-600">
+                  <span className="font-semibold">COI:</span> {paper.claim_audit.conflicts_of_interest}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Skepticism flags */}
+          {paper.skepticism_flags && Object.values(paper.skepticism_flags).some(Boolean) && (
+            <div>
+              <h5 className="text-[9px] font-bold text-red-700 uppercase tracking-wider mb-1">Skepticism Flags</h5>
+              <div className="flex flex-wrap gap-1">
+                {paper.skepticism_flags.single_arm && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Single-arm</span>}
+                {paper.skepticism_flags.retrospective && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Retrospective</span>}
+                {paper.skepticism_flags.propensity_matched && <span className="px-1.5 py-0.5 bg-amber-50 text-amber-700 text-[9px] rounded">Propensity-matched</span>}
+                {paper.skepticism_flags.pre_post_only && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Pre/post only</span>}
+                {paper.skepticism_flags.small_n && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Small n</span>}
+                {paper.skepticism_flags.short_followup && <span className="px-1.5 py-0.5 bg-amber-50 text-amber-700 text-[9px] rounded">Short follow-up</span>}
+                {paper.skepticism_flags.commercial_sponsor && <span className="px-1.5 py-0.5 bg-amber-50 text-amber-700 text-[9px] rounded">Commercial sponsor</span>}
+                {paper.skepticism_flags.surrogate_endpoint_only && <span className="px-1.5 py-0.5 bg-amber-50 text-amber-700 text-[9px] rounded">Surrogate endpoint only</span>}
+                {paper.skepticism_flags.bold_claim_volume_only && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Volume claim only</span>}
+                {paper.skepticism_flags.promotional_framing && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Promotional</span>}
+                {paper.skepticism_flags.obesity_not_controlled && <span className="px-1.5 py-0.5 bg-red-50 text-red-700 text-[9px] rounded">Obesity not controlled</span>}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Entities */}
         {paper.entities_mentioned.length > 0 && (
@@ -217,7 +352,7 @@ function ExpandedRow({
               {paper.entities_mentioned.map((e) => (
                 <span
                   key={e}
-                  className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[9px] font-semibold"
+                  className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] text-[9px] font-semibold"
                 >
                   {e}
                 </span>
@@ -236,7 +371,7 @@ function ExpandedRow({
               {paper.subtopics.map((s) => (
                 <span
                   key={s}
-                  className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[9px] font-semibold"
+                  className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] text-[9px] font-semibold"
                 >
                   {s}
                 </span>
@@ -267,7 +402,7 @@ function ExpandedRow({
             href={`https://doi.org/${paper.doi}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-sm text-[#486080] hover:underline"
+            className="inline-flex items-center gap-1 text-sm text-[#2d6a50] hover:underline"
           >
             <MIcon name="open_in_new" size={14} />
             DOI: {paper.doi}
@@ -278,7 +413,7 @@ function ExpandedRow({
             {paper.userTags.map((t) => (
               <span
                 key={t}
-                className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[9px] font-semibold"
+                className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] text-[9px] font-semibold"
               >
                 {t}
               </span>
@@ -523,7 +658,7 @@ export function PapersClient({
         accessorKey: "title",
         header: ({ column }) => (
           <button
-            className="flex items-center gap-1 hover:text-[#002046] transition-colors"
+            className="flex items-center gap-1 hover:text-[#003d1f] transition-colors"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           >
             Title
@@ -532,7 +667,7 @@ export function PapersClient({
         ),
         cell: ({ row }) => (
           <div className="min-w-0">
-            <span className="text-sm font-headline font-bold text-[#002046] leading-tight line-clamp-2">
+            <span className="text-sm font-headline font-bold text-[#003d1f] leading-tight line-clamp-2">
               {truncate(row.original.title, 100)}
             </span>
           </div>
@@ -551,28 +686,49 @@ export function PapersClient({
         size: 140,
         enableSorting: false,
       },
-      // Relevance
+      // Scores (multi-axis or legacy relevance)
       {
         accessorKey: "relevance_score",
         header: ({ column }) => (
           <button
-            className="flex items-center gap-1 hover:text-[#002046] transition-colors"
+            className="flex items-center gap-1 hover:text-[#003d1f] transition-colors"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           >
-            Rel.
+            Scores
             <MIcon name="swap_vert" size={14} />
           </button>
         ),
         cell: ({ row }) => {
-          const rl = relevanceLabel(row.original.relevance_score);
+          const paper = row.original;
+          if (paper.scores) {
+            return (
+              <div className="flex flex-col gap-0.5">
+                {(["importance", "evidence_strength", "decision_usefulness"] as const).map((axis) => {
+                  const val = (paper.scores as unknown as Record<string, number>)[axis];
+                  const label = axis === "importance" ? "Imp" : axis === "evidence_strength" ? "Evi" : "Dec";
+                  const color = scoreBarColor(val);
+                  return (
+                    <div key={axis} className="flex items-center gap-1 text-[9px]">
+                      <span className="w-[12px] text-right tabular-nums text-[#44474e]">{val}</span>
+                      <div className="w-[28px] h-[3px] bg-gray-200 rounded-full overflow-hidden">
+                        <div className={cn("h-full rounded-full", color)} style={{ width: `${val * 10}%` }} />
+                      </div>
+                      <span className="text-[#44474e] uppercase tracking-wider">{label}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          }
+          const rl = relevanceLabel(paper.relevance_score);
           return (
             <span className={cn("inline-flex items-center gap-1 px-1.5 py-0.5", rl.className)}>
-              <span className="font-bold tabular-nums">{row.original.relevance_score}</span>
+              <span className="font-bold tabular-nums">{paper.relevance_score}</span>
               <span className="hidden sm:inline">{rl.text}</span>
             </span>
           );
         },
-        size: 90,
+        size: 120,
       },
       // Dimensions
       {
@@ -585,7 +741,7 @@ export function PapersClient({
               return (
                 <span
                   key={dim}
-                  className="inline-flex items-center rounded-full px-1.5 py-0 leading-4 bg-[#c0d9fe] text-[#475f7f] text-[9px] font-semibold"
+                  className="inline-flex items-center rounded-full px-1.5 py-0 leading-4 bg-[#c8e6c9] text-[#2e6b4f] text-[9px] font-semibold"
                   title={meta?.label ?? dim}
                 >
                   {meta?.label?.slice(0, 4) ?? dim.slice(0, 4)}
@@ -597,12 +753,32 @@ export function PapersClient({
         size: 120,
         enableSorting: false,
       },
+      // Classification
+      {
+        id: "classification",
+        header: "Class.",
+        cell: ({ row }) => {
+          const cls = row.original.classification;
+          if (!cls) return null;
+          const meta = CLASSIFICATION_META[cls];
+          return (
+            <span className={cn(
+              "inline-flex items-center rounded-full px-1.5 py-0 leading-4 text-[9px] font-bold uppercase tracking-wider",
+              meta?.className ?? "bg-gray-100 text-gray-600"
+            )}>
+              {meta?.label ?? cls}
+            </span>
+          );
+        },
+        size: 90,
+        enableSorting: false,
+      },
       // Published Date
       {
         accessorKey: "published_date",
         header: ({ column }) => (
           <button
-            className="flex items-center gap-1 hover:text-[#002046] transition-colors"
+            className="flex items-center gap-1 hover:text-[#003d1f] transition-colors"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           >
             Date
@@ -741,15 +917,15 @@ export function PapersClient({
       {/* Header */}
       <div className="flex items-center justify-between px-1">
         <div>
-          <h1 className="text-4xl font-headline font-bold text-[#002046]">
+          <h1 className="text-4xl font-headline font-bold text-[#003d1f]">
             Papers Triage
           </h1>
           <p className="text-sm text-[#44474e] mt-1">
-            <span className="font-headline font-bold text-[#002046]">{totalCount}</span> papers total{" "}
+            <span className="font-headline font-bold text-[#003d1f]">{totalCount}</span> papers total{" "}
             {newCount > 0 && (
               <span className="inline-flex items-center gap-1">
                 {" \u00b7 "}
-                <span className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] label-caps text-[10px] font-semibold">
+                <span className="inline-flex items-center rounded-full px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] label-caps text-[10px] font-semibold">
                   {newCount} new
                 </span>
               </span>
@@ -767,7 +943,7 @@ export function PapersClient({
             className={cn(
               "inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors",
               showFilters
-                ? "bg-[#002046] text-white"
+                ? "bg-[#003d1f] text-white"
                 : "bg-[#f4f3f1] text-[#44474e] hover:bg-[#e9e8e5]"
             )}
             style={{ border: ghostBorder }}
@@ -790,7 +966,7 @@ export function PapersClient({
       {/* Bulk actions bar */}
       {selectedPaperIds.length > 0 && (
         <div
-          className="flex items-center gap-3 rounded-lg px-4 py-2.5 bg-[#002046] text-white shadow-lg"
+          className="flex items-center gap-3 rounded-lg px-4 py-2.5 bg-[#003d1f] text-white shadow-lg"
         >
           <span className="text-sm font-headline font-bold">
             {selectedPaperIds.length} selected
@@ -864,7 +1040,7 @@ export function PapersClient({
                 onChange={(e) =>
                   setStatusFilter(e.target.value as StatusFilter)
                 }
-                className="flex h-8 rounded-md bg-white/80 px-2 py-1 text-sm text-[#1a1c1a] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#465f88]"
+                className="flex h-8 rounded-md bg-white/80 px-2 py-1 text-sm text-[#1a1c1a] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#2d6b50]"
                 style={{ border: ghostBorder }}
               >
                 <option value="all">All</option>
@@ -885,7 +1061,7 @@ export function PapersClient({
                 onChange={(e) =>
                   setSourceFilter(e.target.value as SourceFilter)
                 }
-                className="flex h-8 rounded-md bg-white/80 px-2 py-1 text-sm text-[#1a1c1a] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#465f88]"
+                className="flex h-8 rounded-md bg-white/80 px-2 py-1 text-sm text-[#1a1c1a] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#2d6b50]"
                 style={{ border: ghostBorder }}
               >
                 <option value="all">All Sources</option>
@@ -937,7 +1113,7 @@ export function PapersClient({
                 onCheckedChange={(val) => setWhatsNewOnly(!!val)}
               />
               <label className="text-sm font-medium text-[#1a1c1a] flex items-center gap-1 cursor-pointer">
-                <MIcon name="fiber_new" size={16} className="text-[#486080]" />
+                <MIcon name="fiber_new" size={16} className="text-[#2d6a50]" />
                 New only
               </label>
             </div>
@@ -963,7 +1139,7 @@ export function PapersClient({
                     className={cn(
                       "inline-flex items-center rounded-full px-2.5 py-0.5 text-[10px] font-semibold transition-colors",
                       active
-                        ? "bg-[#002046] text-white"
+                        ? "bg-[#003d1f] text-white"
                         : "bg-white/60 text-[#44474e] hover:bg-[#e9e8e5]"
                     )}
                     style={{ border: ghostBorder }}
@@ -975,7 +1151,7 @@ export function PapersClient({
               {dimensionFilter.size > 0 && (
                 <button
                   onClick={() => setDimensionFilter(new Set())}
-                  className="text-[10px] text-[#44474e] hover:text-[#002046] underline ml-1"
+                  className="text-[10px] text-[#44474e] hover:text-[#003d1f] underline ml-1"
                 >
                   Clear
                 </button>
@@ -1035,7 +1211,7 @@ export function PapersClient({
                       className={cn(
                         "cursor-pointer transition-colors",
                         "hover:bg-[#f4f3f1]/50",
-                        isFocused && "ring-2 ring-inset ring-[#465f88]/40 bg-[#f4f3f1]/60",
+                        isFocused && "ring-2 ring-inset ring-[#2d6b50]/40 bg-[#f4f3f1]/60",
                         row.original.userStatus === "dismissed" && "opacity-50"
                       )}
                       style={{ borderBottom: ghostBorderBottom }}

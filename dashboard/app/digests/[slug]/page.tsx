@@ -23,7 +23,7 @@ export default async function DigestPage({
       <div className="max-w-[900px] space-y-6">
         <Link
           href="/digests"
-          className="flex items-center gap-1.5 text-sm text-[#465f88] hover:text-[#002046] font-headline font-semibold transition-colors"
+          className="flex items-center gap-1.5 text-sm text-[#2d6b50] hover:text-[#003d1f] font-headline font-semibold transition-colors"
         >
           <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
             arrow_back
@@ -47,7 +47,7 @@ export default async function DigestPage({
     <div className="max-w-[900px] space-y-6">
       <Link
         href="/digests"
-        className="flex items-center gap-1.5 text-sm text-[#465f88] hover:text-[#002046] font-headline font-semibold transition-colors"
+        className="flex items-center gap-1.5 text-sm text-[#2d6b50] hover:text-[#003d1f] font-headline font-semibold transition-colors"
       >
         <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
           arrow_back

@@ -48,19 +48,19 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 
   /* Clinical Curator palette from Stitch */
-  --color-clinical-primary: #002046;
-  --color-clinical-primary-container: #1b365d;
+  --color-clinical-primary: #003d1f;
+  --color-clinical-primary-container: #1a3d28;
   --color-clinical-surface: #faf9f6;
   --color-clinical-surface-low: #f4f3f1;
   --color-clinical-surface-high: #e9e8e5;
-  --color-clinical-surface-tint: #465f88;
-  --color-clinical-secondary: #486080;
-  --color-clinical-secondary-container: #c0d9fe;
+  --color-clinical-surface-tint: #2d6b50;
+  --color-clinical-secondary: #2d6a50;
+  --color-clinical-secondary-container: #c8e6c9;
   --color-clinical-on-surface: #1a1c1a;
   --color-clinical-on-surface-variant: #44474e;
   --color-clinical-outline: #74777f;
   --color-clinical-outline-variant: #c4c6cf;
-  --color-clinical-on-secondary-container: #475f7f;
+  --color-clinical-on-secondary-container: #2e6b4f;
 }
 
 :root {
@@ -70,7 +70,7 @@
   --card-foreground: #1a1c1a;
   --popover: #ffffff;
   --popover-foreground: #1a1c1a;
-  --primary: #002046;
+  --primary: #003d1f;
   --primary-foreground: #ffffff;
   --secondary: #f4f3f1;
   --secondary-foreground: #44474e;
@@ -81,21 +81,21 @@
   --destructive: #ba1a1a;
   --border: rgba(196, 198, 207, 0.15);
   --input: rgba(196, 198, 207, 0.25);
-  --ring: #465f88;
-  --chart-1: #002046;
-  --chart-2: #465f88;
-  --chart-3: #486080;
-  --chart-4: #1b365d;
+  --ring: #2d6b50;
+  --chart-1: #003d1f;
+  --chart-2: #2d6b50;
+  --chart-3: #2d6a50;
+  --chart-4: #1a3d28;
   --chart-5: #74777f;
   --radius: 0.5rem;
   --sidebar: #f4f3f1;
   --sidebar-foreground: #1a1c1a;
-  --sidebar-primary: #002046;
+  --sidebar-primary: #003d1f;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #e9e8e5;
   --sidebar-accent-foreground: #1a1c1a;
   --sidebar-border: rgba(196, 198, 207, 0.15);
-  --sidebar-ring: #465f88;
+  --sidebar-ring: #2d6b50;
 
   --font-heading: 'Quicksand', sans-serif;
   --font-sans: 'Public Sans', sans-serif;

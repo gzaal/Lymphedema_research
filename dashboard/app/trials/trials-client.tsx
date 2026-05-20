@@ -104,9 +104,9 @@ const STATUS_SORT_ORDER: Record<string, number> = {
 
 const STATUS_BADGE_STYLES: Record<string, string> = {
   RECRUITING: "bg-green-100 text-green-800",
-  ACTIVE_NOT_RECRUITING: "bg-[#c0d9fe] text-[#475f7f]",
+  ACTIVE_NOT_RECRUITING: "bg-[#c8e6c9] text-[#2e6b4f]",
   COMPLETED: "bg-[#f4f3f1] text-[#44474e]",
-  ENROLLING_BY_INVITATION: "bg-[#c0d9fe] text-[#475f7f]",
+  ENROLLING_BY_INVITATION: "bg-[#c8e6c9] text-[#2e6b4f]",
 };
 
 function StatusBadge({ status }: { status: string }) {
@@ -132,7 +132,7 @@ function DimensionBadge({ dimension }: { dimension: string }) {
     DIMENSION_META[dimension as keyof typeof DIMENSION_META] || null;
   if (!meta) return null;
   return (
-    <span className="inline-flex items-center bg-[#c0d9fe] text-[#475f7f] rounded-full px-2.5 py-0.5 text-[9px] font-semibold">
+    <span className="inline-flex items-center bg-[#c8e6c9] text-[#2e6b4f] rounded-full px-2.5 py-0.5 text-[9px] font-semibold">
       {meta.label}
     </span>
   );
@@ -143,10 +143,10 @@ function DimensionBadge({ dimension }: { dimension: string }) {
 // ---------------------------------------------------------------------------
 
 const PIPELINE_ACCENT: Record<string, string> = {
-  RECRUITING: "#002046",
-  ACTIVE_NOT_RECRUITING: "#465f88",
+  RECRUITING: "#003d1f",
+  ACTIVE_NOT_RECRUITING: "#2d6b50",
   COMPLETED: "#74777f",
-  ENROLLING_BY_INVITATION: "#486080",
+  ENROLLING_BY_INVITATION: "#2d6a50",
 };
 
 // ---------------------------------------------------------------------------
@@ -173,7 +173,7 @@ function TrialDetailDialog({
         }}
       >
         <DialogHeader>
-          <DialogTitle className="pr-8 text-base font-headline font-bold text-[#002046] leading-snug">
+          <DialogTitle className="pr-8 text-base font-headline font-bold text-[#003d1f] leading-snug">
             {trial.title}
           </DialogTitle>
           <DialogDescription>
@@ -182,7 +182,7 @@ function TrialDetailDialog({
                 href={`https://clinicaltrials.gov/study/${trial.nct_id}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[#465f88] hover:underline"
+                className="inline-flex items-center gap-1 text-[#2d6b50] hover:underline"
               >
                 {trial.nct_id}
                 <Icon name="open_in_new" size={14} />
@@ -210,7 +210,7 @@ function TrialDetailDialog({
                 <p className="label-caps text-[10px] font-bold text-[#44474e]">
                   Phase
                 </p>
-                <p className="font-headline font-bold text-[#002046]">
+                <p className="font-headline font-bold text-[#003d1f]">
                   {normalizePhase(trial.phase)}
                 </p>
               </div>
@@ -225,7 +225,7 @@ function TrialDetailDialog({
                 <p className="label-caps text-[10px] font-bold text-[#44474e]">
                   Enrollment
                 </p>
-                <p className="font-headline font-bold text-[#002046]">
+                <p className="font-headline font-bold text-[#003d1f]">
                   {trial.enrollment.toLocaleString()}
                 </p>
               </div>
@@ -324,13 +324,13 @@ function TrialDetailDialog({
                       {i < trial.change_log.length - 1 && (
                         <div
                           className="absolute left-[5px] top-3 h-full w-px"
-                          style={{ backgroundColor: "#c0d9fe" }}
+                          style={{ backgroundColor: "#c8e6c9" }}
                         />
                       )}
                       {/* Timeline dot */}
                       <div
                         className="relative mt-1.5 h-[11px] w-[11px] shrink-0 rounded-full border-2 bg-white"
-                        style={{ borderColor: "#002046" }}
+                        style={{ borderColor: "#003d1f" }}
                       />
                       <div className="min-w-0 flex-1">
                         <p className="label-caps text-[10px] font-bold text-[#44474e]">
@@ -391,10 +391,10 @@ function PipelineView({
         (group) => (
           <div key={group}>
             <div className="mb-3 flex items-center justify-between">
-              <h3 className="font-headline font-bold text-sm text-[#002046]">
+              <h3 className="font-headline font-bold text-sm text-[#003d1f]">
                 {group}
               </h3>
-              <span className="bg-[#c0d9fe] text-[#475f7f] rounded-full px-2 py-0.5 text-[9px] font-semibold">
+              <span className="bg-[#c8e6c9] text-[#2e6b4f] rounded-full px-2 py-0.5 text-[9px] font-semibold">
                 {grouped[group].length}
               </span>
             </div>
@@ -409,7 +409,7 @@ function PipelineView({
                     borderLeft: `3px solid ${PIPELINE_ACCENT[trial.status] || "#74777f"}`,
                   }}
                 >
-                  <p className="font-headline font-bold text-[#002046] text-sm mb-1.5 leading-snug line-clamp-2">
+                  <p className="font-headline font-bold text-[#003d1f] text-sm mb-1.5 leading-snug line-clamp-2">
                     {trial.title}
                   </p>
                   <div className="mb-2 flex items-center gap-2">
@@ -426,7 +426,7 @@ function PipelineView({
                     </span>
                     <span className="flex items-center gap-1 shrink-0">
                       <Icon name="groups" size={14} className="text-[#44474e]" />
-                      <span className="font-headline font-bold text-[#002046]">
+                      <span className="font-headline font-bold text-[#003d1f]">
                         {trial.enrollment.toLocaleString()}
                       </span>
                     </span>
@@ -521,7 +521,7 @@ function TableView({
       >
         <button
           onClick={() => handleSort(field)}
-          className="inline-flex items-center gap-1 hover:text-[#002046] transition-colors"
+          className="inline-flex items-center gap-1 hover:text-[#003d1f] transition-colors"
         >
           {children}
           {active ? (
@@ -580,14 +580,14 @@ function TableView({
                   href={`https://clinicaltrials.gov/study/${trial.nct_id}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#465f88] hover:underline"
+                  className="text-[#2d6b50] hover:underline"
                   onClick={(e) => e.stopPropagation()}
                 >
                   {trial.nct_id}
                 </a>
               </TableCell>
               <TableCell>
-                <span className="line-clamp-2 text-sm font-headline font-bold text-[#002046]">
+                <span className="line-clamp-2 text-sm font-headline font-bold text-[#003d1f]">
                   {trial.title}
                 </span>
               </TableCell>
@@ -600,7 +600,7 @@ function TableView({
               <TableCell className="max-w-[180px] truncate text-sm text-[#44474e]">
                 {trial.sponsor}
               </TableCell>
-              <TableCell className="text-right tabular-nums font-headline font-bold text-[#002046] text-sm">
+              <TableCell className="text-right tabular-nums font-headline font-bold text-[#003d1f] text-sm">
                 {trial.enrollment.toLocaleString()}
               </TableCell>
               <TableCell className="text-sm text-[#44474e]">
@@ -679,23 +679,23 @@ export function TrialsClient({
     <div className="space-y-6">
       {/* Page header */}
       <div>
-        <h1 className="text-4xl font-headline font-bold text-[#002046]">
+        <h1 className="text-4xl font-headline font-bold text-[#003d1f]">
           Clinical Trials
         </h1>
         <p className="mt-1 text-sm text-[#44474e]">
-          <span className="font-headline font-bold text-[#002046]">
+          <span className="font-headline font-bold text-[#003d1f]">
             {trials.length}
           </span>{" "}
           trials tracked &mdash;{" "}
-          <span className="font-headline font-bold text-[#002046]">
+          <span className="font-headline font-bold text-[#003d1f]">
             {recruiting}
           </span>{" "}
           recruiting,{" "}
-          <span className="font-headline font-bold text-[#002046]">
+          <span className="font-headline font-bold text-[#003d1f]">
             {active}
           </span>{" "}
           active,{" "}
-          <span className="font-headline font-bold text-[#002046]">
+          <span className="font-headline font-bold text-[#003d1f]">
             {completed}
           </span>{" "}
           completed
@@ -754,7 +754,7 @@ export function TrialsClient({
           <Button
             variant="ghost"
             size="sm"
-            className="text-[#44474e] hover:text-[#002046]"
+            className="text-[#44474e] hover:text-[#003d1f]"
             onClick={() => {
               setSearch("");
               setPhaseFilter("all");
@@ -767,7 +767,7 @@ export function TrialsClient({
         )}
         {filtered.length !== trials.length && (
           <span className="text-sm text-[#44474e]">
-            <span className="font-headline font-bold text-[#002046]">
+            <span className="font-headline font-bold text-[#003d1f]">
               {filtered.length}
             </span>{" "}
             of {trials.length} trials
@@ -783,8 +783,8 @@ export function TrialsClient({
             className={cn(
               "rounded-none border-b-2 px-1 pb-2 font-headline font-semibold transition-colors data-[state=active]:shadow-none",
               activeTab === "pipeline"
-                ? "text-[#002046] font-bold border-[#002046]"
-                : "text-[#44474e] border-transparent hover:text-[#002046]"
+                ? "text-[#003d1f] font-bold border-[#003d1f]"
+                : "text-[#44474e] border-transparent hover:text-[#003d1f]"
             )}
           >
             Pipeline
@@ -794,8 +794,8 @@ export function TrialsClient({
             className={cn(
               "rounded-none border-b-2 px-1 pb-2 font-headline font-semibold transition-colors data-[state=active]:shadow-none",
               activeTab === "table"
-                ? "text-[#002046] font-bold border-[#002046]"
-                : "text-[#44474e] border-transparent hover:text-[#002046]"
+                ? "text-[#003d1f] font-bold border-[#003d1f]"
+                : "text-[#44474e] border-transparent hover:text-[#003d1f]"
             )}
           >
             Table

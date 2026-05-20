@@ -11,7 +11,7 @@ export default function DigestsPage() {
   return (
     <div className="space-y-8 max-w-[1200px]">
       <div>
-        <h1 className="text-4xl font-headline font-bold text-[#002046] mb-1">
+        <h1 className="text-4xl font-headline font-bold text-[#003d1f] mb-1">
           Digests & Alerts
         </h1>
         <p className="text-sm text-[#44474e]">
@@ -31,20 +31,20 @@ export default function DigestsPage() {
 
             return (
               <Link key={alert.filename} href={`/digests/alert-${alert.date}`}>
-                <div className="card-hover p-5 bg-white ghost-border rounded-lg transition-all hover:bg-[#f4f3f1] mb-3 border-l-3 border-l-[#c0d9fe]">
+                <div className="card-hover p-5 bg-white ghost-border rounded-lg transition-all hover:bg-[#f4f3f1] mb-3 border-l-3 border-l-[#c8e6c9]">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-3">
                       <span
-                        className="material-symbols-outlined text-[#002046]"
+                        className="material-symbols-outlined text-[#003d1f]"
                         style={{ fontSize: 20 }}
                       >
                         notifications
                       </span>
-                      <h3 className="font-headline font-bold text-[#002046] text-sm">
+                      <h3 className="font-headline font-bold text-[#003d1f] text-sm">
                         Research Alert — {alert.date}
                       </h3>
                     </div>
-                    <span className="px-2 py-0.5 bg-[#002046] text-white text-[10px] font-bold label-caps rounded">
+                    <span className="px-2 py-0.5 bg-[#003d1f] text-white text-[10px] font-bold label-caps rounded">
                       {formatDistanceToNow(new Date(alert.date), {
                         addSuffix: true,
                       })}
@@ -88,16 +88,16 @@ export default function DigestsPage() {
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-3">
                       <span
-                        className="material-symbols-outlined text-[#465f88]"
+                        className="material-symbols-outlined text-[#2d6b50]"
                         style={{ fontSize: 20 }}
                       >
                         article
                       </span>
-                      <h3 className="font-headline font-bold text-[#002046] text-sm">
+                      <h3 className="font-headline font-bold text-[#003d1f] text-sm">
                         {digest.title}
                       </h3>
                     </div>
-                    <span className="px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[10px] font-bold label-caps rounded">
+                    <span className="px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] text-[10px] font-bold label-caps rounded">
                       {formatDistanceToNow(new Date(digest.lastModified), {
                         addSuffix: true,
                       })}

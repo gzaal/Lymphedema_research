@@ -28,14 +28,14 @@ export default async function KBDocPage({
       <div className="flex items-center gap-3">
         <Link
           href="/knowledge-base"
-          className="flex items-center gap-1.5 text-sm text-[#465f88] hover:text-[#002046] font-headline font-semibold transition-colors"
+          className="flex items-center gap-1.5 text-sm text-[#2d6b50] hover:text-[#003d1f] font-headline font-semibold transition-colors"
         >
           <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
             arrow_back
           </span>
           Knowledge Base
         </Link>
-        <span className="px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[10px] font-bold label-caps rounded">
+        <span className="px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] text-[10px] font-bold label-caps rounded">
           Updated{" "}
           {formatDistanceToNow(new Date(file.lastModified), {
             addSuffix: true,
@@ -53,7 +53,7 @@ export default async function KBDocPage({
         {prevFile ? (
           <Link
             href={`/knowledge-base/${prevFile.slug}`}
-            className="text-sm text-[#465f88] hover:text-[#002046] font-headline font-semibold transition-colors"
+            className="text-sm text-[#2d6b50] hover:text-[#003d1f] font-headline font-semibold transition-colors"
           >
             ← {prevFile.title}
           </Link>
@@ -63,7 +63,7 @@ export default async function KBDocPage({
         {nextFile && (
           <Link
             href={`/knowledge-base/${nextFile.slug}`}
-            className="text-sm text-[#465f88] hover:text-[#002046] font-headline font-semibold transition-colors"
+            className="text-sm text-[#2d6b50] hover:text-[#003d1f] font-headline font-semibold transition-colors"
           >
             {nextFile.title} →
           </Link>

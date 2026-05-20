@@ -15,20 +15,20 @@ import { formatDistanceToNow } from "date-fns";
 import type { Paper, Finding, Dimension, RunLogEntry } from "@/lib/types";
 
 const DIM_COLORS: Record<string, string> = {
-  pharmacological: "#002046",
-  dietary: "#465f88",
-  genetics: "#486080",
-  clinical_trials: "#1b365d",
-  management: "#475f7f",
+  pharmacological: "#003d1f",
+  dietary: "#2d6b50",
+  genetics: "#2d6a50",
+  clinical_trials: "#1a3d28",
+  management: "#2e6b4f",
   community: "#74777f",
 };
 
 const DIM_ACCENT: Record<string, string> = {
-  pharmacological: "#002046",
-  dietary: "#465f88",
-  genetics: "#486080",
-  clinical_trials: "#1b365d",
-  management: "#475f7f",
+  pharmacological: "#003d1f",
+  dietary: "#2d6b50",
+  genetics: "#2d6a50",
+  clinical_trials: "#1a3d28",
+  management: "#2e6b4f",
   community: "#74777f",
 };
 
@@ -73,12 +73,12 @@ export function DashboardClient({
       {/* Page Header */}
       <div className="flex items-end justify-between">
         <div>
-          <h2 className="text-4xl font-headline font-bold text-[#002046] mb-1">
+          <h2 className="text-4xl font-headline font-bold text-[#003d1f] mb-1">
             Research Overview
           </h2>
           <div className="flex items-center gap-3">
             {lastRun && (
-              <span className="px-2 py-0.5 bg-[#c0d9fe] text-[#475f7f] text-[10px] font-bold label-caps rounded">
+              <span className="px-2 py-0.5 bg-[#c8e6c9] text-[#2e6b4f] text-[10px] font-bold label-caps rounded">
                 Updated{" "}
                 {formatDistanceToNow(new Date(lastRun.completed_at), {
                   addSuffix: true,
@@ -86,7 +86,7 @@ export function DashboardClient({
               </span>
             )}
             <span className="text-[#44474e] text-xs font-medium">
-              Domain: Lymphedema (Primary & Secondary)
+              Domain: Primary Lymphedema (genetic / hereditary)
             </span>
           </div>
         </div>
@@ -104,7 +104,7 @@ export function DashboardClient({
           label="Clinical Trials"
           value={totalTrials}
           detail={`Active Phase II/III`}
-          detailColor="text-[#486080]"
+          detailColor="text-[#2d6a50]"
         />
         <MetricCard
           label="Key Findings"
@@ -142,7 +142,7 @@ export function DashboardClient({
                     style={{ backgroundColor: accent }}
                   />
                   <div className="flex justify-between items-start mb-3">
-                    <h3 className="font-headline font-bold text-[#002046] text-sm">
+                    <h3 className="font-headline font-bold text-[#003d1f] text-sm">
                       {meta?.label}
                     </h3>
                     <span className="text-[10px] font-bold text-[#44474e]">
@@ -154,7 +154,7 @@ export function DashboardClient({
                       {d.latestFinding.statement}
                     </p>
                   )}
-                  <span className="px-2 py-0.5 rounded-full text-[9px] bg-[#c0d9fe] text-[#475f7f] font-semibold">
+                  <span className="px-2 py-0.5 rounded-full text-[9px] bg-[#c8e6c9] text-[#2e6b4f] font-semibold">
                     {d.trials} TRIALS
                   </span>
                 </div>
@@ -166,7 +166,7 @@ export function DashboardClient({
         {/* Pipeline */}
         <div className="col-span-4">
           <div className="p-6 bg-white ghost-border rounded-lg h-full">
-            <h3 className="text-sm font-headline font-bold text-[#002046] mb-6 label-caps">
+            <h3 className="text-sm font-headline font-bold text-[#003d1f] mb-6 label-caps">
               Trial Pipeline Status
             </h3>
             {/* Donut */}
@@ -175,19 +175,19 @@ export function DashboardClient({
                 <circle cx="80" cy="80" r="70" fill="transparent" stroke="#f4f3f1" strokeWidth="12" />
                 <circle
                   cx="80" cy="80" r="70" fill="transparent"
-                  stroke="#002046" strokeWidth="12"
+                  stroke="#003d1f" strokeWidth="12"
                   strokeDasharray="440"
                   strokeDashoffset={440 - (440 * trialsByStatus.recruiting) / totalTrialsAll}
                 />
                 <circle
                   cx="80" cy="80" r="70" fill="transparent"
-                  stroke="#465f88" strokeWidth="12"
+                  stroke="#2d6b50" strokeWidth="12"
                   strokeDasharray="440"
                   strokeDashoffset={440 - (440 * trialsByStatus.active) / totalTrialsAll}
                 />
               </svg>
               <div className="absolute text-center">
-                <span className="block text-2xl font-headline font-bold text-[#002046] leading-none">
+                <span className="block text-2xl font-headline font-bold text-[#003d1f] leading-none">
                   {totalTrialsAll}
                 </span>
                 <span className="label-caps text-[9px] text-[#44474e]">Total</span>
@@ -199,19 +199,19 @@ export function DashboardClient({
                 label="Recruiting"
                 count={trialsByStatus.recruiting}
                 total={totalTrialsAll}
-                color="#002046"
+                color="#003d1f"
               />
               <PipelineRow
                 label="Active (not recruiting)"
                 count={trialsByStatus.active}
                 total={totalTrialsAll}
-                color="#465f88"
+                color="#2d6b50"
               />
               <PipelineRow
                 label="Completed"
                 count={trialsByStatus.completed}
                 total={totalTrialsAll}
-                color="#486080"
+                color="#2d6a50"
               />
             </div>
           </div>
@@ -224,12 +224,12 @@ export function DashboardClient({
           className="px-6 py-4 flex justify-between items-center"
           style={{ borderBottom: "1px solid rgba(196,198,207,0.1)" }}
         >
-          <h3 className="font-headline text-xl text-[#002046] font-bold">
+          <h3 className="font-headline text-xl text-[#003d1f] font-bold">
             Recent Papers
           </h3>
           <Link
             href="/papers"
-            className="label-caps text-xs font-bold text-[#465f88] hover:underline"
+            className="label-caps text-xs font-bold text-[#2d6b50] hover:underline"
           >
             View All Research
           </Link>
@@ -262,24 +262,43 @@ export function DashboardClient({
                 style={{ borderBottom: "1px solid rgba(196,198,207,0.1)" }}
               >
                 <td className="px-6 py-5">
-                  <span
-                    className={`px-2 py-1 text-[10px] font-bold rounded uppercase tracking-wider ${
-                      paper.relevance_score >= 8
-                        ? "bg-green-100 text-green-800"
+                  {paper.scores ? (
+                    <div className="flex flex-col gap-0.5">
+                      {(["importance", "evidence_strength", "decision_usefulness"] as const).map((axis) => {
+                        const val = (paper.scores as unknown as Record<string, number>)[axis];
+                        const label = axis === "importance" ? "Imp" : axis === "evidence_strength" ? "Evi" : "Dec";
+                        const color = val >= 7 ? "bg-green-500" : val >= 4 ? "bg-amber-500" : "bg-red-400";
+                        return (
+                          <div key={axis} className="flex items-center gap-1 text-[9px]">
+                            <span className="w-[12px] text-right tabular-nums text-[#44474e]">{val}</span>
+                            <div className="w-[28px] h-[3px] bg-gray-200 rounded-full overflow-hidden">
+                              <div className={`h-full rounded-full ${color}`} style={{ width: `${val * 10}%` }} />
+                            </div>
+                            <span className="text-[#44474e] uppercase tracking-wider">{label}</span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <span
+                      className={`px-2 py-1 text-[10px] font-bold rounded uppercase tracking-wider ${
+                        paper.relevance_score >= 8
+                          ? "bg-green-100 text-green-800"
+                          : paper.relevance_score >= 5
+                            ? "bg-amber-100 text-amber-800"
+                            : "bg-gray-100 text-gray-600"
+                      }`}
+                    >
+                      {paper.relevance_score >= 8
+                        ? "High"
                         : paper.relevance_score >= 5
-                          ? "bg-amber-100 text-amber-800"
-                          : "bg-gray-100 text-gray-600"
-                    }`}
-                  >
-                    {paper.relevance_score >= 8
-                      ? "High"
-                      : paper.relevance_score >= 5
-                        ? "Medium"
-                        : "Low"}
-                  </span>
+                          ? "Medium"
+                          : "Low"}
+                    </span>
+                  )}
                 </td>
                 <td className="px-6 py-5">
-                  <p className="text-sm font-headline font-bold text-[#002046] mb-0.5 line-clamp-1">
+                  <p className="text-sm font-headline font-bold text-[#003d1f] mb-0.5 line-clamp-1">
                     {paper.title}
                   </p>
                   <p className="text-[11px] text-[#44474e] line-clamp-1">
@@ -335,7 +354,7 @@ function MetricCard({
         {label}
       </p>
       <div className="flex items-end justify-between">
-        <span className="text-3xl font-headline font-bold text-[#002046]">
+        <span className="text-3xl font-headline font-bold text-[#003d1f]">
           {value}
         </span>
         <span className={`text-xs font-medium ${detailColor}`}>{detail}</span>
@@ -360,7 +379,7 @@ function PipelineRow({
     <div>
       <div className="flex justify-between text-[11px] mb-1">
         <span className="text-[#44474e]">{label}</span>
-        <span className="font-headline font-bold text-[#002046]">{pct}%</span>
+        <span className="font-headline font-bold text-[#003d1f]">{pct}%</span>
       </div>
       <div className="h-1.5 w-full bg-[#f4f3f1] rounded-full overflow-hidden">
         <div
