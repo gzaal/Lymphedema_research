@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-DATA_DIR = Path("/Users/geertzaal/Developer/Lymphedema_research/data")
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RAW_DIR = DATA_DIR / "raw_baseline"
 TODAY = datetime.now().strftime("%Y-%m-%d")
 RUN_ID = f"baseline_{TODAY}_001"

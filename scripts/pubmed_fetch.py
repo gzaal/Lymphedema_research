@@ -16,7 +16,7 @@ import urllib.error
 from pathlib import Path
 from datetime import datetime
 
-DATA_DIR = Path("/Users/geertzaal/Developer/Lymphedema_research/data")
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 # Optional: set NCBI API key for higher rate limits
