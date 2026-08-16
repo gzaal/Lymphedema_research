@@ -1,6 +1,6 @@
 # Pharmacological Treatments for Lymphedema
 
-*Last updated: April 2026*
+*Last updated: June 14, 2026 (W24 deep cycle)*
 
 This document summarizes the current state of drug-based treatments for lymphedema. It is written for patients and caregivers who want a thorough understanding of what is being used, what is being tested, and what may be coming. Technical terms are explained when first introduced.
 
@@ -76,6 +76,23 @@ As a result, sirolimus is **not recommended** for standard lymphedema (secondary
 2. PIK3CA-related overgrowth syndromes with lymphatic involvement
 3. Tuberous sclerosis complex (TSC) with lymphangioleiomyomatosis (LAM)
 
+### Genotype-Driven Targeted Therapy in Vascular and Lymphatic Anomalies (2026 Synthesis)
+
+A 2026 *Journal of the European Academy of Dermatology and Venereology* narrative review (Drolet et al.) consolidates the targeted-therapy landscape for vascular anomalies, including lymphatic, venous, capillary, and syndromic vascular malformations. The review distinguishes two principal pathway clusters:
+
+- **PI3K / AKT / mTOR**: sirolimus and everolimus (mTOR-pathway broad-spectrum); alpelisib (PIK3CA-selective, indicated in PROS / PIK3CA-related overgrowth spectrum); newer mutant-selective PIK3CA inhibitors in development; AKT inhibitors used for Proteus syndrome.
+- **RAS / RAF / MEK / ERK**: trametinib and other MEK inhibitors for RAS-pathway-driven vascular and lymphatic lesions, including selected KRAS-mutant complex lymphatic anomalies; BRAF-selective inhibitors (rare in lymphatic context but used for selected vascular anomalies).
+
+The review is consolidation, not new evidence — but it documents the field's transition from a procedural-only paradigm to a genotype-aware, multidisciplinary model. The Klein 2026 pediatric-radiology review (see Disease Management) describes the same model in operation. *Patients and families considering targeted therapy should seek a vascular-anomaly center that performs somatic (lesion-tissue) genetic testing routinely, rather than relying on germline panels alone.*
+
+**Neonatal central / generalized lymphatic anomalies — efficacy signal and a new infant safety signal (W24 2026 update):** Several 2025–2026 reports describe targeted pharmacotherapy for the most severe, life-threatening forms of primary lymphatic disease in infants. A case series of neonatal-onset **central conducting lymphatic anomaly (CCLA)** treated with mTOR and/or MEK inhibitors (Eur J Pediatr, 2025; pathogenic variants in 4 patients) reported substantial clinical improvement, improved lymphatic flow on MR lymphangiography, and no relapse at mean 10.3 months after taper. A report of sirolimus for neonatal **generalized lymphatic anomaly (GLA) with fetal hydrops** (Pediatr Int, 2026) and a narrative synthesis (J Clin Med, 2026) point the same direction. Counterbalancing this, a paired safety analysis (Paediatr Drugs, 2026) found **dyslipidemia is near-universal in sirolimus-treated infants** — 100% hypertriglyceridemia and 90% hypercholesterolemia in 10 neonates/infants — with a strong VigiBase disproportionality signal in infants (adjusted reporting odds ratio ~147). *Bottom line:* genotype-directed therapy is a promising and sometimes life-saving option for these rare neonatal anomalies, but all efficacy evidence is uncontrolled case-series with short follow-up; **routine lipid monitoring is warranted when starting sirolimus in infants.** None of this generalizes to adult-onset primary lymphedema.
+
+**Prenatal sirolimus use (W32 2026 update):** A *Paediatric Drugs* (2025) report describes two cases of extensive fetal capillary-lymphatic-venous malformation (CLVM) treated with oral sirolimus starting in utero (from 32–33 weeks' gestation), continuing postnatally, in pregnancies complicated by intralesional bleeding and (in one case) polyhydramnios. This adds a prenatal-initiation data point to the case-level evidence base above — it does not change the confidence tier (still single-arm case reports, no comparator) but is notable as one of very few published prenatal sirolimus exposures for a lymphatic anomaly.
+
+### Emerging downstream-druggable axis — KRAS / MMP and lymphatic valve loss (2026 preclinical)
+
+Bowles et al. (*Arteriosclerosis, Thrombosis, and Vascular Biology*, 2026) showed in mice and human dermal lymphatic endothelial cells that lymphatic-restricted KRAS-G12D drives **valve loss via matrix metalloproteinase (MMP) upregulation**, and that pharmacologic MMP inhibition rescues valve formation in 3D culture. This nominates MMP inhibition as a candidate downstream strategy in KRAS-mutant lymphatic disease (chylothorax, chylous ascites, KRAS-driven lymphatic malformations) — orthogonal to upstream MEK-pathway inhibition. *Limits:* mouse + 3D cell culture only; no MMP inhibitor in human lymphatic-disease trials; broad MMP inhibition has been historically toxic in oncology. This is a 5+ year hypothesis statement and not a near-term clinical lead. See the Genetics & Biomarkers document for fuller mechanistic context.
+
 ---
 
 ## Anti-Inflammatory Approaches
@@ -94,7 +111,7 @@ As a result, sirolimus is **not recommended** for standard lymphedema (secondary
 
 **Dupilumab:** An approved monoclonal antibody (Dupixent) that blocks the shared IL-4Rα receptor used by both IL-4 and IL-13. It is approved for atopic dermatitis, asthma, and other Th2-driven conditions. Given the overlapping Th2 inflammation in lymphedema fibrosis, there is scientific rationale for exploring dupilumab. Animal model studies have shown benefit. Human clinical trials have not yet been reported as of early 2026.
 
-**Tacrolimus (topical):** An immunosuppressant that inhibits T cell activation via calcineurin/NFAT inhibition. Topical application reduces local inflammation in animal models. Used in clinical practice for skin inflammation conditions, but not systematically studied for lymphedema.
+**Tacrolimus (topical):** An immunosuppressant that inhibits T cell activation via calcineurin/NFAT inhibition. A 2023 open-label Phase II pilot trial (n=18, BCRL Stage I–II, 6 months; *Journal of Breast Cancer*) found topical tacrolimus 0.1% significantly reduced arm volume (mean –130 mL, –3.6%) and L-Dex score vs. baseline, with QoL improvement. The trial was uncontrolled (no placebo arm), so the contribution of CDT continuation vs. drug effect cannot be separated. The **TACLE trial** (NCT06306274; n=80, double-blind, placebo-controlled, 12-month treatment, recruiting as of April 2025) is designed to provide controlled evidence. Positive TACLE results, expected 2026–2027, would be the first RCT evidence for a topical pharmacotherapy for BCRL.
 
 ---
 
@@ -130,9 +147,9 @@ Obesity is one of the most important and underappreciated drivers of lymphedema.
 
 **Current status in lymphedema:** A clinical trial exploring GLP-1 agonists for lymphedema is in the recruitment phase as of early 2026 (investigators at UCSD among others). The primary question is whether weight loss induced by these drugs translates to meaningful lymphedema improvement beyond what would be expected from caloric restriction alone — i.e., whether GLP-1 receptors on lymphatic endothelial cells or immune cells produce a direct biological effect.
 
-**Biological plausibility for direct effect:** GLP-1 receptors are expressed in various immune cell types. GLP-1 agonists have anti-inflammatory properties independent of weight loss, and some animal data suggest effects on lymphatic vessel function.
+**Biological plausibility for direct effect:** GLP-1 receptors are expressed in various immune cell types. GLP-1 agonists have anti-inflammatory properties independent of weight loss, and some animal data suggest effects on lymphatic vessel function. **A W24 2026 preclinical study (Microcirculation) sharpened this rationale:** single-cell RNA sequencing and confocal microscopy localized the GLP-1 receptor (Glp1r) *specifically to lymphatic endothelial cells*, and semaglutide increased the pumping capacity of isolated collecting lymphatics (from wild-type, diet-induced-obese, and ApoE-knockout mice) via nitric-oxide-mediated vasodilation. This suggests a *direct* lymphatic-pumping mechanism plausibly independent of weight loss — but it is ex-vivo/animal data with no human or primary-lymphedema outcomes, and lymphatic biology has a poor preclinical-to-clinical translation record.
 
-**Current status:** Investigational. No clinical trial results specific to lymphedema published as of April 2026.
+**Current status:** Investigational. No clinical trial results specific to lymphedema published as of June 2026; the direct-lymphatic-effect hypothesis now has a concrete (preclinical) mechanism to test.
 
 ---
 
@@ -170,7 +187,7 @@ As of early 2026, PIEZO1 agonists are firmly in the **preclinical stage** but re
 
 **Mechanism:** The parasites carry *Wolbachia* bacteria, which are essential for their survival and reproduction. Doxycycline kills *Wolbachia*, killing or sterilizing the worms. Beyond its antibiotic action, doxycycline also has **direct anti-inflammatory and anti-fibrotic effects** on the lymphedema lesion itself, independent of its anti-parasitic activity.
 
-**Evidence:** A 6-week course of doxycycline 200 mg/day has been shown in randomized trials to significantly reduce skin thickness and limb swelling at 12–24 months (44% of treated patients showed meaningful improvement vs. 3–5% of controls). Annual or biannual courses are recommended for mild-to-moderate filarial lymphedema.
+**Evidence:** A 6-week course of doxycycline 200 mg/day has been studied in multiple randomized trials. **A large 2024 RCT (Ngenya et al., n=362, Tanzania, 24-month follow-up) found that neither 200mg nor 100mg doxycycline improved limb condition at 24 months vs. placebo** — the placebo group paradoxically had the highest limb improvement rate (23.4% vs. 14.4% with 200mg). However, doxycycline significantly reduced acute adenolymphangitis (ADL) attack frequency in the first 6 months, and doxycycline 100mg was associated with halted disease progression (OR 0.53). The most important conclusion from this trial is that **hygiene adherence was the dominant factor preventing acute attacks** across all arms. Earlier smaller trials suggested higher limb improvement rates; the Ngenya 2024 trial is the largest and most rigorously designed to date and qualifies prior optimism.
 
 **Relevance for non-filarial lymphedema:** Less evidence, but the anti-inflammatory mechanism of doxycycline is not parasite-specific, raising interest in whether it could help inflammatory secondary lymphedema more broadly. This has not been systematically studied.
 

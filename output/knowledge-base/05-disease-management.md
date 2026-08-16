@@ -1,6 +1,6 @@
 # Lymphedema Disease Management & Guidelines
 
-*Last updated: April 2026*
+*Last updated: June 14, 2026 (W24 deep cycle)*
 
 This document covers how lymphedema is diagnosed, staged, and treated in clinical practice — from initial diagnosis through long-term management, including physical therapy, surgical options, and the key guidelines from international organizations.
 
@@ -131,6 +131,8 @@ After intensive Phase I achieves maximal volume reduction:
 
 CDT is supported by multiple randomized trials and extensive observational data. Phase I typically achieves 30–70% volume reduction in Stage I–IIa disease. The challenge is maintenance — without continuous compliance with Phase II, edema gradually returns. CDT manages lymphedema; it does not cure it.
 
+**Self-administered CDT (April 2025 update):** A non-inferiority RCT (Gultekin et al., n=50, *Breast Cancer Research and Treatment*, July 2025) found that patient self-administered CDT was not inferior to certified lymphedema therapist (CLT)-administered CDT for lymphedema severity and health-related outcomes at end-of-treatment and 3-month follow-up. **Limitations:** Only 50 participants total; 3-month follow-up is short for a chronic disease; all patients received initial training from a CLT. This finding is encouraging for maintenance-phase self-management, but does not support replacing professional initial CDT assessment or intensive Phase I treatment with self-administered protocols.
+
 ---
 
 ## Compression Therapy: Garments and Bandaging
@@ -162,6 +164,8 @@ Lymphedema typically requires Class II–III.
 
 Sequential gradient pneumatic pumps are adjuncts — most useful in the maintenance phase for home use. Multi-chamber devices that sequentially inflate from distal to proximal better mimic natural lymphatic propulsion than simple single-chamber pumps. Evidence supports PCDs as a useful addition to garment therapy for home maintenance.
 
+**Patient-reported outcomes, large survey (W24 2026):** A survey of 10,543 lower-extremity-lymphedema patients using pneumatic compression (*JVS-Venous and Lymphatic Disorders*, 2026) found high satisfaction that improved with frequency of use; daily users self-reported the greatest benefit (swelling −58%, heaviness −34%, pain −25%), stable between 45- and 90-day assessments. *Interpretation:* this supports adherence counseling for daily use, but it is an **uncontrolled satisfaction survey** with self-reported volume claims and mixed etiology — it is not evidence of improved lymphatic *function*, and the magnitude of self-reported "swelling reduction" should not be read as objective volume change.
+
 ---
 
 ## Surgical Options
@@ -185,6 +189,10 @@ Surgery should be considered when:
 
 **Requirements:** Functional lymphatic vessels must still be present (hence the ICG staging). Requires a highly trained supermicrosurgeon (anastomosing vessels < 1 mm diameter under operating microscope).
 
+**Peri-procedural pain control under awake LVA (2026):** Iwanaga et al. (*Plastic and Reconstructive Surgery — Global Open*, April 2026) studied 47 patients (197 sites, 394 injections) at a Tokyo center performing awake LVA. **Longer EMLA (lidocaine/prilocaine) cream application time before local-anesthetic injection significantly reduced injection pain** (P<0.05); **adding vibratory stimulation did not** (P=0.59). Patients with more severe lymphedema reported lower VAS scores, suggesting reduced pain sensitivity in advanced disease. *Practical takeaway:* allow adequate EMLA dwell time (the paper supports the conventional 30–60 minutes) before injection in awake LVA; vibration is unnecessary as a pain-reduction add-on. This is procedural detail only — it does not affect the surgical efficacy evidence base for LVA.
+
+**LVA for pain — a null result that the headline overstates (W24 2026):** A retrospective study of 14 patients / 25 limbs (*J Plast Reconstr Surg*, 2026) titled as though LVA "reduces pain" actually reported a **non-significant** primary endpoint: mean VAS 3.1 → 2.9 (P=0.23), with only 35.7% improving and 21.4% worsening. Any apparent pain benefit correlated with post-operative **weight loss** (r=0.49) and limb-circumference reduction (r=0.42) — i.e., confounded by volume/weight change rather than a demonstrated LVA effect. An exploratory signal (sharp/throbbing pain responded; "heaviness" tended to worsen) is hypothesis-generating only. *Takeaway:* current evidence does **not** support LVA as a treatment for lymphedema-associated pain.
+
 ### Vascularized Lymph Node Transfer (VLNT)
 
 **What it is:** Microsurgical transfer of a pedicle of tissue containing healthy lymph nodes, with their feeding artery and draining vein, to the lymphedematous limb. The transferred nodes may function as biological pumps and/or stimulate new lymphatic vessel growth (neo-lymphangiogenesis) in the recipient area.
@@ -196,6 +204,8 @@ Surgery should be considered when:
 **Risk:** Donor-site lymphedema — approximately 5–10% with modern techniques and careful ARM (Axillary Reverse Mapping). The risk of creating lymphedema at the donor site is the major concern with inguinal node transfer.
 
 **Results:** Slower onset of benefit than LVA (results mature over 12–24 months) but often more durable. Volume reductions of 30–50% reported in well-selected patients.
+
+**Recipient-site choice — emerging signal that multilevel inset may benefit primary lymphedema (2026):** A single-center retrospective cohort of 51 patients with lower-limb lymphedema receiving VLNT 2016–2023 (*Journal of Surgical Research*, 2026) compared groin, ankle, and multilevel (groin + ankle) recipient sites. **Multilevel inset showed greater volume reduction than single-level proximal (P=0.002) or distal (P=0.002) — predominantly in the primary-lymphedema (PLE) subgroup; no benefit was observed in the secondary-lymphedema (SLE) subgroup.** Multilevel had a lower rate of major recipient-site complications. *Limits:* small (n=51), single-center, retrospective, mixed PLE/SLE — the PLE-specific multilevel signal is hypothesis-generating and consistent with the broader observation that combined or multi-recipient strategies may outperform single-site approaches in well-selected patients. Not a practice change. The field-wide RCT gap for VLNT and LVA — case series and single-center retrospectives dominate (OCEBM Level 4–5 evidence; *JPRAS Open* bibliometric, 2026) — remains the primary structural limitation of the surgical evidence base. **A W24 2026 PEER umbrella systematic review (*JVS-Venous and Lymphatic Disorders*) — assembled to inform forthcoming American Venous Forum / American Vein and Lymphatic Society clinical practice guidelines — synthesized 26 systematic reviews and 14 meta-analyses (2010–2025) and confirmed that NO randomized controlled trials exist for lymphatic microsurgery;** its conclusions rested on just four moderate-quality treatment reviews plus one high-quality prevention review. Notably, guideline bodies are now codifying recommendations on this RCT-free evidence base — a point patients and clinicians should weigh. A companion retrospective comparison (LVA n=123 vs VLNT n=28, ≥1-year follow-up; *JPRAS*, 2026) found LVA delivers faster gains in the first three months while VLNT improves more slowly through 12 months (the gap narrowing over time) — useful for counseling on time-course expectations, but again single-center and non-randomized.
 
 ### Combined LVA + VLNT
 
@@ -238,6 +248,12 @@ An emerging alternative to VLNT that transfers lymphatic vessels with their vasc
 
 For patients with ≥3 episodes per year: **low-dose prophylactic penicillin V** (250 mg BD daily or seasonal in summer months) significantly reduces recurrence. Alternatives include erythromycin or cefalexin. Duration of prophylaxis is typically 1–2 years minimum.
 
+### Lymphedema as a Population-Level Risk Factor for First-Episode Cellulitis (2026 EHR cohort)
+
+Carls et al. (*International Journal of Infectious Diseases*, 2026) used the TriNetX EHR network to identify independent risk factors for first-episode lower-leg cellulitis in a large retrospective cohort. **Lymphedema** had a hazard ratio of **1.631 (95% CI 1.584–1.680, p<0.0001)** — the second-largest single risk factor, exceeded only by leg ulcers (HR 2.669). Other independent contributors: heart failure, venous insufficiency / varicosis, diabetes, onychomycosis, tinea pedis, obesity, corticosteroids, atopic dermatitis, low socioeconomic status, nicotine, alcohol, male sex.
+
+*What this means for patients:* This is a population-level confirmation of a long-established clinical observation. The dataset includes both primary and secondary lymphedema; primary-lymphedema-specific risk is not separately reported. Practical implications for primary-lymphedema patients are unchanged — **daily skin and nail care, treatment of tinea pedis and onychomycosis, weight management, and early antibiotics for any suspicious skin change** remain the foundation of cellulitis prevention. Patients with ≥3 episodes per year should be considered for prophylactic penicillin.
+
 ---
 
 ## Special Populations
@@ -256,6 +272,26 @@ For patients with ≥3 episodes per year: **low-dose prophylactic penicillin V**
 - CDT is adapted for children — garment design and MLD technique differ
 - Children with GATA2 deficiency require urgent hematological referral
 - Surgical intervention decisions are deferred in most cases until adolescence unless severe
+
+**Pediatric complex lymphatic anomalies (CLA) — current 2026 multidisciplinary consensus.** Klein et al. (*Pediatric Radiology*, April 2026) summarize the imaging-led, genotype-aware approach now standard at major referral centers:
+
+- **Imaging:** Intranodal contrast injection plus dynamic contrast-enhanced MR lymphangiography is the preferred initial work-up to characterize central lymphatic anatomy and CLA phenotype.
+- **Genetic testing:** Targeted panels covering *PIK3CA*, RAS-pathway genes (NRAS, KRAS, BRAF, MAP2K1), *GNAQ*, and lymphangiogenesis genes drive treatment selection; somatic mosaic mutations are common and tissue-based testing (lesion biopsy or cell-free DNA) is often required.
+- **Stratified systemic therapy:** Sirolimus for kaposiform hemangioendothelioma / Kasabach-Merritt, generalized lymphatic anomaly, and other lymphangiogenic-driven CLA; alpelisib for PIK3CA-related overgrowth spectrum (PROS); MEK inhibitors for RAS-pathway-driven lesions; propranolol for infantile hemangioma; corticosteroids in selected cases.
+- **Localized therapy and supportive care:** Drainage, sclerotherapy, embolization, surgical debulking, and dietary support (e.g., MCT diet for chylous lesions) are integrated as needed.
+- **Multidisciplinary team:** Pediatricians, pediatric radiologists, interventional radiologists, surgeons, geneticists, pharmacotherapy experts, and nutritionists collaborate to tailor the diagnosis-to-genotype-to-treatment pipeline.
+
+This is a **practice-consensus framework**, not new evidence. The Sharma et al. case series (*Annals of Plastic Surgery*, April 2026) — five pediatric vascular anomaly cases including generalized lymphatic anomaly and PROS — illustrates the same model in operation. Patients and families considering CLA care should seek a center that operates this multidisciplinary model rather than one that treats lymphatic anomalies as a single procedural entity.
+
+**Real-world uptake gap (2026):** A 10-year single-institution review of 59 pediatric head-and-neck lymphatic malformations from a dedicated BVAP (Birthmarks and Vascular Anomalies Program), 2014–2024 (*International Journal of Pediatric Otorhinolaryngology*, 2026), shows how far the bedside reality lags the consensus framework even at experienced centers:
+
+- **Sclerotherapy** in 67.8% (doxycycline 45.8%, bleomycin 35.6%); **resection** in 45.8%
+- **Sirolimus** used in 25.4% of patients; **4 transitioned to alpelisib** for PIK3CA-related disease
+- **Molecular testing performed in only 13.6%** — but pathogenic findings in 100% of those tested
+
+The yield-when-tested figure (100% pathogenic) is consistent with the broader two-center vascular-anomaly testing analysis discussed in the Genetics & Biomarkers document (~70% P/LP yield in vascular anomalies). The gap between framework recommendations and bedside uptake is real and remains the most actionable improvement target for pediatric CLA care.
+
+**Sclerotherapy comparator data — pediatric cystic LM with intracapsular hemorrhage (2026):** A retrospective Chinese comparative cohort (n=74; 37 receiving pingyangmycin-polidocanol foam [PPF], 37 pingyangmycin alone [PYM]; *Medicine Baltimore*, 2026) reported that **PPF achieved larger first-session volume reduction** (23.0 vs 12.2 cm³, P=0.028), **fewer sessions** (median 2 vs 3, P=0.023), **better Achauer III/IV response rate** (83.8% vs 73.0%, P=0.020), and **superior pain relief** (73.6% vs 41.7%, P=0.036). Adverse events and recurrence rates were comparable. *Limits:* retrospective non-randomised allocation; single-center; surrogate volume endpoint. The signal is consistent with the broader sclerotherapy literature — combination/foamed agents tend to outperform single agents — but does not displace doxycycline or bleomycin where those are standard. Hypothesis-generating, not practice-changing.
 
 ### Lower Limb Lymphedema (Non-Cancer)
 

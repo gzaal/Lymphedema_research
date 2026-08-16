@@ -20,3 +20,17 @@ data/.api-keys.json
 
 # Claude settings (local)
 .claude/settings.json
+
+# Scan/deep scratch & backups (regenerable — never commit)
+data/*.bak-*
+data/*.bak
+data/*.json.bak*
+data/*-purged-*.json
+data/_*temp*.json
+data/ss_*.json
+/temp_*.json
+/apply_*.py
+scripts/apply_*.py
+scripts/_w22_*.py
+scripts/scan_w22_update.py
+run-log.bak-*

@@ -1,5 +1,9 @@
 # Lymphedema Research Project
 
+## Scope
+
+**Primary (genetic / developmental / hereditary) lymphedema only.** Secondary lymphedema (BCRL, post-surgical, filarial, radiation-induced) is explicitly out of scope and filtered at ingestion via `classify_lymphedema_type()` in `scripts/baseline_process.py`. Papers/trials are tagged `primary` / `both` / `unknown` / `secondary`; secondary items are purged.
+
 ## Dashboard
 
 - **Port**: 3001 (ADPKD uses 3000)
@@ -16,5 +20,5 @@
 ## Data Pipeline
 
 - `scripts/baseline_fetch.py` → `baseline_process.py` → `pubmed_fetch.py` → `merge_pubmed.py`
-- Data files: `data/papers.json` (461 papers), `data/trials.json` (83 trials)
+- Data files: `data/papers.json` (231 papers, primary-scope), `data/trials.json` (24 trials, primary-scope). Pre-purge backups at `*.bak-before-purge`.
 - Dashboard reads from `../data/` and `../output/` relative to the dashboard dir.

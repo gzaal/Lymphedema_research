@@ -29,7 +29,12 @@ export function getPapers(): Paper[] {
     path.join(DATA_DIR, "papers.json"),
     { papers: [] }
   );
-  return data.papers;
+  // Scan runs occasionally add papers without a `dimensions` array (null),
+  // which crashes any consumer calling .includes()/.some()/.map() on it.
+  return data.papers.map((p) => ({
+    ...p,
+    dimensions: Array.isArray(p.dimensions) ? p.dimensions : [],
+  }));
 }
 
 export function getTrials(): Trial[] {
@@ -37,7 +42,10 @@ export function getTrials(): Trial[] {
     path.join(DATA_DIR, "trials.json"),
     { trials: [] }
   );
-  return data.trials;
+  return data.trials.map((t) => ({
+    ...t,
+    dimensions: Array.isArray(t.dimensions) ? t.dimensions : [],
+  }));
 }
 
 export function getFindings(): Finding[] {

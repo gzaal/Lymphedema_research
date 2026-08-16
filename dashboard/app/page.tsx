@@ -49,7 +49,7 @@ export default function DashboardPage() {
   }));
 
   const recentPapers = [...papers]
-    .sort((a, b) => b.added_date.localeCompare(a.added_date))
+    .sort((a, b) => (b.added_date || "").localeCompare(a.added_date || ""))
     .slice(0, 8);
 
   return (
