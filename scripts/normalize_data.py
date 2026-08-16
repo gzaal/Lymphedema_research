@@ -89,13 +89,45 @@ def normalize_status(item: dict) -> bool:
     return True
 
 
+# Older fetch generations wrote the same concept under different field names.
+# Current code (and dashboard/lib/types.ts) reads only the canonical name on the
+# left; the aliases on the right are vestigial. Fold each alias into the
+# canonical field when the canonical is empty, then drop the alias so the schema
+# stops drifting. (`year` is deliberately not folded — it is a coarser partial
+# date and every record carrying it already has a full `published_date`.)
+FIELD_ALIASES = {
+    "abstract": ["abstract_snippet"],
+    "published_date": ["publication_date"],
+    "pmid": ["pubmed_id"],
+    "ss_id": ["semantic_scholar_id"],
+}
+
+
+def _is_empty(value) -> bool:
+    return not value or not str(value).strip()
+
+
+def canonicalize_fields(item: dict) -> bool:
+    """Fold legacy field-name aliases into their canonical field. True if changed."""
+    changed = False
+    for canonical, aliases in FIELD_ALIASES.items():
+        for alias in aliases:
+            if alias not in item:
+                continue
+            if _is_empty(item.get(canonical)) and not _is_empty(item[alias]):
+                item[canonical] = item[alias]
+            del item[alias]
+            changed = True
+    return changed
+
+
 def normalize_file(path: Path, key: str, run_dates: dict, fix_added_date: bool, fix_status: bool):
     if not path.exists():
         print(f"  skip (missing): {path.name}")
         return 0
     data = json.loads(path.read_text())
     items = data.get(key, [])
-    fixed_dims = fixed_dates = fixed_status = 0
+    fixed_dims = fixed_dates = fixed_status = fixed_fields = 0
     for item in items:
         if normalize_dimensions(item):
             fixed_dims += 1
@@ -104,12 +136,15 @@ def normalize_file(path: Path, key: str, run_dates: dict, fix_added_date: bool, 
             fixed_dates += 1
         if fix_status and normalize_status(item):
             fixed_status += 1
-    total = fixed_dims + fixed_dates + fixed_status
+        if canonicalize_fields(item):
+            fixed_fields += 1
+    total = fixed_dims + fixed_dates + fixed_status + fixed_fields
     if total:
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(
         f"  {path.name}: {len(items)} {key} | dimensions backfilled={fixed_dims}, "
-        f"added_date backfilled={fixed_dates}, status normalized={fixed_status}"
+        f"added_date backfilled={fixed_dates}, status normalized={fixed_status}, "
+        f"fields canonicalized={fixed_fields}"
     )
     return total
 
