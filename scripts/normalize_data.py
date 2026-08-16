@@ -73,25 +73,43 @@ def normalize_dimensions(item: dict) -> bool:
     return True
 
 
-def normalize_file(path: Path, key: str, run_dates: dict, fix_added_date: bool):
+# The only status values the data model (dashboard/lib/types.ts) recognizes.
+# Agent-driven scans have historically invented others (`active`, `scan_added`)
+# or left it unset — those papers are then invisible to the deep run, which
+# selects everything not yet `incorporated`. Fold any non-canonical value back
+# to `new` so no unincorporated paper can hide behind an unrecognized status.
+CANONICAL_STATUSES = {"new", "reviewed", "incorporated"}
+
+
+def normalize_status(item: dict) -> bool:
+    """Ensure `status` is one of the canonical values. Returns True if changed."""
+    if item.get("status") in CANONICAL_STATUSES:
+        return False
+    item["status"] = "new"
+    return True
+
+
+def normalize_file(path: Path, key: str, run_dates: dict, fix_added_date: bool, fix_status: bool):
     if not path.exists():
         print(f"  skip (missing): {path.name}")
         return 0
     data = json.loads(path.read_text())
     items = data.get(key, [])
-    fixed_dims = fixed_dates = 0
+    fixed_dims = fixed_dates = fixed_status = 0
     for item in items:
         if normalize_dimensions(item):
             fixed_dims += 1
         if fix_added_date and not item.get("added_date"):
             item["added_date"] = infer_added_date(item, run_dates)
             fixed_dates += 1
-    total = fixed_dims + fixed_dates
+        if fix_status and normalize_status(item):
+            fixed_status += 1
+    total = fixed_dims + fixed_dates + fixed_status
     if total:
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(
-        f"  {path.name}: {len(items)} {key} | "
-        f"dimensions backfilled={fixed_dims}, added_date backfilled={fixed_dates}"
+        f"  {path.name}: {len(items)} {key} | dimensions backfilled={fixed_dims}, "
+        f"added_date backfilled={fixed_dates}, status normalized={fixed_status}"
     )
     return total
 
@@ -101,8 +119,8 @@ def main():
     run_dates = build_run_date_map(data_dir)
     print("Normalizing data files (schema guard)...")
     changed = 0
-    changed += normalize_file(data_dir / "papers.json", "papers", run_dates, fix_added_date=True)
-    changed += normalize_file(data_dir / "trials.json", "trials", run_dates, fix_added_date=False)
+    changed += normalize_file(data_dir / "papers.json", "papers", run_dates, fix_added_date=True, fix_status=True)
+    changed += normalize_file(data_dir / "trials.json", "trials", run_dates, fix_added_date=False, fix_status=False)
     print(f"Done. {changed} field(s) backfilled." if changed else "Done. Nothing to fix.")
 
 

@@ -285,11 +285,12 @@ The agent tracks lymphedema research across six dimensions:
 - **Obesity confounding.** Weight loss alone reduces lymphedema volume. Flag any volume-reduction study that doesn't control for BMI/weight changes.
 
 ### Paper JSON schema additions
-When writing papers to papers.json, include these new fields alongside the existing ones. **`dimensions` and `added_date` are REQUIRED on every paper** — a paper missing either will crash the dashboard:
+When writing papers to papers.json, include these new fields alongside the existing ones. **`dimensions`, `added_date`, and `status` are REQUIRED on every paper** — a paper missing `dimensions`/`added_date` will crash the dashboard, and a non-`new` `status` (e.g. `active`, `scan_added`) hides it from the deep synthesis. Newly scanned papers must always use `"status": "new"`:
 ```json
 {
   "dimensions": ["pharmacological", "management"],
   "added_date": "YYYY-MM-DD",
+  "status": "new",
   "scores": {
     "importance": 7, "evidence_strength": 4, "novelty": 6,
     "decision_usefulness": 3, "claim_calibration": 7
