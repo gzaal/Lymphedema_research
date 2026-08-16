@@ -151,6 +151,13 @@ new data against existing understanding, and produce a weekly digest.
    and what's emerging. Include dates so the reader knows how current
    the information is.
 
+8. **Run the schema guard** (required — final step, never skip)
+   ```bash
+   python3 /Users/geertzaal/Developer/Lymphedema_research/scripts/normalize_data.py
+   ```
+   Backfills any missing `dimensions`/`added_date` on papers/trials so the
+   dashboard cannot crash on incomplete records. Idempotent and safe to re-run.
+
 ## Rules
 - Always preserve the evolution history in findings — never overwrite, always append
 - When confidence changes, explain why in the evolution log

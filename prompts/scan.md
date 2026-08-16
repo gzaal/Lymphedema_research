@@ -200,6 +200,12 @@ Perform a SCAN — a lightweight check for new publications and trial updates.
    - Append new papers to papers.json
    - Update trials.json with any changes
    - Log the run in run-log.json
+   - **Run the schema guard** (required — never skip):
+     ```bash
+     python3 /Users/geertzaal/Developer/Lymphedema_research/scripts/normalize_data.py
+     ```
+     This backfills any missing `dimensions`/`added_date` so the dashboard
+     cannot crash on incomplete records. It is idempotent and safe to re-run.
 
 7. **Generate alerts**
    Generate an alert if any paper scores importance >= 7 AND evidence_strength >= 5,
@@ -279,9 +285,11 @@ The agent tracks lymphedema research across six dimensions:
 - **Obesity confounding.** Weight loss alone reduces lymphedema volume. Flag any volume-reduction study that doesn't control for BMI/weight changes.
 
 ### Paper JSON schema additions
-When writing papers to papers.json, include these new fields alongside the existing ones:
+When writing papers to papers.json, include these new fields alongside the existing ones. **`dimensions` and `added_date` are REQUIRED on every paper** — a paper missing either will crash the dashboard:
 ```json
 {
+  "dimensions": ["pharmacological", "management"],
+  "added_date": "YYYY-MM-DD",
   "scores": {
     "importance": 7, "evidence_strength": 4, "novelty": 6,
     "decision_usefulness": 3, "claim_calibration": 7
