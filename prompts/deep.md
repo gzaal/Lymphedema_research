@@ -30,7 +30,13 @@ new data against existing understanding, and produce a weekly digest.
 1. **Load full state**
    - Read ALL files in `/Users/geertzaal/Developer/Lymphedema_research/data/`
    - Understand the current state of knowledge across all six dimensions
-   - Identify papers with status "new" (not yet incorporated into synthesis)
+   - Identify papers **not yet incorporated into synthesis** — every paper whose
+     `status` is anything other than `incorporated` (i.e. `new`, `reviewed`, or any
+     legacy/unset value). Do **not** filter on `status == "new"` alone: scans have
+     historically written other labels (`active`, `scan_added`) and those papers
+     were silently skipped by the deep synthesis. The schema guard
+     (`scripts/normalize_data.py`, run at the end of every run) folds non-canonical
+     statuses back to `new`, but select on "not `incorporated`" regardless.
 
 2. **Critically evaluate new papers**
    For each unincorporated paper, apply the evidence evaluation framework:
