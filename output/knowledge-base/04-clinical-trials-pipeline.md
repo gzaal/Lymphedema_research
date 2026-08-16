@@ -1,6 +1,6 @@
 # Lymphedema Clinical Trials Pipeline
 
-*Last updated: April 2026*
+*Last updated: August 16, 2026 (W33 deep cycle)*
 
 This document summarizes the current clinical trials landscape for lymphedema: what is being tested, in what stages, and what results are expected. It covers surgical trials, pharmacological trials, preventive strategies, and emerging approaches.
 
@@ -129,6 +129,20 @@ An emerging alternative to VLNT that transfers the lymphatic vessels themselves 
 **NCT05835999 and related:** Multicenter prospective trials of sirolimus for complex cystic lymphatic anomalies (distinct from standard lymphedema)
 **Status:** Ongoing; 2024 *Frontiers in Medicine* paper showed 50–80% symptom response rate
 **Note:** Sirolimus is **not** being trialed for standard secondary lymphedema — its role is specifically for lymphatic malformations and PIK3CA-related overgrowth syndromes.
+
+### RLY-2608 for PIK3CA-Related Overgrowth Spectrum — "ReInspire" (added W33 2026)
+
+**NCT06789913.** Phase 2, **recruiting**. A mutant-selective PI3Kα inhibitor in adults and children with PIK3CA-related overgrowth spectrum (PROS) and malformations driven by PIK3CA mutation. Registered conditions explicitly include **lymphatic malformations**, vascular malformations, CLOVES syndrome, Klippel-Trenaunay syndrome and MCAP. Enrollment target 277; started June 2025; **primary completion July 2031**.
+
+**Sponsor:** Relay Therapeutics, Inc. — *this is the company that makes the compound. Treat any efficacy messaging from the sponsor accordingly.*
+
+**What to expect, realistically:** the **primary endpoint is dose-finding** (determining a recommended Phase 2 dose), not efficacy. Combined with a 2031 primary completion date, this means **no meaningful efficacy readout should be anticipated in the near term**. It is included here as a monitoring entry because it represents the mutant-selective generation of PI3Kα inhibitors entering a lymphatic-anomaly population — a genuine pipeline development relative to alpelisib — not because results are near.
+
+### GATA2 Deficiency Natural History Study (added W33 2026)
+
+**NCT01905826.** Observational natural history study, **recruiting**, sponsored by the US National Institute of Allergy and Infectious Diseases. Enrollment target 600; running since 2013, completion March 2028. Relevant to primary lymphedema through **Emberger syndrome**, in which childhood-onset primary lymphedema can be the presenting sign of GATA2 deficiency with its downstream risk of myelodysplastic syndrome and leukemia.
+
+**Important expectation-setting:** this is an observational cohort, not a treatment trial. It will never produce an efficacy result. Its value is in characterising the full phenotype spectrum and the reasons for the striking variability between affected individuals — useful for counselling, not for therapy.
 
 ---
 

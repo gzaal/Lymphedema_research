@@ -77,7 +77,7 @@
       "findings_updated": 0,
       "alerts_generated": 0,
       "errors": [
-        "Write permission blocked subdirectory writes \u2014 data staged in temp_scan_papers.json at project root"
+        "Write permission blocked subdirectory writes — data staged in temp_scan_papers.json at project root"
       ],
       "notes": "W22 scan 1 (Tuesday 2026-05-26): 8 papers added (5 fresh this week + 3 stale catch-up). 4 secondary/off-scope dropped. Papers staged in temp_scan_papers.json; apply_w22_scans.py written for merge. Permission fix staged in settings.local.FIXED.json.",
       "token_usage_estimate": "scan cycle"
@@ -93,9 +93,9 @@
       "findings_updated": 0,
       "alerts_generated": 0,
       "errors": [
-        "Write permission for subdirectory files requires user approval \u2014 data staged in temp_scan_papers_w22_2.json"
+        "Write permission for subdirectory files requires user approval — data staged in temp_scan_papers_w22_2.json"
       ],
-      "notes": "W22 scan 2 (Thursday 2026-05-28): 4 new papers added (pm_42198873 primary LE pathophysiology histology/molecular, pm_42194793 pediatric vascular malformations review, pm_42003386 VHL/HIF-CXCR4 lymphatic development mouse model, ss_3c57b9 VEGFR3-HSPG2 preprint stale). 9 secondary/off-scope dropped (gynecologic cancer LE dominating this week's PubMed results). 12 trial completion date updates (tracker maintenance only, no phase changes). No alerts \u2014 highest scoring item was VEGFR3-HSPG2 preprint at importance 7 but evidence 2 (preprint, preclinical). Standout: pm_42198873 fresh primary LE tissue study showing reduced fibrosis \u2014 hypothesis-generating. To apply: python3 apply_w22_scans.py.",
+      "notes": "W22 scan 2 (Thursday 2026-05-28): 4 new papers added (pm_42198873 primary LE pathophysiology histology/molecular, pm_42194793 pediatric vascular malformations review, pm_42003386 VHL/HIF-CXCR4 lymphatic development mouse model, ss_3c57b9 VEGFR3-HSPG2 preprint stale). 9 secondary/off-scope dropped (gynecologic cancer LE dominating this week's PubMed results). 12 trial completion date updates (tracker maintenance only, no phase changes). No alerts — highest scoring item was VEGFR3-HSPG2 preprint at importance 7 but evidence 2 (preprint, preclinical). Standout: pm_42198873 fresh primary LE tissue study showing reduced fibrosis — hypothesis-generating. To apply: python3 apply_w22_scans.py.",
       "token_usage_estimate": "scan cycle"
     },
     {
@@ -514,6 +514,26 @@
       ],
       "notes": "W33 scan 3 (Saturday 2026-08-15): PubMed-only (4 queries, reldate 7/14). 16 unique candidate PMIDs surfaced, 6 not already in papers.json, 4 dropped as out-of-scope after triage (lipedema-only systematic review [not lymphedema], explicit secondary/post-surgical lymphedema tissue model, COVID-19-vaccination-induced lymphedema [acquired, non-genetic], IgG4-related-disease lymphedema [acquired obstructive, non-genetic]). 2 added: a multicenter retrospective cohort on sex/age/BMI as predictors of LVA/VLNT outcomes (lymphedema_type unknown, hypothesis-generating, no alert threshold met), and a single-patient case report of scrotal elephantiasis with generalized lymphedema (lymphedema_type unknown, background/context, minimal evidentiary value). No trial status/phase changes across the 13 non-completed tracked trials (re-checked against ClinicalTrials.gov). No alerts generated - neither new paper met importance>=7 AND evidence_strength>=5.",
       "token_usage_estimate": "scan cycle"
+    },
+    {
+      "run_id": "deep_2026-W33_001",
+      "mode": "deep",
+      "started_at": "2026-08-16T09:00:00Z",
+      "completed_at": "2026-08-16T09:00:00Z",
+      "papers_reviewed": 24,
+      "papers_added": 4,
+      "papers_incorporated": 24,
+      "trials_updated": 2,
+      "findings_updated": 16,
+      "alerts_generated": 1,
+      "notes": "W33 deep synthesis. Main event was not the digest window itself (4 scan-added papers, all low-value) but discovery of a 20-paper unincorporated backlog: 33 papers ingested by scan_2026-W30_001 on 2026-07-21 carry status 'active' rather than 'new', so both the W31 and W32 deep runs — which select on status=='new' — skipped them entirely. Among them was a Journal of Clinical Investigation paper (relevance 9/10) identifying PLXND1 as a lymphatic mechanosensor with two functionally-characterised pathogenic variants in primary lymphedema patients, which had been sitting unread for 26 days. This is a pipeline selection bug, not a scope-pollution recurrence. 20 backlog + W33-window papers incorporated this run; 4 new in-scope papers added from this run's own PubMed sweep; 12 new findings created and 4 updated; 2 primary-scope trials added to the tracker (RLY-2608 PROS Phase 2, GATA2 deficiency natural history). 57 papers remain unincorporated (mostly relevance 3-5 imaging/surgical/review items and the 12 rel-None 2026-08-01/08-04 scan additions); these are a standing backlog, not a new problem.",
+      "alerts": [
+        {
+          "severity": "high",
+          "type": "pipeline_bug",
+          "message": "Deep-run paper selection filters on status=='new' but scan_2026-W30_001 wrote status=='active' for 33 papers, silently excluding them from two consecutive deep syntheses. Highest-relevance paper in the corpus (pm_42383350, JCI, PLXND1, relevance 9) was missed for 26 days. Fix: select on status not in ('incorporated','purged') rather than == 'new', and standardise the status vocabulary across scan and deep writers."
+        }
+      ]
     }
   ]
 }
