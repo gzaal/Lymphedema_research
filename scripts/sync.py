@@ -4,13 +4,18 @@ Sync Lymphedema research output to Google Drive.
 
 Uses Google Drive for Desktop — copies files to the synced folder.
 """
+import os
 import shutil
 import sys
 from pathlib import Path
 from datetime import datetime
 
-LOCAL_OUTPUT = Path("/Users/geertzaal/Developer/Lymphedema_research/output")
-GDRIVE_PATH = Path("/Users/geertzaal/Library/CloudStorage/GoogleDrive-geert.zaal@gmail.com/My Drive/Lymphedema")
+LOCAL_OUTPUT = Path(__file__).resolve().parent.parent / "output"
+
+# Google Drive for Desktop path is machine-specific. Override with
+# LYMPHEDEMA_GDRIVE_PATH; the default points at this machine's synced folder.
+_default_gdrive = Path.home() / "Library/CloudStorage/GoogleDrive-geert.zaal@gmail.com/My Drive/Lymphedema"
+GDRIVE_PATH = Path(os.environ.get("LYMPHEDEMA_GDRIVE_PATH", _default_gdrive))
 
 
 def sync():
@@ -25,26 +30,24 @@ def sync():
 
     copied = 0
 
-    # Sync knowledge base
-    kb_src = LOCAL_OUTPUT / "knowledge-base"
-    if kb_src.exists():
-        for f in kb_src.glob("*.md"):
-            shutil.copy2(f, GDRIVE_PATH / "Knowledge Base" / f.name)
+    def copy_into(src_dir, dst_subdir):
+        nonlocal copied
+        src = LOCAL_OUTPUT / src_dir
+        if not src.exists():
+            return
+        for f in src.glob("*.md"):
+            dst = GDRIVE_PATH / dst_subdir / f.name
+            # The Google Drive virtual filesystem raises EDEADLK when an existing
+            # file is opened for overwrite via shutil.copy2 (which also copies
+            # metadata). Remove the destination first and copy data only.
+            if dst.exists():
+                dst.unlink()
+            shutil.copyfile(f, dst)
             copied += 1
 
-    # Sync digests
-    digest_src = LOCAL_OUTPUT / "digests"
-    if digest_src.exists():
-        for f in digest_src.glob("*.md"):
-            shutil.copy2(f, GDRIVE_PATH / "Weekly Digests" / f.name)
-            copied += 1
-
-    # Sync alerts
-    alerts_src = LOCAL_OUTPUT / "alerts"
-    if alerts_src.exists():
-        for f in alerts_src.glob("*.md"):
-            shutil.copy2(f, GDRIVE_PATH / "Alerts" / f.name)
-            copied += 1
+    copy_into("knowledge-base", "Knowledge Base")
+    copy_into("digests", "Weekly Digests")
+    copy_into("alerts", "Alerts")
 
     print(f"Synced {copied} files to {GDRIVE_PATH} at {datetime.now().isoformat()}")
 
