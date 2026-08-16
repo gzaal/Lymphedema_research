@@ -2,7 +2,7 @@
   "findings": [
     {
       "id": "finding_adrc_lipotransfer_negative_rct_2024",
-      "scope_note": "SECONDARY LYMPHEDEMA ONLY (BCRL). Not applicable to primary lymphedema. Retained for completeness of evidence record \u2014 the RCT design and negative result may inform evidence standards across the field.",
+      "scope_note": "SECONDARY LYMPHEDEMA ONLY (BCRL). Not applicable to primary lymphedema. Retained for completeness of evidence record — the RCT design and negative result may inform evidence standards across the field.",
       "title": "ADRC + Lipotransfer Ineffective for BCRL: High-Quality Negative RCT",
       "dimension": "pharmacological",
       "status": "established",
@@ -20,7 +20,7 @@
         {
           "date": "2026-04-12",
           "confidence": "high",
-          "note": "Baseline synthesis: J\u00f8rgensen 2024 PRS double-blind RCT (n=80, 1-year follow-up) is the primary evidence. Pre-RCT, observational data had suggested possible benefit. RCT clearly refutes this. High decision value: prunes ADRC+lipotransfer from future investigation unless substantially different protocols are proposed."
+          "note": "Baseline synthesis: Jørgensen 2024 PRS double-blind RCT (n=80, 1-year follow-up) is the primary evidence. Pre-RCT, observational data had suggested possible benefit. RCT clearly refutes this. High decision value: prunes ADRC+lipotransfer from future investigation unless substantially different protocols are proposed."
         }
       ]
     },
@@ -31,7 +31,7 @@
       "status": "hypothesis_generating",
       "confidence": "low_to_moderate",
       "direction": "mixed",
-      "summary": "The Lymfactin Phase II RCT (n=39, multicenter, double-blind, placebo-controlled) evaluated adenoviral VEGF-C gene therapy co-administered with VLNT surgery for BCRL. Primary endpoints (edema volume, QoL, lymphoscintigraphy at 12 months) showed no statistically significant difference between Lymfactin and placebo. A secondary endpoint \u2014 tissue dielectric constant (TDC) ratio, a device measure of skin interstitial fluid \u2014 favoured Lymfactin (P=0.020). Importantly, both arms improved vs baseline, providing the first controlled evidence that VLNT itself produces meaningful improvement.",
+      "summary": "The Lymfactin Phase II RCT (n=39, multicenter, double-blind, placebo-controlled) evaluated adenoviral VEGF-C gene therapy co-administered with VLNT surgery for BCRL. Primary endpoints (edema volume, QoL, lymphoscintigraphy at 12 months) showed no statistically significant difference between Lymfactin and placebo. A secondary endpoint — tissue dielectric constant (TDC) ratio, a device measure of skin interstitial fluid — favoured Lymfactin (P=0.020). Importantly, both arms improved vs baseline, providing the first controlled evidence that VLNT itself produces meaningful improvement.",
       "clinical_implications": "Lymfactin's additive benefit over VLNT surgery alone is not established by primary endpoints. The TDC secondary signal is hypothesis-generating. The trial is underpowered (n=39) and 12 months may be insufficient for lymphangiogenesis maturation. VLNT's independent efficacy is strengthened by its effect in the placebo arm of a controlled trial.",
       "supporting_papers": [
         "ss_34a59f07784ed3fa9659643d47109f31d6ef7284"
@@ -43,7 +43,7 @@
         {
           "date": "2026-04-12",
           "confidence": "low_to_moderate",
-          "note": "Baseline synthesis: Rannikko 2025 PRS Phase II RCT. Primary endpoints missed. Secondary biomarker (TDC ratio) significant at P=0.020. Small n (39). The trial establishes VLNT efficacy in controlled setting \u2014 a secondary finding of considerable independent value. Lymfactin's drug effect unproven. Lymfactin Phase I (Pajula 2025 JPRAS) also published; 12 patients, 4-year follow-up; 6/12 reduced/discontinued compression; positive QoL but uncontrolled."
+          "note": "Baseline synthesis: Rannikko 2025 PRS Phase II RCT. Primary endpoints missed. Secondary biomarker (TDC ratio) significant at P=0.020. Small n (39). The trial establishes VLNT efficacy in controlled setting — a secondary finding of considerable independent value. Lymfactin's drug effect unproven. Lymfactin Phase I (Pajula 2025 JPRAS) also published; 12 patients, 4-year follow-up; 6/12 reduced/discontinued compression; positive QoL but uncontrolled."
         }
       ]
     },
@@ -185,7 +185,7 @@
       "confidence": "low_to_moderate",
       "direction": "positive",
       "summary": "PIEZO1, a mechanosensitive ion channel, is a critical regulator of lymphatic development and valve formation. Loss-of-function PIEZO1 variants cause autosomal-recessive primary lymphedema (lymphatic malformation type 6), including presentations with neonatal hydrops, chylothorax, and multi-region lymphedema. Sabine et al. (Journal of Clinical Investigation, May 2024) provide direct mechanistic data: in lymphatic endothelial cells, PIEZO1 activation triggers exocytosis of ANGPT2 and ectodomain shedding of TIE1, placing PIEZO1 upstream of the ANGPT2/TIE/FOXO1 signaling axis already implicated in primary lymphedema genetics. In preclinical mouse models, the PIEZO1 agonist Yoda1 suppressed post-surgical lymphedema. A separate case report (2023) documents persistent chylothorax as a presenting feature of biallelic PIEZO1 variants, extending the recognized phenotypic spectrum.",
-      "clinical_implications": "This is now one of the better-mechanistically-supported pathways in primary lymphedema genetics: human genetic association (PIEZO1 variants cause disease), a defined molecular mechanism (PIEZO1->ANGPT2->TIE1/FOXO1), and a preclinical pharmacologic proof-of-concept (Yoda1 in mice). It is not a treatment \u2014 Yoda1 has not been tested in humans, and mouse post-surgical lymphedema models have a poor track record of translating to human primary lymphedema (see preclinical translation caveat used throughout this KB). The chylothorax case report is a reminder that PIEZO1-related disease can present outside the limbs and should prompt genetic testing in atypical presentations.",
+      "clinical_implications": "This is now one of the better-mechanistically-supported pathways in primary lymphedema genetics: human genetic association (PIEZO1 variants cause disease), a defined molecular mechanism (PIEZO1->ANGPT2->TIE1/FOXO1), and a preclinical pharmacologic proof-of-concept (Yoda1 in mice). It is not a treatment — Yoda1 has not been tested in humans, and mouse post-surgical lymphedema models have a poor track record of translating to human primary lymphedema (see preclinical translation caveat used throughout this KB). The chylothorax case report is a reminder that PIEZO1-related disease can present outside the limbs and should prompt genetic testing in atypical presentations.",
       "supporting_papers": [
         "pm_37159433",
         "ss_b4233ea6b9216a6998f0e4f1c5dcacb33af43944",
@@ -204,7 +204,7 @@
         {
           "date": "2026-08-02",
           "confidence": "low_to_moderate",
-          "note": "W31 2026 deep synthesis: This finding has carried an empty supporting_papers list since 2026-04-12 despite describing a specific mechanism (PIEZO1->ANGPT2->TIE/FOXO1) verbatim \u2014 traced the claim to its source paper (Sabine et al., JCI 2024) and added it, plus a 2023 case report extending the phenotype to isolated chylothorax. Confidence raised from 'low' to 'low_to_moderate': the mechanism is now backed by an identifiable, well-designed mechanistic study rather than an uncited claim, though it remains preclinical/mouse-model evidence for the therapeutic angle specifically."
+          "note": "W31 2026 deep synthesis: This finding has carried an empty supporting_papers list since 2026-04-12 despite describing a specific mechanism (PIEZO1->ANGPT2->TIE/FOXO1) verbatim — traced the claim to its source paper (Sabine et al., JCI 2024) and added it, plus a 2023 case report extending the phenotype to isolated chylothorax. Confidence raised from 'low' to 'low_to_moderate': the mechanism is now backed by an identifiable, well-designed mechanistic study rather than an uncited claim, though it remains preclinical/mouse-model evidence for the therapeutic angle specifically."
         },
         {
           "date": "2026-08-09",
@@ -244,7 +244,7 @@
       "confidence": "moderate_to_high",
       "direction": "positive",
       "summary": "L-Dex (bioimpedance spectroscopy) has accumulated evidence as a reliable method for detecting subclinical BCRL before clinical signs appear. Growing adoption in oncology centers for post-ALND surveillance to trigger early CDT intervention.",
-      "clinical_implications": "L-Dex provides an objective, quantitative measure for early BCRL detection at a subclinical stage when CDT intervention is most effective. L-Dex is a surrogate biomarker \u2014 it does not directly measure lymphatic function.",
+      "clinical_implications": "L-Dex provides an objective, quantitative measure for early BCRL detection at a subclinical stage when CDT intervention is most effective. L-Dex is a surrogate biomarker — it does not directly measure lymphatic function.",
       "supporting_papers": [],
       "contradicting_papers": [],
       "evidence_quality": "systematic_review_observational",
@@ -272,11 +272,13 @@
         "pm_42028378",
         "pm_42085896",
         "pm_42208734",
-        "ss_6fce34c4a461b29ec2ba2613fb2159944a4cdbc9"
+        "ss_6fce34c4a461b29ec2ba2613fb2159944a4cdbc9",
+        "pm_41997536",
+        "pm_42594515"
       ],
       "contradicting_papers": [],
       "evidence_quality": "field_wide_assessment",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-16",
       "evolution_log": [
         {
           "date": "2026-04-12",
@@ -286,7 +288,7 @@
         {
           "date": "2026-05-10",
           "confidence": "high",
-          "note": "W19 2026 deep synthesis: Two W19 items reinforce the persistent gap. (1) pm_42028378 (JPRAS Open) \u2014 bibliometric of 50 most-cited lymphatic surgery papers confirms case series dominance. (2) pm_42085896 (J Surg Res) \u2014 single-center retrospective of 51 LLL patients comparing VLNT recipient sites. No new RCT in primary scope."
+          "note": "W19 2026 deep synthesis: Two W19 items reinforce the persistent gap. (1) pm_42028378 (JPRAS Open) — bibliometric of 50 most-cited lymphatic surgery papers confirms case series dominance. (2) pm_42085896 (J Surg Res) — single-center retrospective of 51 LLL patients comparing VLNT recipient sites. No new RCT in primary scope."
         },
         {
           "date": "2026-06-14",
@@ -296,7 +298,12 @@
         {
           "date": "2026-08-02",
           "confidence": "high",
-          "note": "W31 2026 deep synthesis: Added 2 more studies, both still within the established evidence-gap pattern: (1) a retrospective, single-arm study of LVA specifically in adult-onset primary lower-limb lymphedema (no control arm); (2) a retrospective University Hospital Zurich cohort (2016-2023) comparing LVA/VLNT outcomes between primary and secondary lymphedema patients \u2014 notable because it is one of the few surgical-outcomes studies with a defined comparator group by lymphedema etiology, but the comparator is etiology-based, not surgery-vs-no-surgery, so it does not close the RCT gap this finding tracks. Confidence remains high for the core claim (no RCT evidence exists comparing surgical to non-surgical management); primary-lymphedema-specific surgical case volume is slowly growing but the evidence tier is unchanged."
+          "note": "W31 2026 deep synthesis: Added 2 more studies, both still within the established evidence-gap pattern: (1) a retrospective, single-arm study of LVA specifically in adult-onset primary lower-limb lymphedema (no control arm); (2) a retrospective University Hospital Zurich cohort (2016-2023) comparing LVA/VLNT outcomes between primary and secondary lymphedema patients — notable because it is one of the few surgical-outcomes studies with a defined comparator group by lymphedema etiology, but the comparator is etiology-based, not surgery-vs-no-surgery, so it does not close the RCT gap this finding tracks. Confidence remains high for the core claim (no RCT evidence exists comparing surgical to non-surgical management); primary-lymphedema-specific surgical case volume is slowly growing but the evidence tier is unchanged."
+        },
+        {
+          "date": "2026-08-16",
+          "confidence": "high",
+          "note": "deep_2026-W33_001: two further data points, confidence unchanged at high. (1) A guideline-directed systematic review found that of 145 contemporary lymphedema RCTs (2010-2025), only 7 addressed intermittent pneumatic compression in the lower extremity versus 21 in the upper extremity — quantifying an upper/lower-limb asymmetry that matters specifically for primary lymphedema, which is predominantly lower-limb. Tracked at finding_ipc_lower_extremity_rct_scarcity_2026. (2) A multicentre LVA/VLNT cohort examining sex/age/BMI predictors is again retrospective, single-arm and volume-surrogate-based, i.e. it adds to the descriptive surgical literature without addressing the missing-RCT problem. Nothing this cycle narrows the gap."
         }
       ]
     },
@@ -308,7 +315,7 @@
       "confidence": "low_to_moderate",
       "direction": "positive",
       "summary": "Two related publications (Filina et al., Current Issues in Molecular Biology, January 2026; and Monaghan et al., Clinical Genetics, December 2024) use in vitro kinase assays and clinical cohort screening (n=24 primary lymphedema patients) to reclassify FLT4 'variants of uncertain significance' (VUS) in Milroy disease. The c.3175G>C variant (p.A1059P) shows measurably decreased VEGFR3 kinase activity in vitro. Monaghan et al. additionally identify a novel likely-pathogenic variant (c.3028A>C) and support pathogenicity of c.3175G>C and c.3298T>C in their own cohort. A third paper (Ta-Shma/Krantz group style mechanistic study, Cardiovascular Research 2024) shows FLT4 variants causing Tetralogy of Fallot aggregate FLT4 protein differently in endothelial cells than Milroy-causing variants, offering a candidate mechanism for why FLT4 mutations produce non-overlapping cardiac vs. lymphatic phenotypes. A fourth report (Birth Defects Research 2023) describes two further novel FLT4 variants (p.Ser1275Thr, p.Ser1275Arg) in prenatally diagnosed hereditary lymphedema type 1.",
-      "clinical_implications": "The FLT4/VEGFR3 variant catalog for Milroy disease continues to grow steadily; functional (kinase activity) data remain the strongest available tool for reclassifying VUS, but only a minority of reported variants have been functionally tested. The TOF-vs-Milroy mechanistic divergence work is preclinical (transfected endothelial cells) and does not yet change genetic counseling \u2014 pleiotropy should still be assumed possible for any novel FLT4 variant until proven otherwise. None of these four papers report a therapeutic intervention; all are diagnostic/mechanistic.",
+      "clinical_implications": "The FLT4/VEGFR3 variant catalog for Milroy disease continues to grow steadily; functional (kinase activity) data remain the strongest available tool for reclassifying VUS, but only a minority of reported variants have been functionally tested. The TOF-vs-Milroy mechanistic divergence work is preclinical (transfected endothelial cells) and does not yet change genetic counseling — pleiotropy should still be assumed possible for any novel FLT4 variant until proven otherwise. None of these four papers report a therapeutic intervention; all are diagnostic/mechanistic.",
       "supporting_papers": [
         "pm_36538874",
         "pm_38713105",
@@ -322,12 +329,12 @@
         {
           "date": "2026-04-15",
           "confidence": "low_to_moderate",
-          "note": "W16 2026 deep synthesis: Filina 2026 (Curr Issues Mol Biol) \u2014 in vitro kinase assay showing c.3175G>C has decreased VEGFR3 kinase activity. Monaghan 2024 (Cardiovascular Research) \u2014 pleiotropic FLT4 mechanisms distinguish cardiac from lymphedema variants."
+          "note": "W16 2026 deep synthesis: Filina 2026 (Curr Issues Mol Biol) — in vitro kinase assay showing c.3175G>C has decreased VEGFR3 kinase activity. Monaghan 2024 (Cardiovascular Research) — pleiotropic FLT4 mechanisms distinguish cardiac from lymphedema variants."
         },
         {
           "date": "2026-08-02",
           "confidence": "low_to_moderate",
-          "note": "W31 2026 deep synthesis: Added 3 more papers to the FLT4 variant-catalog and mechanism literature: a companion functional paper (Monaghan et al. 2024) that was previously described narratively but not linked in supporting_papers, 2 more novel variants from a small prenatal case series (n=2), and a cell-based mechanistic paper on FLT4 pleiotropy (cardiac vs. lymphatic phenotype divergence). None of these change the confidence tier \u2014 still functional-VUS-reclassification-level evidence, not RCT or large-cohort replication. Confidence remains low_to_moderate."
+          "note": "W31 2026 deep synthesis: Added 3 more papers to the FLT4 variant-catalog and mechanism literature: a companion functional paper (Monaghan et al. 2024) that was previously described narratively but not linked in supporting_papers, 2 more novel variants from a small prenatal case series (n=2), and a cell-based mechanistic paper on FLT4 pleiotropy (cardiac vs. lymphatic phenotype divergence). None of these change the confidence tier — still functional-VUS-reclassification-level evidence, not RCT or large-cohort replication. Confidence remains low_to_moderate."
         }
       ]
     },
@@ -338,7 +345,7 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
-      "summary": "Yang et al. (Journal of Clinical Investigation, March 2026) used inducible lymphatic endothelial cell-specific deletion of ETS transcription factors Erg and Fli1 in adult mice to show that combined loss causes fatal lymphatic failure \u2014 including chylothorax, chylous ascites, and impaired lymphatic drainage. Single deletion of either factor alone was not lethal, indicating cooperative/redundant function.",
+      "summary": "Yang et al. (Journal of Clinical Investigation, March 2026) used inducible lymphatic endothelial cell-specific deletion of ETS transcription factors Erg and Fli1 in adult mice to show that combined loss causes fatal lymphatic failure — including chylothorax, chylous ascites, and impaired lymphatic drainage. Single deletion of either factor alone was not lethal, indicating cooperative/redundant function.",
       "clinical_implications": "Erg and Fli1 are not currently classified as primary lymphedema disease genes in humans, but their cooperative requirement for lymphatic valve gene programs and LEC identity places them in the same regulatory network as FOXC2, PROX1, and GATA2.",
       "supporting_papers": [
         "pm_41460562"
@@ -408,7 +415,7 @@
       "confidence": "low_to_moderate",
       "direction": "positive",
       "summary": "Liu et al. (Vascular Medicine, February 2026) report MR thoracic ductography (MRTD) findings in 279 patients with primary lower-extremity lymphedema stratified by ISL stage (I/II/III). The study proposes imaging features of the central lymphatic system that correlate with clinical stage. This is one of the largest imaging cohorts limited to primary lymphedema published to date.",
-      "clinical_implications": "Suggests MRTD may have a role in pre-operative characterization of primary lymphedema beyond peripheral ICG lymphography. Not yet validated against treatment-outcome data. Imaging is a surrogate \u2014 correlation with clinical stage is expected and does not establish prognostic or treatment-predictive value.",
+      "clinical_implications": "Suggests MRTD may have a role in pre-operative characterization of primary lymphedema beyond peripheral ICG lymphography. Not yet validated against treatment-outcome data. Imaging is a surrogate — correlation with clinical stage is expected and does not establish prognostic or treatment-predictive value.",
       "supporting_papers": [
         "pm_41680966",
         "pm_42071173"
@@ -431,24 +438,30 @@
     },
     {
       "id": "finding_lpa_foxc2_axis_2026",
-      "title": "LPA \u2192 LPA4/LPA6 \u2192 Rho-Kinase \u2192 NF-\u03baB \u2192 FOXC2 Axis Defines a Druggable Upstream Pathway for Lymphatic Valve Maintenance",
+      "title": "LPA → LPA4/LPA6 → Rho-Kinase → NF-κB → FOXC2 Axis Defines a Druggable Upstream Pathway for Lymphatic Valve Maintenance",
       "dimension": "genetics",
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
-      "summary": "Yasuda et al. (Journal of Clinical Investigation, January 2026) identified the GPCR pair LPA4 and LPA6 \u2014 receptors for the bioactive lipid lysophosphatidic acid (LPA) \u2014 as upstream regulators of FOXC2 expression and lymphatic valve formation. Lymphatic-endothelial-cell-specific deletion of Lpa4 and Lpa6 in mice phenocopies LEC-specific Foxc2 deletion. Pharmacologic inhibition of NF-\u03baB or Rho-kinase impaired valve maintenance.",
-      "clinical_implications": "Mechanistic preclinical work only \u2014 does not change current care for lymphedema-distichiasis. The axis suggests testable hypotheses for future LDS-targeted therapeutics. None of this is clinically actionable today.",
+      "summary": "Yasuda et al. (Journal of Clinical Investigation, January 2026) identified the GPCR pair LPA4 and LPA6 — receptors for the bioactive lipid lysophosphatidic acid (LPA) — as upstream regulators of FOXC2 expression and lymphatic valve formation. Lymphatic-endothelial-cell-specific deletion of Lpa4 and Lpa6 in mice phenocopies LEC-specific Foxc2 deletion. Pharmacologic inhibition of NF-κB or Rho-kinase impaired valve maintenance.",
+      "clinical_implications": "Mechanistic preclinical work only — does not change current care for lymphedema-distichiasis. The axis suggests testable hypotheses for future LDS-targeted therapeutics. None of this is clinically actionable today.",
       "supporting_papers": [
-        "pm_41528806"
+        "pm_41528806",
+        "pm_42539123"
       ],
       "contradicting_papers": [],
       "evidence_quality": "level_5_preclinical_mouse",
-      "last_updated": "2026-05-03",
+      "last_updated": "2026-08-16",
       "evolution_log": [
         {
           "date": "2026-05-03",
           "confidence": "low",
           "note": "W18 2026 deep synthesis: Yasuda et al., JCI 2026-01-13 (PMID 41528806). LEC-specific Lpa4/Lpa6 conditional knockouts recapitulate FOXC2-deficient valve phenotype. No human translation steps reported."
+        },
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "deep_2026-W33_001: a bioRxiv preprint reports CXCL12/CXCR4 signalling governing lymphatic valve formation through flow-dependent AKT/FOXO1/FOXC2 activation — a second upstream route converging on FOXC2, alongside the LPA/Rho-kinase/NF-kB route recorded here. The convergence is notable (FOXC2 is an established human lymphedema-distichiasis gene and multiple independent upstream signals now map onto it), but the source is a non-peer-reviewed preprint in mice, so confidence stays low. Tracked in full at finding_cxcr4_lymphatic_valve_development_2026."
         }
       ]
     },
@@ -499,7 +512,7 @@
         {
           "date": "2026-06-14",
           "confidence": "low",
-          "note": "W24 2026 deep synthesis: pm_42231627 (Microcirculation) \u2014 scRNA-seq/confocal localized Glp1r to lymphatic endothelium; semaglutide raised collecting-lymphatic pumping ex vivo in WT, diet-induced-obese and ApoE-KO mice (NO-mediated). Provides a direct lymphatic-pumping mechanism beyond weight loss, but remains ex-vivo/animal data with no human or primary-lymphedema outcomes. Confidence stays LOW (preclinical; translation record in lymphatics is poor)."
+          "note": "W24 2026 deep synthesis: pm_42231627 (Microcirculation) — scRNA-seq/confocal localized Glp1r to lymphatic endothelium; semaglutide raised collecting-lymphatic pumping ex vivo in WT, diet-induced-obese and ApoE-KO mice (NO-mediated). Provides a direct lymphatic-pumping mechanism beyond weight loss, but remains ex-vivo/animal data with no human or primary-lymphedema outcomes. Confidence stays LOW (preclinical; translation record in lymphatics is poor)."
         }
       ]
     },
@@ -513,27 +526,34 @@
       "summary": "Bowles et al. (Arteriosclerosis, Thrombosis, and Vascular Biology, 2026) used Flt4CreERT2;Kras-LSL-G12D;Prox1GFP mice and KRAS-G12D-expressing human dermal lymphatic endothelial cells to show lymphatic-restricted KRAS-G12D significantly attenuated valve development. KRAS-G12D LECs upregulated matrix metalloproteinases (MMPs); pharmacologic MMP inhibition rescued valve formation in 3D culture.",
       "clinical_implications": "Identifies MMP inhibition as a candidate strategy in KRAS-mutant lymphatic anomalies. No MMP inhibitor is currently in human lymphatic-disease trials. Lymphedema preclinical translation has a poor track record.",
       "supporting_papers": [
-        "pm_41884898"
+        "pm_41884898",
+        "pm_42528282",
+        "pm_42576614"
       ],
       "contradicting_papers": [],
       "evidence_quality": "level_5_preclinical",
-      "last_updated": "2026-05-10",
+      "last_updated": "2026-08-16",
       "evolution_log": [
         {
           "date": "2026-05-10",
           "confidence": "low",
           "note": "W19 2026 deep synthesis: Bowles 2026 ATVB. Mouse cKO + 3D culture of human LECs. Mechanism plausible. Decision usefulness held to 4/10: no MMP inhibitor in human lymphatic-disease trials."
+        },
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "deep_2026-W33_001: two papers extend the RAS-driven lymphatic anomaly picture without changing confidence. (1) Disease Models & Mechanisms (Jul 2026) used mice carrying missense mutations in the RAS-binding domain of PI3Kalpha to show that RAS-PI3Kalpha binding contributes to developmental and KRAS-G12D-induced lymphangiogenesis — i.e. the PI3K arm, not only the MAPK arm, is engaged downstream of KRAS in lymphatic overgrowth. (2) J Cell Mol Med (Aug 2026) reports that the RAS(ON) multi-selective inhibitor RMC-7977 blocks overgrowth in NRAS-mutant human endothelial cells, raising upstream RAS inhibition as an alternative to downstream MEK inhibition. Both are preclinical (mouse genetics, cell culture); neither reports animal efficacy in a lymphatic anomaly disease model or any human data. Confidence unchanged at low. Read alongside finding_shoc2_ccla_trametinib_nonresponse_2026, where a MEK inhibitor failed clinically in a RAS-pathway CCLA patient — the case for targeting RAS at a different node is mechanistically coherent but entirely untested in patients."
         }
       ]
     },
     {
       "id": "finding_rasmap_nonsynd_primary_le_2025",
-      "title": "RAS-MAPK Pathway Variants (LZTR1, MAP2K1, RAF1) Identified in Non-Syndromic Primary Lymphedema \u2014 First Report",
+      "title": "RAS-MAPK Pathway Variants (LZTR1, MAP2K1, RAF1) Identified in Non-Syndromic Primary Lymphedema — First Report",
       "dimension": "genetics",
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
-      "summary": "Belanova et al. (Lymphology, August 2025; PMID 40803040) retrospectively analyzed 408 Italian primary lymphedema patients and identified five variants in LZTR1, MAP2K1, and RAF1 \u2014 four previously unreported \u2014 with in silico molecular modeling supporting potential pathogenicity for a RAF1 variant. Critically, the study patients did not carry a Noonan syndrome diagnosis; the variants appeared in clinically non-syndromic primary lymphedema. A PubMed search returns zero prior publications linking LZTR1 to lymphedema in any context. RAF1 and MAP2K1 in the lymphedema context have been reported exclusively in syndromic Noonan/RASopathy prior to this paper.",
+      "summary": "Belanova et al. (Lymphology, August 2025; PMID 40803040) retrospectively analyzed 408 Italian primary lymphedema patients and identified five variants in LZTR1, MAP2K1, and RAF1 — four previously unreported — with in silico molecular modeling supporting potential pathogenicity for a RAF1 variant. Critically, the study patients did not carry a Noonan syndrome diagnosis; the variants appeared in clinically non-syndromic primary lymphedema. A PubMed search returns zero prior publications linking LZTR1 to lymphedema in any context. RAF1 and MAP2K1 in the lymphedema context have been reported exclusively in syndromic Noonan/RASopathy prior to this paper.",
       "clinical_implications": "If replicated, this finding would blur the diagnostic boundary between syndromic RASopathy (Noonan syndrome + lymphedema) and non-syndromic primary lymphedema, suggesting germline RAS/MAPK pathway activation below the Noonan syndrome threshold can still disrupt lymphatic development. Immediate clinical implications are limited: no functional validation was performed, the Italian cohort may have population-specific effects, and independent replication is required before these genes are added to standard primary-lymphedema gene panels. Genetic counselors encountering primary lymphedema patients with LZTR1, MAP2K1, or RAF1 variants of uncertain significance may cite this paper as early-stage supporting evidence, but should not treat it as established.",
       "supporting_papers": [
         "ss_a622e50bc2d8f6e8b8766cf28731dbce4da330e5"
@@ -545,7 +565,7 @@
         {
           "date": "2026-05-24",
           "confidence": "low",
-          "note": "W22 2026 deep synthesis: Belanova et al., Lymphology Aug 2025 (PMID 40803040). Italian cohort n=408, retrospective. 5 variants in LZTR1/MAP2K1/RAF1, 4 novel. Computational pathogenicity only \u2014 no functional assays. Zero PubMed hits for LZTR1+lymphedema. RAF1 and MAP2K1 in lymphedema context previously reported only in syndromic Noonan. Companion paper (same cohort): HGF-MET pathway (Koz\u00e1\u010dikov\u00e1 2025, PMID 40245437). Importance 6 / Evidence 4 / Novelty 7 / Decision 3 / Calibration 8."
+          "note": "W22 2026 deep synthesis: Belanova et al., Lymphology Aug 2025 (PMID 40803040). Italian cohort n=408, retrospective. 5 variants in LZTR1/MAP2K1/RAF1, 4 novel. Computational pathogenicity only — no functional assays. Zero PubMed hits for LZTR1+lymphedema. RAF1 and MAP2K1 in lymphedema context previously reported only in syndromic Noonan. Companion paper (same cohort): HGF-MET pathway (Kozáčiková 2025, PMID 40245437). Importance 6 / Evidence 4 / Novelty 7 / Decision 3 / Calibration 8."
         }
       ]
     },
@@ -556,7 +576,7 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
-      "summary": "Koz\u00e1\u010dikov\u00e1 et al. (Lymphology, April 2025; PMID 40245437) identified 8 variants in HGF, MET, and CBL genes in 408 Italian primary lymphedema patients \u2014 7 previously unreported. Molecular modeling supported pathogenicity of 2 MET missense variants. HGF-MET is a recognized secondary-tier lymphedema pathway: HGF as a lymphangiogenesis factor was established in 2005 (Kajiya), HGF/MET mutations in primary lymphedema were first reported in 2008 (Finegold, PMID 18564920), and the same Italian group included MET/HGF in their 2018 NGS panel of 116 patients. The 2025 paper is the largest dedicated application of this pathway screen (n=408) and adds 7 novel variants, but does not establish a new pathway.",
+      "summary": "Kozáčiková et al. (Lymphology, April 2025; PMID 40245437) identified 8 variants in HGF, MET, and CBL genes in 408 Italian primary lymphedema patients — 7 previously unreported. Molecular modeling supported pathogenicity of 2 MET missense variants. HGF-MET is a recognized secondary-tier lymphedema pathway: HGF as a lymphangiogenesis factor was established in 2005 (Kajiya), HGF/MET mutations in primary lymphedema were first reported in 2008 (Finegold, PMID 18564920), and the same Italian group included MET/HGF in their 2018 NGS panel of 116 patients. The 2025 paper is the largest dedicated application of this pathway screen (n=408) and adds 7 novel variants, but does not establish a new pathway.",
       "clinical_implications": "HGF-MET is on some existing comprehensive gene panels (20+ gene academic panels) but is behind VEGFR-3/FLT4, FOXC2, GATA2, and PROX1 in diagnostic yield. This study does not produce a practice-changing finding but contributes to the ongoing effort to resolve the ~64% of familial and ~92% of sporadic primary lymphedema cases without a molecular diagnosis. Variant yield (~2% of cohort had HGF/MET/CBL variants) is consistent with prior data from this group.",
       "supporting_papers": [
         "ss_0cb58994c5e1b09a3057426b5aad44b44894150f",
@@ -569,12 +589,12 @@
         {
           "date": "2026-05-24",
           "confidence": "low",
-          "note": "W22 2026 deep synthesis: Koz\u00e1\u010dikov\u00e1 et al., Lymphology Apr 2025 (PMID 40245437). Italian cohort n=408. 8 variants in HGF/MET/CBL, 7 novel. Computational pathogenicity only. Extends prior art back to Finegold 2008 and Kajiya 2005. A 2025 review (PMID 40766782) already lists HGF/MET as established lymphedema axis. Companion paper (same cohort): Belanova 2025 RAS-MAPK. Importance 5 / Evidence 4 / Novelty 4 / Decision 3 / Calibration 9."
+          "note": "W22 2026 deep synthesis: Kozáčiková et al., Lymphology Apr 2025 (PMID 40245437). Italian cohort n=408. 8 variants in HGF/MET/CBL, 7 novel. Computational pathogenicity only. Extends prior art back to Finegold 2008 and Kajiya 2005. A 2025 review (PMID 40766782) already lists HGF/MET as established lymphedema axis. Companion paper (same cohort): Belanova 2025 RAS-MAPK. Importance 5 / Evidence 4 / Novelty 4 / Decision 3 / Calibration 9."
         },
         {
           "date": "2026-08-02",
           "confidence": "low",
-          "note": "W31 2026 deep synthesis: Added an independent single-family HGF variant report (Int J Mol Sci, May 2024) that predates the 408-patient Italian cohort HGF/MET/CBL paper. Different cohort, same candidate gene (HGF), n=1 family. This is a second independent line of evidence nominating HGF as a lymphedema candidate gene, but a case report cannot move the confidence tier on its own \u2014 remains low. Note for future curation: this 2024 case report may be part of the prior literature the Italian cohort authors cite as rationale for including HGF/MET/CBL in their panel; treat as background, not independent replication of their specific variants."
+          "note": "W31 2026 deep synthesis: Added an independent single-family HGF variant report (Int J Mol Sci, May 2024) that predates the 408-patient Italian cohort HGF/MET/CBL paper. Different cohort, same candidate gene (HGF), n=1 family. This is a second independent line of evidence nominating HGF as a lymphedema candidate gene, but a case report cannot move the confidence tier on its own — remains low. Note for future curation: this 2024 case report may be part of the prior literature the Italian cohort authors cite as rationale for including HGF/MET/CBL in their panel; treat as background, not independent replication of their specific variants."
         }
       ]
     },
@@ -585,7 +605,7 @@
       "status": "hypothesis_generating",
       "confidence": "low_to_moderate",
       "direction": "positive",
-      "summary": "Cross-sectional, controlled imaging study (American Journal of Medical Genetics Part A, 2026; ingested via 2026-05-09 scan) comparing 10 individuals with Noonan syndrome (4 with peripheral lymphedema, 6 without) to 10 age- and sex-matched cardiovascularly healthy controls using non-contrast T2 MR-lymphangiography, near-infrared fluorescence imaging, and strain-gauge plethysmography. 89% (8/9) of Noonan individuals showed thoracic-duct morphology variations vs 20% (2/10) of controls (p<0.05). Central lymphatic abnormalities were identified in 5/9 Noonan individuals \u2014 including 3 without overt clinical lymphatic disease. Abnormal peripheral collective vessel conduction (retrograde or absent flow) was observed only in Noonan individuals with overt lymphedema.",
+      "summary": "Cross-sectional, controlled imaging study (American Journal of Medical Genetics Part A, 2026; ingested via 2026-05-09 scan) comparing 10 individuals with Noonan syndrome (4 with peripheral lymphedema, 6 without) to 10 age- and sex-matched cardiovascularly healthy controls using non-contrast T2 MR-lymphangiography, near-infrared fluorescence imaging, and strain-gauge plethysmography. 89% (8/9) of Noonan individuals showed thoracic-duct morphology variations vs 20% (2/10) of controls (p<0.05). Central lymphatic abnormalities were identified in 5/9 Noonan individuals — including 3 without overt clinical lymphatic disease. Abnormal peripheral collective vessel conduction (retrograde or absent flow) was observed only in Noonan individuals with overt lymphedema.",
       "clinical_implications": "Suggests that central lymphatic involvement may be common in Noonan syndrome, including in patients without clinically apparent lymphedema. The finding raises the question of whether MR lymphangiography should be considered in selected Noonan patients. It does NOT yet justify population-wide screening. Primary care and cardiology counseling should still be driven by clinical signs.",
       "supporting_papers": [
         "pm_42071173"
@@ -608,7 +628,7 @@
       "status": "hypothesis_generating",
       "confidence": "low_to_moderate",
       "direction": "positive_with_safety_caveat",
-      "summary": "Converging 2025-2026 reports describe targeted pharmacotherapy (mTOR inhibitor sirolimus, and/or MEK inhibitors) for severe neonatal/infant primary lymphatic anomalies \u2014 central conducting lymphatic anomaly (CCLA) and generalized lymphatic anomaly (GLA), including presentations with fetal hydrops. A CCLA case series (pm_40835771, n with pathogenic variants in 4) reported substantial clinical improvement, improved lymphatic flow on MR lymphangiography, and no relapse at mean 10.3 months after taper. A neonatal-GLA-with-hydrops report (pm_42216259) and a narrative synthesis (pm_42194698) point the same direction. However, a paired safety analysis (pm_42217144) found dyslipidemia is near-universal in sirolimus-treated infants (100% hypertriglyceridemia, 90% hypercholesterolemia in n=10) with a strong VigiBase disproportionality signal in infants (aROR 147).",
+      "summary": "Converging 2025-2026 reports describe targeted pharmacotherapy (mTOR inhibitor sirolimus, and/or MEK inhibitors) for severe neonatal/infant primary lymphatic anomalies — central conducting lymphatic anomaly (CCLA) and generalized lymphatic anomaly (GLA), including presentations with fetal hydrops. A CCLA case series (pm_40835771, n with pathogenic variants in 4) reported substantial clinical improvement, improved lymphatic flow on MR lymphangiography, and no relapse at mean 10.3 months after taper. A neonatal-GLA-with-hydrops report (pm_42216259) and a narrative synthesis (pm_42194698) point the same direction. However, a paired safety analysis (pm_42217144) found dyslipidemia is near-universal in sirolimus-treated infants (100% hypertriglyceridemia, 90% hypercholesterolemia in n=10) with a strong VigiBase disproportionality signal in infants (aROR 147).",
       "clinical_implications": "Genotype-directed mTOR/MEK therapy is a promising option for otherwise life-threatening neonatal CCLA/GLA, but all efficacy evidence is case-series/anecdotal with short follow-up and no controls. The new safety data argue for routine lipid monitoring in infants started on sirolimus. Not generalizable to adult-onset primary lymphedema.",
       "supporting_papers": [
         "pm_38750525",
@@ -618,11 +638,12 @@
         "pm_42217144",
         "pm_42503529",
         "ss_52af347b26f7d610d7bb77f94a1e1bb5a3687993",
-        "ss_6c35c7dc7a68bd9cc3d7288591a3c7262e904d3a"
+        "ss_6c35c7dc7a68bd9cc3d7288591a3c7262e904d3a",
+        "pm_42332051"
       ],
       "contradicting_papers": [],
       "evidence_quality": "case_series_plus_pharmacovigilance",
-      "last_updated": "2026-08-09",
+      "last_updated": "2026-08-16",
       "evolution_log": [
         {
           "date": "2026-06-14",
@@ -632,12 +653,17 @@
         {
           "date": "2026-08-02",
           "confidence": "low_to_moderate",
-          "note": "W31 2026 deep synthesis: Added 3 more case-level reports: (1) a complex lymphatic anomaly (CLA) case in which sirolimus monotherapy lost effectiveness over time and trametinib (MEK inhibitor) was added with reported synergistic response \u2014 the first documented trametinib+sirolimus combination case in this line of evidence; (2) sirolimus monotherapy achieving full resolution of tongue lymphangioma circumscriptum over 17 months; (3) sirolimus for recurrent chylothorax/edema in an infant with Noonan syndrome (RASopathy-associated generalized lymphatic anomaly). All three are single case reports with no control arm and non-standardized outcome assessment. They reinforce an accumulating but still uncontrolled case-level signal for mTOR/MEK-targeted therapy across multiple lymphatic-anomaly subtypes and genetic backgrounds (isolated CLA, RASopathy-associated). Confidence tier unchanged (low_to_moderate) \u2014 case-report accumulation does not substitute for a comparative study, and the prior infant-dyslipidemia safety signal from this finding's evolution history still applies."
+          "note": "W31 2026 deep synthesis: Added 3 more case-level reports: (1) a complex lymphatic anomaly (CLA) case in which sirolimus monotherapy lost effectiveness over time and trametinib (MEK inhibitor) was added with reported synergistic response — the first documented trametinib+sirolimus combination case in this line of evidence; (2) sirolimus monotherapy achieving full resolution of tongue lymphangioma circumscriptum over 17 months; (3) sirolimus for recurrent chylothorax/edema in an infant with Noonan syndrome (RASopathy-associated generalized lymphatic anomaly). All three are single case reports with no control arm and non-standardized outcome assessment. They reinforce an accumulating but still uncontrolled case-level signal for mTOR/MEK-targeted therapy across multiple lymphatic-anomaly subtypes and genetic backgrounds (isolated CLA, RASopathy-associated). Confidence tier unchanged (low_to_moderate) — case-report accumulation does not substitute for a comparative study, and the prior infant-dyslipidemia safety signal from this finding's evolution history still applies."
         },
         {
           "date": "2026-08-09",
           "confidence": "low_to_moderate",
           "note": "W32 2026 deep synthesis: Added a 2-case report of prenatal (in-utero, from 32-33 weeks gestation) plus postnatal sirolimus for extensive congenital capillary-lymphatic-venous malformations (CLVMs) with fetal complications (intralesional bleeding, polyhydramnios). Adds a prenatal-initiation data point to the case-level evidence base for mTOR-targeted therapy in severe congenital lymphatic anomalies. Still single-arm case-report evidence with no comparator; confidence tier unchanged at low_to_moderate."
+        },
+        {
+          "date": "2026-08-16",
+          "confidence": "low_to_moderate",
+          "note": "deep_2026-W33_001: two additions pulling in opposite directions, net confidence unchanged at low_to_moderate. Positive: a level IV NICU report (J Perinatol, Jun 2026) describes an imaging-anchored response phenotype for sirolimus in preterm neonates with non-immune hydrops from vascular and lymphatic anomalies — but no abstract or methods are available on PubMed, so cohort size, comparator and response definition cannot be verified, and it is recorded here as a citation rather than as assessable evidence. Negative and more important: in the SHOC2 CCLA report incorporated this cycle (finding_shoc2_ccla_trametinib_nonresponse_2026), trametinib was trialled in a RAS-pathway-variant patient without improvement, with immunoblotting suggesting a non-canonical mTOR rather than canonical RAS-MAPK mechanism. This is the first documented non-response entering this finding's record. It does not refute the sirolimus/trametinib case-report literature, but it is a concrete reminder that this evidence base is built almost entirely from published successes, and that publication bias against non-responders is severe in n=1 targeted-therapy reporting. Explicitly resisting a confidence upgrade this cycle for that reason."
         }
       ]
     },
@@ -648,7 +674,7 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "mechanistic",
-      "summary": "A single-center case-control study (pm_42198873, Lymphatic Research and Biology; 15 primary-lymphedema patients vs 8 controls, biopsies of affected and unaffected limbs) reported significantly REDUCED cutaneous fibrosis in primary lymphedema \u2014 the opposite of the fibrosis-dominated picture in secondary/BCRL lymphedema \u2014 alongside downregulation of CLDN5 and VEGFD and decreased TJP1 (ZO-1) in affected but not unaffected limbs. The authors interpret this as a barrier/permeability-centred pathophysiology rather than fibrotic lymphatic obstruction. Microsurgical outcomes in the same cohort were variable.",
+      "summary": "A single-center case-control study (pm_42198873, Lymphatic Research and Biology; 15 primary-lymphedema patients vs 8 controls, biopsies of affected and unaffected limbs) reported significantly REDUCED cutaneous fibrosis in primary lymphedema — the opposite of the fibrosis-dominated picture in secondary/BCRL lymphedema — alongside downregulation of CLDN5 and VEGFD and decreased TJP1 (ZO-1) in affected but not unaffected limbs. The authors interpret this as a barrier/permeability-centred pathophysiology rather than fibrotic lymphatic obstruction. Microsurgical outcomes in the same cohort were variable.",
       "clinical_implications": "If replicated, this would distinguish primary from secondary lymphedema mechanistically and could reframe therapeutic targets (endothelial junction/permeability rather than anti-fibrotic). For now it is a single small study using molecular surrogates without functional correlation; it does not change management.",
       "supporting_papers": [
         "pm_42198873"
@@ -672,7 +698,7 @@
       "confidence": "low",
       "direction": "clinical_association",
       "summary": "A case report (pm_41589511, AJMG Part A) describes a 10-year-old boy with HLTS due to a heterozygous SOX18 nonsense variant (c.481C>T, p.Gln161Ter) who had a bleeding diathesis with reduced von Willebrand factor and impaired platelet agglutination but NO VWF gene mutation, suggesting the low vWF is secondary to SOX18 dysfunction (SOX18 regulates vWF expression). vWF replacement enabled safe dental procedures.",
-      "clinical_implications": "Practical counseling point: consider assessing von Willebrand factor / coagulation before elective or dental procedures in patients with SOX18-related HLTS. Single-case evidence \u2014 association, not established causation.",
+      "clinical_implications": "Practical counseling point: consider assessing von Willebrand factor / coagulation before elective or dental procedures in patients with SOX18-related HLTS. Single-case evidence — association, not established causation.",
       "supporting_papers": [
         "pm_41589511"
       ],
@@ -694,7 +720,7 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "mechanistic",
-      "summary": "A bioRxiv preprint (ss_3c57b92f..., 2026-01-29) reports that the interaction between VEGFR3 (FLT4 \u2014 the Milroy disease gene) and the heparan-sulfate proteoglycan HSPG2/perlecan is required for normal lymphatic function in an animal model; disrupting it caused lymphatic reflux dysfunction and sepsis. Identifies HSPG2 as a novel VEGFR3 binding partner.",
+      "summary": "A bioRxiv preprint (ss_3c57b92f..., 2026-01-29) reports that the interaction between VEGFR3 (FLT4 — the Milroy disease gene) and the heparan-sulfate proteoglycan HSPG2/perlecan is required for normal lymphatic function in an animal model; disrupting it caused lymphatic reflux dysfunction and sepsis. Identifies HSPG2 as a novel VEGFR3 binding partner.",
       "clinical_implications": "Potentially relevant to VEGFR3-dependent primary lymphedema (Milroy), but this is an unreviewed preprint in an animal model. Lymphatic biology has a poor preclinical-to-clinical translation record; no clinical inference is warranted.",
       "supporting_papers": [
         "ss_3c57b92fa67daab075b1d9baa0c0aa6e14895a8a"
@@ -717,7 +743,7 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "clinical_association",
-      "summary": "A case report (pm_42246350) describes a 31-year-old woman whose childhood-onset progressive primary lymphedema \u2014 with treatment-resistant warts and severe monocytopenia \u2014 led to a diagnosis of GATA2 deficiency. Reinforces that primary lymphedema can be the sentinel cutaneous sign of GATA2 deficiency (Emberger syndrome / MonoMAC), which carries risk of myelodysplastic syndrome and acute myeloid leukemia.",
+      "summary": "A case report (pm_42246350) describes a 31-year-old woman whose childhood-onset progressive primary lymphedema — with treatment-resistant warts and severe monocytopenia — led to a diagnosis of GATA2 deficiency. Reinforces that primary lymphedema can be the sentinel cutaneous sign of GATA2 deficiency (Emberger syndrome / MonoMAC), which carries risk of myelodysplastic syndrome and acute myeloid leukemia.",
       "clinical_implications": "Recognition point: unexplained primary lymphedema with cytopenia/immunodeficiency or recurrent warts should prompt consideration of GATA2 deficiency, because of its haematological malignancy risk. Single-case, but the clinical recognition message is well established.",
       "supporting_papers": [
         "pm_42246350"
@@ -740,8 +766,8 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
-      "summary": "The same 408-patient Italian primary lymphedema cohort behind the previously incorporated HGF-MET (Koz\u00e1\u010dikov\u00e1 2025) and RAS-MAPK (Belanova 2025) publications has now published a transcription-factor network analysis (Lymphology, December 2025). Screening FOXC1, NOTCH1, RORC, FOXC2, and SOX18, the authors identify 18 likely-pathogenic variants across the 5 genes, most previously unreported. FOXC2 and SOX18 are already established primary lymphedema genes (lymphedema-distichiasis and hypotrichosis-lymphedema-telangiectasia respectively); FOXC1, NOTCH1, and RORC are proposed as network-adjacent candidates based on known interactions with FOXC2/SOX18 in lymphatic development, not on independent functional validation in this paper.",
-      "clinical_implications": "This is systematic-panel-screening evidence, not functional validation \u2014 pathogenicity calls rest on in silico prediction and rarity, not on kinase assays, model organisms, or segregation data for most variants. As with the HGF-MET and RAS-MAPK reports from the same cohort, this should be read as one installment of an ongoing, systematic gene-discovery program in a single well-phenotyped cohort, not as 5 independent discoveries. Do not add FOXC1/NOTCH1/RORC to diagnostic gene panels on this evidence alone; FOXC2 and SOX18 remain the only genes in this set with established causal status.",
+      "summary": "The same 408-patient Italian primary lymphedema cohort behind the previously incorporated HGF-MET (Kozáčiková 2025) and RAS-MAPK (Belanova 2025) publications has now published a transcription-factor network analysis (Lymphology, December 2025). Screening FOXC1, NOTCH1, RORC, FOXC2, and SOX18, the authors identify 18 likely-pathogenic variants across the 5 genes, most previously unreported. FOXC2 and SOX18 are already established primary lymphedema genes (lymphedema-distichiasis and hypotrichosis-lymphedema-telangiectasia respectively); FOXC1, NOTCH1, and RORC are proposed as network-adjacent candidates based on known interactions with FOXC2/SOX18 in lymphatic development, not on independent functional validation in this paper.",
+      "clinical_implications": "This is systematic-panel-screening evidence, not functional validation — pathogenicity calls rest on in silico prediction and rarity, not on kinase assays, model organisms, or segregation data for most variants. As with the HGF-MET and RAS-MAPK reports from the same cohort, this should be read as one installment of an ongoing, systematic gene-discovery program in a single well-phenotyped cohort, not as 5 independent discoveries. Do not add FOXC1/NOTCH1/RORC to diagnostic gene panels on this evidence alone; FOXC2 and SOX18 remain the only genes in this set with established causal status.",
       "supporting_papers": [
         "ss_4c7bbd615db664ec109d58262d8c5acf0fc173a8"
       ],
@@ -752,7 +778,7 @@
         {
           "date": "2026-08-02",
           "confidence": "low",
-          "note": "W31 2026 deep synthesis: Baseline synthesis. Same Italian cohort (n=408) as finding_hgf_met_primary_le_2025 and the RAS-MAPK finding referenced in project memory \u2014 see digest-conventions memory for the full publication series from this group. Treat future papers from this cohort as continuations, not new discoveries, unless they report independent replication cohorts."
+          "note": "W31 2026 deep synthesis: Baseline synthesis. Same Italian cohort (n=408) as finding_hgf_met_primary_le_2025 and the RAS-MAPK finding referenced in project memory — see digest-conventions memory for the full publication series from this group. Treat future papers from this cohort as continuations, not new discoveries, unless they report independent replication cohorts."
         }
       ]
     },
@@ -764,7 +790,7 @@
       "confidence": "low_to_moderate",
       "direction": "descriptive",
       "summary": "A single-center series of 1,013 lower-limb primary lymphedema patients (Lymphology, June 2024) proposes an updated classification framework combining age of onset, lymphatic imaging findings (MR lymphography, ICG lymphography, lymphoscintigraphy), skin immunohistochemistry, and whole-exome sequencing. This is the largest single-cohort primary lymphedema series identified in this tracker to date.",
-      "clinical_implications": "Large sample size gives this descriptive value for understanding the distribution of onset ages, phenotypes, and imaging patterns in primary lymphedema, and is a useful reference point when assessing generalizability of smaller genetic/mechanistic studies elsewhere in this knowledge base. It is not an interventional or comparative study \u2014 no treatment effect or outcome comparison is being claimed, and a single-center classification proposal has not yet been externally validated or adopted as a field standard. Multi-modality imaging protocols (MRL + ICGL + LSG + WES) used are resource-intensive and may not be available outside specialist centers, limiting generalizability of any classification cut-points.",
+      "clinical_implications": "Large sample size gives this descriptive value for understanding the distribution of onset ages, phenotypes, and imaging patterns in primary lymphedema, and is a useful reference point when assessing generalizability of smaller genetic/mechanistic studies elsewhere in this knowledge base. It is not an interventional or comparative study — no treatment effect or outcome comparison is being claimed, and a single-center classification proposal has not yet been externally validated or adopted as a field standard. Multi-modality imaging protocols (MRL + ICGL + LSG + WES) used are resource-intensive and may not be available outside specialist centers, limiting generalizability of any classification cut-points.",
       "supporting_papers": [
         "ss_6afc9485a03f80f216dfd5c43fe53c8112afcee9"
       ],
@@ -775,7 +801,7 @@
         {
           "date": "2026-08-02",
           "confidence": "low_to_moderate",
-          "note": "W31 2026 deep synthesis: Baseline synthesis. Confidence set to low_to_moderate on descriptive/classification grounds only (large, well-characterized single-center cohort) \u2014 this should not be read as evidence for any treatment or diagnostic-accuracy claim, which would independently need to be evaluated at a lower tier."
+          "note": "W31 2026 deep synthesis: Baseline synthesis. Confidence set to low_to_moderate on descriptive/classification grounds only (large, well-characterized single-center cohort) — this should not be read as evidence for any treatment or diagnostic-accuracy claim, which would independently need to be evaluated at a lower tier."
         }
       ]
     },
@@ -787,7 +813,7 @@
       "confidence": "low",
       "direction": "positive",
       "summary": "A case report (Cureus, November 2025) identifies a homozygous nonsense variant (c.97delC) in GJA4 (connexin 37), a gap-junction gene required for lymphatic valve formation, in a human fetus with increased nuchal fold thickness and abnormal ductus venosus termination. Asymptomatic parents were heterozygous carriers. Gja4 knockout mice are known to develop lymphatic dysfunction and absent venous valves, giving the variant biological plausibility, but this is the first reported human case.",
-      "clinical_implications": "N=1. No lymphedema phenotype is described in this report \u2014 the finding is a prenatal soft-marker (nuchal fold thickness) association, not a diagnosed lymphedema case, so its relevance to this knowledge base is upstream/mechanistic rather than directly clinical. GJA4 should not be treated as a confirmed lymphedema gene on this evidence; it is a plausible candidate pending replication in an unrelated family or a lymphedema-specific (not just nuchal-translucency) phenotype.",
+      "clinical_implications": "N=1. No lymphedema phenotype is described in this report — the finding is a prenatal soft-marker (nuchal fold thickness) association, not a diagnosed lymphedema case, so its relevance to this knowledge base is upstream/mechanistic rather than directly clinical. GJA4 should not be treated as a confirmed lymphedema gene on this evidence; it is a plausible candidate pending replication in an unrelated family or a lymphedema-specific (not just nuchal-translucency) phenotype.",
       "supporting_papers": [
         "ss_2ff657530e3ca809f454cdf45744a5954ff07297"
       ],
@@ -809,7 +835,7 @@
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "clinical_association",
-      "summary": "A case report (BMC Ophthalmology, April 2026) describes a 14-year-old with FOXC2-related lymphedema-distichiasis syndrome who developed subepithelial corneal amyloid deposits histologically identical to gelatinous drop-like corneal dystrophy \u2014 a condition otherwise caused by TACSTD2 variants, an unrelated gene. This links a corneal phenotype to FOXC2 for the first time in the literature reviewed.",
+      "summary": "A case report (BMC Ophthalmology, April 2026) describes a 14-year-old with FOXC2-related lymphedema-distichiasis syndrome who developed subepithelial corneal amyloid deposits histologically identical to gelatinous drop-like corneal dystrophy — a condition otherwise caused by TACSTD2 variants, an unrelated gene. This links a corneal phenotype to FOXC2 for the first time in the literature reviewed.",
       "clinical_implications": "Single case; the mechanistic link between FOXC2 and corneal amyloid deposition is not established, and TACSTD2 was not reported as excluded via sequencing (dual pathology is possible). This should not change ophthalmologic screening recommendations for lymphedema-distichiasis syndrome on its own, but clinicians managing FOXC2-confirmed patients with unexplained corneal findings may want to be aware of this report.",
       "supporting_papers": [
         "pm_41965558"
@@ -827,13 +853,13 @@
     },
     {
       "id": "finding_pneumatic_compression_pro_survey_2026",
-      "title": "Large Patient-Reported Outcomes Survey (n=10,543) Reports High Satisfaction With Pneumatic Compression \u2014 Uncontrolled Self-Report",
+      "title": "Large Patient-Reported Outcomes Survey (n=10,543) Reports High Satisfaction With Pneumatic Compression — Uncontrolled Self-Report",
       "dimension": "management",
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
       "summary": "A patient-reported outcomes survey of 10,543 lower-extremity lymphedema patients using pneumatic compression devices (Journal of Vascular Surgery: Venous and Lymphatic Disorders, 2026) reports high satisfaction, with daily users self-reporting the greatest benefit (swelling -58%, heaviness -34%, pain -25%). Outcomes were similar at 45 and 90 days.",
-      "clinical_implications": "Skepticism flags: no control arm, no objective outcome measure (all self-reported), no information on how patients were recruited or whether respondents are systematically more satisfied users (survivorship/response bias), and the described study design (large device-user survey, JVS-VL venous/lymphatic journal) is consistent with device-manufacturer-sponsored patient registry data, though sponsorship is not confirmed in the record available to this tracker \u2014 this should be verified before any promotional use. Self-reported satisfaction and self-reported symptom improvement are not equivalent to objective volume or functional outcomes, and short-term volume/symptom changes in lymphedema may reflect fluid shifts rather than durable improvement. The large N does not offset the design weaknesses; this is hypothesis-generating, not practice-changing, evidence.",
+      "clinical_implications": "Skepticism flags: no control arm, no objective outcome measure (all self-reported), no information on how patients were recruited or whether respondents are systematically more satisfied users (survivorship/response bias), and the described study design (large device-user survey, JVS-VL venous/lymphatic journal) is consistent with device-manufacturer-sponsored patient registry data, though sponsorship is not confirmed in the record available to this tracker — this should be verified before any promotional use. Self-reported satisfaction and self-reported symptom improvement are not equivalent to objective volume or functional outcomes, and short-term volume/symptom changes in lymphedema may reflect fluid shifts rather than durable improvement. The large N does not offset the design weaknesses; this is hypothesis-generating, not practice-changing, evidence.",
       "supporting_papers": [
         "pm_42235636"
       ],
@@ -856,7 +882,7 @@
       "confidence": "low_to_moderate",
       "direction": "positive",
       "summary": "A single-center retrospective series (Indian Journal of Ophthalmology, May 2026) of 51 patients with orbital-adnexal lymphatic malformations (60% microcystic, ~19% macrocystic, ~28% mixed) treated with non-image-guided intralesional bleomycin, minimum 1-year follow-up. Outcomes graded by clinical lesion regression; the paper reports lesion morphology and prior treatment history as factors associated with response.",
-      "clinical_implications": "No control/comparator arm (e.g., vs. image-guided injection, vs. surgical excision, vs. sirolimus). Retrospective grading of clinical regression is subjective and not blinded. This adds to a body of single-arm sclerotherapy case series for lymphatic malformations; it does not establish bleomycin sclerotherapy as superior to alternative modalities (surgery, sirolimus/mTOR inhibition \u2014 see finding_mtor_mek_neonatal_lymphatic_anomalies_2026), only that it produces some degree of regression in a meaningful fraction of a reasonably sized case series.",
+      "clinical_implications": "No control/comparator arm (e.g., vs. image-guided injection, vs. surgical excision, vs. sirolimus). Retrospective grading of clinical regression is subjective and not blinded. This adds to a body of single-arm sclerotherapy case series for lymphatic malformations; it does not establish bleomycin sclerotherapy as superior to alternative modalities (surgery, sirolimus/mTOR inhibition — see finding_mtor_mek_neonatal_lymphatic_anomalies_2026), only that it produces some degree of regression in a meaningful fraction of a reasonably sized case series.",
       "supporting_papers": [
         "pm_42241350"
       ],
@@ -873,13 +899,13 @@
     },
     {
       "id": "finding_pediatric_cdt_camp_2025",
-      "title": "Retrospective Pediatric CDT Data From a Summer Camp Cohort \u2014 Mixed Primary/Secondary Population",
+      "title": "Retrospective Pediatric CDT Data From a Summer Camp Cohort — Mixed Primary/Secondary Population",
       "dimension": "management",
       "status": "hypothesis_generating",
       "confidence": "low",
       "direction": "positive",
       "summary": "A retrospective analysis (Lymphatic Research and Biology, August 2025) of 4 days of twice-daily complete decongestive therapy (CDT) in children aged 5-17 at a North American lymphedema summer camp (38 campers, 66 records over 4 years) reports statistically significant reductions in lower-extremity limb volume.",
-      "clinical_implications": "The cohort explicitly mixes primary and secondary pediatric lymphedema and does not report results stratified by etiology, so the primary-lymphedema-specific effect size cannot be isolated from this report. Small n, retrospective chart review, no control arm, and short (4-day) intervention window \u2014 consistent with the general pattern that CDT volume reductions in short programs may partly reflect fluid shifts rather than durable lymphatic improvement (chronic disease caution). Supportive of CDT's general usability in children but not a rigorous efficacy estimate for primary pediatric lymphedema specifically.",
+      "clinical_implications": "The cohort explicitly mixes primary and secondary pediatric lymphedema and does not report results stratified by etiology, so the primary-lymphedema-specific effect size cannot be isolated from this report. Small n, retrospective chart review, no control arm, and short (4-day) intervention window — consistent with the general pattern that CDT volume reductions in short programs may partly reflect fluid shifts rather than durable lymphatic improvement (chronic disease caution). Supportive of CDT's general usability in children but not a rigorous efficacy estimate for primary pediatric lymphedema specifically.",
       "supporting_papers": [
         "ss_99fac6d1cb8f8c431d0d23e771d83e60246d6b1c"
       ],
@@ -902,7 +928,7 @@
       "confidence": "low_to_moderate",
       "direction": "positive",
       "summary": "A single-center retrospective cross-sectional study (Clinical Obesity, June 2023) used indocyanine green (ICG) lymphography with MD Anderson Cancer Center ICG staging to assess whether lymphedema is present alongside lipedema in women with a clinical lipedema diagnosis, reporting that ICG imaging can help differentiate lipedema (normal/near-normal lymphatic pattern) from true bilateral lymphedema.",
-      "clinical_implications": "Lipedema/lymphedema differential diagnosis is clinically important because management differs; ICG lymphography is a reasonable adjunct tool per this data, but this is a single-center retrospective study without a prespecified diagnostic-accuracy design (sensitivity/specificity against a reference standard is not the primary framing here), so it should inform rather than dictate diagnostic workups. Relevance to primary (genetic) lymphedema specifically is indirect \u2014 the paper addresses lipedema vs. lymphedema broadly, not primary vs. secondary lymphedema etiology.",
+      "clinical_implications": "Lipedema/lymphedema differential diagnosis is clinically important because management differs; ICG lymphography is a reasonable adjunct tool per this data, but this is a single-center retrospective study without a prespecified diagnostic-accuracy design (sensitivity/specificity against a reference standard is not the primary framing here), so it should inform rather than dictate diagnostic workups. Relevance to primary (genetic) lymphedema specifically is indirect — the paper addresses lipedema vs. lymphedema broadly, not primary vs. secondary lymphedema etiology.",
       "supporting_papers": [
         "pm_36814359"
       ],
@@ -914,6 +940,297 @@
           "date": "2026-08-02",
           "confidence": "low_to_moderate",
           "note": "W31 2026 deep synthesis: Baseline synthesis. Useful diagnostic-differentiation data point; not a diagnostic-accuracy validation study."
+        }
+      ]
+    },
+    {
+      "id": "finding_plxnd1_mechanosensor_valve_2026",
+      "scope_note": "PRIMARY LYMPHEDEMA. Mouse genetics plus human primary-lymphedema variant screening.",
+      "title": "PLXND1 Identified as a Lymphatic Mechanosensor Required for Valve Morphogenesis, With Two Functionally Characterised Pathogenic Variants in Primary Lymphedema Patients",
+      "dimension": "genetics",
+      "status": "emerging",
+      "confidence": "low_to_moderate",
+      "direction": "positive",
+      "summary": "A Journal of Clinical Investigation study (July 2026) reports that plexin D1 (PLXND1), previously known as a semaphorin guidance receptor and blood-endothelial mechanosensor, acts as a mechanosensor in lymphatic endothelial cells within a 'lymphatic mechanocomplex' that converts lymph flow into the valve transcriptional programme. Conditional deletion of Plxnd1 in lymphatic endothelium caused major valve defects in two distinct lymphatic vascular beds in mice. Screening of patients with primary lymphedema identified PLXND1 missense variants, of which two were functionally established as pathogenic — one disrupting ligand binding, the other disrupting mechanosensing. Variants in other mechanocomplex members previously associated with lymphedema disrupted complex assembly.",
+      "clinical_implications": "PLXND1 is a credible new candidate gene for primary lymphedema with defective valve development and is worth including on research gene panels; it is not yet a validated diagnostic gene and there is no therapeutic implication. The mechanocomplex framing offers a possible explanation for why several separately-discovered lymphedema genes converge on valve formation.",
+      "supporting_papers": [
+        "pm_42383350"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "preclinical_plus_human_variant_functional",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low_to_moderate",
+          "note": "Created from Journal of Clinical Investigation (Jul 2026), incorporated at deep_2026-W33_001 after sitting unprocessed in the queue since the 2026-07-21 backlog scan. Scored higher than the usual mouse-mechanism paper because the human arm is not variant-listing alone: two patient missense variants were functionally characterised and separate into distinct mechanistic classes, which is the level of evidence this knowledge base has repeatedly noted is missing from candidate-gene reports (e.g. finding_italian_cohort_tf_network_2026). Confidence held at low_to_moderate rather than moderate because the number of patients screened and the number of variant carriers are not stated in the abstract, there is no independent replication cohort, no segregation data, and the mouse work carries the standing lymphedema preclinical-translation caution."
+        }
+      ]
+    },
+    {
+      "id": "finding_shoc2_ccla_trametinib_nonresponse_2026",
+      "scope_note": "PRIMARY / DEVELOPMENTAL. Central conducting lymphatic anomaly.",
+      "title": "SHOC2 Reported as a Novel Cause of Central Conducting Lymphatic Anomaly — With Trametinib Non-Response and a Proposed Non-Canonical mTOR Mechanism",
+      "dimension": "genetics",
+      "status": "emerging",
+      "confidence": "low",
+      "direction": "mixed",
+      "summary": "A single patient with complex congenital heart disease and refractory post-operative chylothorax had imaging consistent with central conducting lymphatic anomaly (CCLA) and a SHOC2 variant of uncertain significance, p.(Ala308Val). SHOC2 is a RAS-MAPK scaffolding protein not previously described in CCLA. Zebrafish transiently expressing the variant in lymphovenous endothelium developed pericardial edema, caudal plexus cystic malformations and thoracic duct dilation, supporting pathogenicity. Clinically, trametinib (MEK1/2 inhibitor) was trialled without improvement; immunoblotting suggested the variant may act through non-canonical mTOR signalling rather than canonical RAS-MAPK dysregulation.",
+      "clinical_implications": "Two separable points. (1) SHOC2 is a candidate CCLA gene warranting inclusion on lymphatic anomaly panels. (2) More usefully for practice: a RASopathy-associated genotype did not predict MEK-inhibitor response in this patient. That is a caution against assuming 'RAS-pathway variant therefore trametinib' in CCLA, and an argument for mechanism-level (not just pathway-level) characterisation before committing a critically ill patient to a targeted agent.",
+      "supporting_papers": [
+        "pm_42454412"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "case_report_plus_animal_functional",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "Created at deep_2026-W33_001 from Am J Med Genet A (Jul 2026); paper had been in the queue since the 2026-07-21 backlog scan. Confidence low: n=1, the variant remains formally a VUS, and zebrafish transient overexpression is a weak pathogenicity assay. The negative trametinib result is recorded deliberately — a single uncontrolled treatment failure proves nothing about the drug, but it is a counterexample to the accumulating one-sided case-report literature in finding_mtor_mek_neonatal_lymphatic_anomalies_2026, where non-responders are systematically less likely to be published."
+        }
+      ]
+    },
+    {
+      "id": "finding_cla_somatic_genotyping_2026",
+      "scope_note": "PRIMARY / DEVELOPMENTAL. Complex lymphatic anomalies and lymphatic malformations.",
+      "title": "Tissue-Based Somatic Genotyping of Complex Lymphatic Anomalies Is Extending Beyond PIK3CA/KRAS — NRAS and a ROS1 Fusion Newly Reported, With ~60% Variant Yield on Lesional Tissue Panels",
+      "dimension": "genetics",
+      "status": "emerging",
+      "confidence": "low_to_moderate",
+      "direction": "positive",
+      "summary": "Two independent lines converge. (1) A Human Molecular Genetics report (Jul 2026) describes an NRAS p.Q61R mutation in a central conducting lymphatic anomaly and a PPFIBP1::ROS1 fusion in a Gorham-Stout disease patient, each a first report in its respective subtype and each pointing at a druggable target class beyond the familiar PIK3CA/KRAS axis. (2) A Lymphatic Research and Biology study genotyped affected tissue from 58 patients with vascular anomalies using a custom 735-gene NGS panel, finding pathogenic/likely-pathogenic variants in 47% overall and 61.5% of lymphatic malformations, including two novel variants. Together these support lesional-tissue sequencing (rather than blood) as the diagnostic substrate for complex lymphatic anomalies.",
+      "clinical_implications": "For patients with severe or refractory complex lymphatic anomalies, biopsy-based somatic sequencing has a meaningful diagnostic yield and can identify targets (RAS, ROS1 fusion) that would not be found on germline testing and that map to existing licensed inhibitor classes. This is a diagnostic-pathway argument, not evidence that treating the identified target improves outcomes — no treatment response data accompany the gene discoveries.",
+      "supporting_papers": [
+        "pm_42544506",
+        "pm_41574430"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "case_reports_plus_diagnostic_yield_cohort",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low_to_moderate",
+          "note": "Created at deep_2026-W33_001 by cross-referencing two papers that had been sitting in the queue separately (added 2026-08-04 and 2026-05-26) and that are more informative together than apart. The diagnostic-yield number (61.5% in lymphatic malformations) is the part with real decision value; the individual gene reports are n=1 each. Confidence capped at low_to_moderate: the 58-patient cohort is single-centre with no independent validation, the panel is custom (yield is not transferable to other panels), and detection of a variant is not the same as demonstrating it is causal or actionable."
+        }
+      ]
+    },
+    {
+      "id": "finding_kif11_mclmr_expressivity_2026",
+      "scope_note": "PRIMARY LYMPHEDEMA. KIF11-related MCLMR/MCLID syndrome.",
+      "title": "KIF11-Related MCLMR: Two 2026 Case Reports Reinforce That Lymphedema Is Frequently Absent and Presentation Can Be Adult",
+      "dimension": "genetics",
+      "status": "established",
+      "confidence": "low_to_moderate",
+      "direction": "positive",
+      "summary": "Two case reports published August 2026 extend the KIF11 phenotype record. A 39-year-old man carried a novel likely-pathogenic frameshift variant (c.535del) and presented with microcephaly, chorioretinal atrophy and retinitis pigmentosa but no lymphedema. A 42-year-old woman with a de novo in-frame deletion (c.1294_1296del, p.Glu432del) had severe intellectual disability, microcephaly, hypotonia, seizures and self-injurious behaviour, documented over more than 40 years of follow-up. Both illustrate variable expressivity and incomplete penetrance of the lymphedema component of MCLMR/MCLID.",
+      "clinical_implications": "Counselling point with direct patient relevance: a KIF11 diagnosis does not predict whether lymphedema will occur, and the absence of lymphedema does not exclude the diagnosis. Conversely, KIF11 should be considered in syndromic microcephaly with chorioretinopathy in adults, not only in paediatric presentations. Individual prognosis cannot be given from genotype.",
+      "supporting_papers": [
+        "pm_42560893",
+        "pm_42552906"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "case_reports",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low_to_moderate",
+          "note": "Created at deep_2026-W33_001 from two case reports (added 2026-08-08 and 2026-08-06) that were never incorporated. Marked 'established' in status because variable expressivity in KIF11-MCLMR is long-documented prior art, not a 2026 discovery — these reports add variant-catalog entries and an unusually long (40-year) follow-up, but change nothing conceptually. Confidence is about the underlying claim (well supported), not about these two reports (n=1 each)."
+        }
+      ]
+    },
+    {
+      "id": "finding_prox1_human_variant_hydrops_2026",
+      "scope_note": "PRIMARY / DEVELOPMENTAL. Generalized lymphatic dysplasia presenting as non-immune hydrops.",
+      "title": "Novel PROX1 Variant Reported in a Neonate With Non-Immune Hydrops, Chylothorax and Chylous Ascites",
+      "dimension": "genetics",
+      "status": "emerging",
+      "confidence": "low",
+      "direction": "positive",
+      "summary": "A case report (Frontiers in Cardiovascular Medicine, Jul 2026) describes a preterm neonate (32 weeks) with non-immune hydrops fetalis, congenital bilateral chylothorax and chylous ascites requiring peritoneal dialysis, who died at approximately seven months. Clinical exome sequencing identified a novel heterozygous PROX1 variant c.502C>T, p.(Arg168Trp). PROX1 is the master transcriptional regulator of lymphatic endothelial identity in developmental biology but is reported only rarely as a monogenic cause of human lymphatic disease.",
+      "clinical_implications": "Supports keeping PROX1 on gene panels used for unexplained non-immune hydrops and congenital chylothorax. Provides no prognostic or therapeutic guidance — the outcome in this single case should not be presented to families as the expected course of a PROX1 variant.",
+      "supporting_papers": [
+        "pm_42591134"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "case_report",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "Created at deep_2026-W33_001 from a paper newly surfaced by this run's own PubMed sweep. Confidence low and deliberately so: n=1, no functional validation, no segregation data, and pathogenicity rests on variant rarity plus phenotype plausibility. The gap between PROX1's central role in lymphatic developmental biology and its rarity as a reported human disease gene remains unexplained and is itself worth watching."
+        }
+      ]
+    },
+    {
+      "id": "finding_cxcr4_lymphatic_valve_development_2026",
+      "scope_note": "PRIMARY / DEVELOPMENTAL. Preclinical mechanism.",
+      "title": "CXCR4 Signalling Implicated in Lymphatic Valve Formation and Lymphatic Patterning From Two Independent Mouse Studies",
+      "dimension": "genetics",
+      "status": "emerging",
+      "confidence": "low",
+      "direction": "positive",
+      "summary": "Two mouse studies independently place CXCR4 in lymphatic development. A bioRxiv preprint reports that CXCL12/CXCR4 signalling governs lymphatic valve formation through flow-dependent AKT/FOXO1/FOXC2 activation — converging on FOXC2, an established human lymphedema-distichiasis gene. Separately, a Development paper shows that endothelial deletion of the von Hippel-Lindau gene produces abnormal blood and lymphatic vasculature via HIF-stabilisation-driven ectopic CXCR4 expression, with partial rescue by the CXCR4 antagonist AMD3100.",
+      "clinical_implications": "Research-directional only. CXCR4 is pharmacologically tractable (AMD3100/plerixafor is a licensed drug), which makes this pathway more interesting than the average developmental mechanism, but neither study involves lymphedema patients and the two papers point in opposite directions on whether CXCR4 signalling should be increased or decreased. No clinical inference is available.",
+      "supporting_papers": [
+        "pm_42539123",
+        "pm_42003386"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "preclinical",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "Created at deep_2026-W33_001. Grouped deliberately rather than filed as two separate findings, because the honest observation is the convergence on CXCR4, not either paper alone. Explicitly noting the directional tension: the preprint frames CXCL12/CXCR4 as required for valve formation, the VHL paper frames ectopic CXCR4 as pathogenic and antagonism as corrective — context-dependence that is unresolved. One source is a non-peer-reviewed preprint. Standing lymphedema preclinical-translation caution applies in full."
+        }
+      ]
+    },
+    {
+      "id": "finding_aqp1_inflammatory_lymphangiogenesis_2026",
+      "scope_note": "Mechanism paper; human lymphedema and lymphatic malformation tissue used as validation only.",
+      "title": "Aquaporin-1 Sustains Lymphangiogenesis Under Hyperosmotic Inflammatory Stress and Is Upregulated in Human Lymphedema Tissue",
+      "dimension": "genetics",
+      "status": "emerging",
+      "confidence": "low",
+      "direction": "positive",
+      "summary": "A Journal of Experimental Medicine study (Jul 2026) found that intestinal lacteal lymphatic endothelial cells express high levels of aquaporin-1 (AQP1); AQP1 deletion in mice shortened lacteals and impaired dietary lipid uptake, and AQP1 was required for lymphatic endothelial cell migration under hyperosmotic stress via cytoskeletal and junctional remodelling. AQP1 was upregulated in human lymphedema and lymphatic malformation tissue during inflammatory remodelling but not during embryonic lymphangiogenesis, defining an inflammation-specific lymphangiogenic programme distinct from the developmental one.",
+      "clinical_implications": "Conceptually relevant to the long-running question of whether lymphedema is partly an inflammatory disease, and it distinguishes inflammatory from developmental lymphangiogenesis — which matters because most primary lymphedema is a developmental failure, so an inflammation-specific programme is more likely to be a downstream consequence than a cause. No therapeutic implication.",
+      "supporting_papers": [
+        "pm_42223480"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "preclinical_with_human_tissue_validation",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "Created at deep_2026-W33_001; paper had been queued since 2026-06-02. Human tissue appears only as expression validation, not as a patient-level result, so this stays a preclinical finding despite the strong journal. Note the direction-of-causation trap explicitly avoided here: AQP1 being upregulated in lymphedematous tissue is equally consistent with it being a response to the disease as with it contributing to it."
+        }
+      ]
+    },
+    {
+      "id": "finding_cellulitis_prevention_lymphoedema_management_2026",
+      "scope_note": "Applies to limb lymphoedema of any cause; the included evidence is not etiology-stratified, so a primary-lymphedema-specific effect size cannot be extracted.",
+      "title": "Systematic Review of Non-Antibiotic Cellulitis Prevention Finds Lymphoedema Management (Especially Compression) Is the Consistently Supported Intervention — On Almost Entirely Non-Randomised Evidence",
+      "dimension": "management",
+      "status": "emerging",
+      "confidence": "low_to_moderate",
+      "direction": "positive",
+      "summary": "A systematic review (Phlebology, Nov 2025) searched five databases through June 2024 for interventions preventing recurrent limb cellulitis by managing risk factors other than antibiotic prophylaxis. Of 1,116 papers screened, 25 met criteria and only one was a randomised controlled trial. Nearly all included studies addressed lymphoedema as the dominant modifiable risk factor, and lymphoedema management — particularly compression — was consistently associated with reduced cellulitis recurrence. The review found no studies linking management of other guideline-listed risk factors (tinea, ulcers) to cellulitis recurrence.",
+      "clinical_implications": "Cellulitis rate is a patient-important endpoint — arguably the most important one in lymphedema after function and quality of life — and this is the closest thing to an evidence summary supporting compression for it. It reasonably supports continuing to frame compression adherence as infection prevention rather than only volume control when counselling patients. The certainty is low: 24 of 25 studies were non-randomised, and the absence of evidence for tinea/ulcer management is an evidence gap, not a demonstration that treating them does not help.",
+      "supporting_papers": [
+        "pm_41275489"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "systematic_review_of_mostly_nonrandomised_studies",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low_to_moderate",
+          "note": "Created at deep_2026-W33_001; paper had been queued unprocessed since the 2026-07-21 backlog scan. Rated the highest decision-usefulness of anything processed this run because it addresses a patient-important endpoint rather than a surrogate, which is rare in this literature. Confidence deliberately held below 'moderate': a systematic review inherits the design quality of its inputs, and 24 of 25 inputs were non-randomised, so this is a well-organised summary of weak evidence, not strong evidence. Not etiology-stratified — the primary-lymphedema-specific effect is unknown."
+        }
+      ]
+    },
+    {
+      "id": "finding_ipc_lower_extremity_rct_scarcity_2026",
+      "scope_note": "Lower extremity lymphedema, etiology not stratified in the source review.",
+      "title": "Only 7 of 145 Contemporary Lymphedema RCTs Address Intermittent Pneumatic Compression in the Lower Extremity — Quantifying the Upper/Lower Limb Evidence Asymmetry",
+      "dimension": "management",
+      "status": "established",
+      "confidence": "moderate",
+      "direction": "neutral",
+      "summary": "A systematic review conducted to inform a clinical practice guideline (J Vasc Surg Venous Lymphat Disord, Apr 2026) searched CINAHL, Embase and MEDLINE for randomised controlled trials of intermittent pneumatic compression published January 2010 - January 2025. Of 145 eligible RCTs identified, 21 addressed upper extremity lymphedema and only 7 met inclusion criteria for lower extremity disease. Evidence quality was assessed with GRADE and risk of bias with the Cochrane tool.",
+      "clinical_implications": "Directly relevant to primary lymphedema, which is predominantly a lower-limb disease: the randomised evidence base for pneumatic compression is concentrated in upper-limb (largely breast-cancer-related) populations that primary-lymphedema patients do not resemble. Recommendations for IPC in lower-limb primary lymphedema are therefore substantially extrapolated. This is a reason for calibrated expectations, not a reason to withhold a low-risk therapy.",
+      "supporting_papers": [
+        "pm_41997536"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "systematic_review_of_rcts",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "moderate",
+          "note": "Created at deep_2026-W33_001; queued since the 2026-07-21 backlog scan. Confidence 'moderate' applies to the counting claim (7 vs 21 RCTs), which is a directly verifiable methodological fact and the actually useful content — not to any efficacy conclusion about IPC, which this finding deliberately does not make. Complements finding_pneumatic_compression_pro_survey_2026 (large uncontrolled satisfaction survey): high patient-reported satisfaction alongside a thin randomised base in the relevant limb is exactly the pattern that should keep confidence low."
+        }
+      ]
+    },
+    {
+      "id": "finding_fetal_lm_volume_ratio_prognostication_2026",
+      "scope_note": "PRIMARY / DEVELOPMENTAL. Fetal non-nuchal lymphatic malformations.",
+      "title": "Fetal Lymphatic Malformation Volume Ratio Above ~4-5 cm2 Associated With Airway Intervention and Delivery Complications (n=18, Exploratory)",
+      "dimension": "management",
+      "status": "emerging",
+      "confidence": "low",
+      "direction": "positive",
+      "summary": "A single-centre retrospective review (Prenatal Diagnosis, Jul 2026) of 18 fetuses with second- and third-trimester non-nuchal lymphatic malformations (10 cervical, 8 axillary), 2015-2024, used a lymphatic malformation volume ratio (LVR) normalised to head circumference. Uncomplicated cervical lesions grew at 0.3 cm2/week. Intralesional bleeding (n=3) was associated with LVR > 11 cm2 and a much faster growth rate (2.6 vs 0.3 cm2/week, p=0.005). All cases with LVR > 5 cm2 required tracheostomy after birth and all with LVR > 4 cm2 had delivery complications. The authors describe the observations as exploratory.",
+      "clinical_implications": "If replicated, a normalised prenatal size metric could support delivery planning (EXIT procedure, airway team availability) for fetal cervical lymphatic malformations. It is not usable as a decision rule yet: with 18 fetuses and 3 bleeding events, the thresholds are derived from a handful of outcomes in the same dataset that generated them.",
+      "supporting_papers": [
+        "pm_42429287"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "retrospective_single_centre",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "Created at deep_2026-W33_001; queued since 2026-07-21. The thresholds (4, 5, 11 cm2) are derived and tested in the same 18-patient dataset with no external validation, which is the classic setting for optimistic cut-points. Recorded because prenatal counselling for these lesions currently has almost no quantitative anchor at all, but flagged clearly as exploratory — the authors themselves say so, and this finding does not overstate them."
+        }
+      ]
+    },
+    {
+      "id": "finding_pediatric_lm_modality_outcomes_2026",
+      "scope_note": "PRIMARY / DEVELOPMENTAL. Pediatric lymphatic malformations.",
+      "title": "Largest Single-Centre Pediatric Lymphatic Malformation Series (n=478) Reports No Difference in Effective Rate Between Surgery and Sclerotherapy, With Macrocystic Lesions Responding Best",
+      "dimension": "management",
+      "status": "emerging",
+      "confidence": "low_to_moderate",
+      "direction": "neutral",
+      "summary": "A retrospective decade-long review (BMC Pediatrics, Jul 2026) of 478 children treated for lymphatic malformations at Beijing Children's Hospital (2014-2024) found the head and neck to be the most involved site (45.0%), with distinct anatomic predilections by cyst morphology (macrocystic in pelvic/abdominal, mixed in head and neck, microcystic in trunk/extremities; p<0.01). Macrocystic lesions responded best across all treatment modalities (p<0.05), and no statistically significant difference in effective rate was found between surgery and sclerotherapy.",
+      "clinical_implications": "Consistent with current practice that modality choice for pediatric lymphatic malformations should follow lesion morphology and site rather than a general preference for surgery or sclerotherapy, and supports counselling families that macrocystic lesions have the better outlook. Because treatment was allocated by clinical judgement rather than randomisation, the surgery-versus-sclerotherapy equivalence is confounded by indication and must not be read as a demonstration of equivalent efficacy.",
+      "supporting_papers": [
+        "pm_42432577"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "retrospective_single_centre_large",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low_to_moderate",
+          "note": "Created at deep_2026-W33_001; queued since 2026-07-21. Size (n=478 over 10 years) is the reason for low_to_moderate rather than low — this is one of the largest pediatric LM series reported. The 'no difference between surgery and sclerotherapy' result is the part most likely to be over-read: allocation was non-random, so easier lesions may have gone to one arm. 'Effective rate' is also a non-standardised outcome. No confidence upgrade for any other finding follows from this."
+        }
+      ]
+    },
+    {
+      "id": "finding_lva_vlnt_patient_factor_predictors_2026",
+      "scope_note": "Mixed/unspecified etiology surgical cohort; primary-lymphedema subgroup not separately reported.",
+      "title": "Multicentre Cohort Reports Male Sex Associated With Better LVA/VLNT Response in Lower Limb and Higher BMI With Worse Response in Upper Limb VLNT",
+      "dimension": "management",
+      "status": "emerging",
+      "confidence": "low",
+      "direction": "mixed",
+      "summary": "A retrospective multicentre cohort study of a prospectively maintained lymphedema database (2016-2025) examined sex, age and BMI as predictors of long-term outcome after lymphovenous anastomosis or vascularized lymph node transfer. Male patients showed greater treatment response in lower-extremity lymphedema at 12 and 24 months after LVA and at 12 months after VLNT. Higher BMI was associated with less favourable response after upper-extremity VLNT at 12 and 18 months, with no consistent BMI effect in the lower extremity. Age showed no consistent association, and none of the three variables affected postoperative complication rates.",
+      "clinical_implications": "Adds candidate patient-selection variables to a surgical field that currently selects mainly on ISL stage and ICG pattern. Should not yet influence who is offered surgery: the analysis is retrospective and non-randomised with no correction described for the many sex-by-limb-by-timepoint comparisons made, outcomes are volume-based surrogates, and the primary-lymphedema subgroup is not separately reported despite primary disease being disproportionately lower-limb and male-predominant in some subtypes.",
+      "supporting_papers": [
+        "pm_42594515"
+      ],
+      "contradicting_papers": [],
+      "evidence_quality": "retrospective_multicentre_cohort",
+      "last_updated": "2026-08-16",
+      "evolution_log": [
+        {
+          "date": "2026-08-16",
+          "confidence": "low",
+          "note": "Created at deep_2026-W33_001 from a paper added by scan_2026-W33_003 on 2026-08-15. Standing surgical-evidence-gap caveat applies (see finding_surgical_evidence_gap_global): no control arm, volume surrogate endpoints. Additional specific concern recorded here: the reported associations are scattered across sex x limb x timepoint strata and are significant in some strata but not others, a pattern consistent with multiple comparisons; and the obesity confounder is central rather than incidental, since BMI is both the exposure and a known independent driver of limb volume."
         }
       ]
     }

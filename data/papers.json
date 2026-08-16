@@ -3804,10 +3804,10 @@
         "Custom 735-gene NGS panel on tissue samples"
       ],
       "lymphedema_type": "both",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W22_001",
       "added_date": "2026-05-26",
-      "last_reviewed": "2026-05-26",
+      "last_reviewed": "2026-08-16",
       "source": "pubmed"
     },
     {
@@ -4136,11 +4136,11 @@
         "CXCR4 antagonist AMD3100 partially rescues vascular defects",
         "Identifies HIF-CXCR4 axis as novel regulator of lymphatic development"
       ],
-      "lymphedema_type": "unknown",
-      "status": "scan_added",
+      "lymphedema_type": "primary",
+      "status": "incorporated",
       "run_id": "scan_2026-W22_002",
       "added_date": "2026-05-28",
-      "last_reviewed": "2026-05-28",
+      "last_reviewed": "2026-08-16",
       "source": "pubmed"
     },
     {
@@ -4418,10 +4418,10 @@
         "Inflammation-specific lymphangiogenesis program distinct from embryonic development"
       ],
       "lymphedema_type": "both",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W23_001",
       "added_date": "2026-06-02",
-      "last_reviewed": "2026-06-14",
+      "last_reviewed": "2026-08-16",
       "source": "pubmed"
     },
     {
@@ -6056,10 +6056,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42383350/",
       "published_date": "2026-07",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 9,
       "lymphedema_type": "primary",
       "abstract": "Lymphatic valves are essential for maintaining tissue fluid homeostasis, and their dysfunction leads to lymphedema, a morbid and disfiguring disease without a cure. Mechanical forces due to lymph flow are required for proper lymphatic valve development, yet it remains unclear how lymphatic endothelial cells (LECs) sense and decode mechanical signals. In this study, we identify the cell guidance semaphorin receptor plexin D1 (PLXND1) as a lymphatic mechanosensor required for lymphatic valve morphogenesis. Conditional genetic ablation of Plxnd1 in LECs caused major defects in lymphatic valve development in 2 different lymphatic vascular beds. Mechanistically, PLXND1 acted as a mechanosensor within a lymphatic mechanocomplex, initiating distinct mechanical signals and activating the lymphatic valve transcriptional program through an unconventional pathway. Screening of patients with primary lymphedema identified PLXND1 missense variants, and functional analysis established 2 pathogenic variants that selectively disrupt the ligand versus mechanosensing functions of this receptor. Variants associated with lymphedema in members of the mechanocomplex disrupted its formation, underscoring the central role of this complex in lymphatic valve biology. Our work uncovers a mechanosensing mechanism guiding lymphatic valve development, and has profound implications for the understanding and t",
@@ -6143,10 +6143,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42454412/",
       "published_date": "2026-07",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 7,
       "lymphedema_type": "primary",
       "abstract": "Central conducting lymphatic anomaly (CCLA) is a devastating disorder where precision medicine can be lifesaving. Diagnosing CCLA is challenging due to its broad spectrum of symptoms, including nonimmune fetal hydrops, chylothorax, chylous ascites, or lymphedema. For that reason, genetic diagnosis is essential to uncover new genes and variants causing this debilitating disease. A patient with complex congenital heart disease presented with post-operative refractory chylothorax. Lymphatic imaging demonstrated abnormal intercostal lymphatic perfusion consistent with CCLA and suggestive of a RASopathy, a group of genetic disorders characterized by dysregulated RAS-MAPK signaling. Genetic testing showed a variant of uncertain significance (p.(Ala308Val)) in SHOC2, a scaffolding protein that regulates RAS-MAPK signaling but has not yet been described in CCLA. Trametinib, a MEK1/2 inhibitor, was trialed without improvement. A conversion/extension assay was used to evaluate pathogenicity of the VUS compared to a known pathogenic variant. Zebrafish transiently expressing the wild type human SHOC2 protein or SHOC2 p.(Ala308Val) protein in the developing lymphatic and venous endothelium were used to evaluate the effect on the vasculature. Western blot was used to explore the underlying molecular mechanisms. Major to minor axis ratio was significantly increased in developing embryos injec",
@@ -6233,10 +6233,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42469309/",
       "published_date": "2026-07",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 6,
       "lymphedema_type": "both",
       "abstract": "Secondary lymphedema is characterized by impaired lymphatic drainage, yet current diagnostic approaches rely on limb volume measurements and qualitative measures of lymphatic function. In this study, we tested the hypothesis that systemic uptake following intradermal injection of fluorescent tracers can serve as a quantitative biomarker of lymphatic transport. Using various preclinical models of lymphatic dysfunction, including genetic VEGFR3 haploinsufficiency, inducible lymphatic endothelial cell depletion, aging, and surgical lymphatic injury, we show that decreased serum concentrations of intradermally administered indocyanine green (ICG) correlate with indicators of impaired lymphatic function, including reduced lymphatic vessel density, diminished lymphatic pumping, and impaired dendritic cell migration. Together, these findings suggest that quantification of the serum concentrations of peripherally injected dyes selectively transported by the lymphatic system may be a useful means of assessing lymphatic function.",
@@ -6317,10 +6317,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42332051/",
       "published_date": "2026-06",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 6,
       "lymphedema_type": "primary",
       "abstract": "",
@@ -6402,10 +6402,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42429287/",
       "published_date": "2026-07",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 5,
       "lymphedema_type": "primary",
       "abstract": "OBJECTIVE: To document the natural history and complications of second- and third-trimester non-nuchal lymphatic malformations (LM) and identify predictors of these complications. METHODS: We conducted a single-centre retrospective review of fetuses diagnosed with LMs between January 2015 and January 2024. Lesion size was quantified using the lymphatic malformation volume ratio (LVR): LVR = 0.523 x width x length x height (cm3) / head circumference (cm). Outcomes and LVR growth trends were analyzed using Student's t-test and a linear mixed-effects model. RESULTS: Eighteen cases were included (10 cervical, 8 axillary). Uncomplicated cervical LMs grew at 0.3 cm2/week (p < 0.001). Intralesional bleeding (n = 3) was associated with LVR > 11 cm2 and significantly higher growth rates (2.6 vs. 0.3 cm2/week; p = 0.005). All cases with LVR > 5 cm2 required subsequent tracheostomy after birth. Axillary LMs grew at 0.21 cm2/week. One case with bleeding had LVR 4.4 cm2. Median LVR was significantly lower in vaginal deliveries compared with complicated births (2.0 vs. 7.3 cm2; p = 0.03). All LVR > 4 cm2 led to delivery complications. CONCLUSION: Higher LVR predicts haemorrhage and airway intervention in cervical LMs, and delivery complications in axillary LMs. These exploratory observations warrant confirmation in larger prospective cohorts.",
@@ -6488,10 +6488,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42432577/",
       "published_date": "2026-07",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 6,
       "lymphedema_type": "primary",
       "abstract": "BACKGROUND AND OBJECTIVES: Lymphatic malformations (LMs) are rare pediatric conditions that present variable symptoms depending on lesion size and anatomical location, necessitating diverse treatment approaches. This study aims to characterize the clinical features and prognosis of LMs across different anatomical sites and to compare the therapeutic efficacy of various treatment modalities. MATERIALS AND METHODS: A retrospective analysis was performed on 478 pediatric patients diagnosed with LMs at Beijing Children's Hospital between January 2014 and December 2024. Data regarding patient demographics, clinical characteristics, treatment modalities, and therapeutic outcomes were extracted and analyzed. RESULTS: The head and neck region was the most involved site (45.0%). Macrocysts were predominantly located in the pelvic/abdominal, mixed cysts in the head and neck, and microcysts in the trunk/extremities (p < 0.01). The macrocystic subtype demonstrated the most favorable response across all therapeutic modalities (p < 0.05). Furthermore, no statistically significant difference in effective rates was observed between surgery and sclerotherapy. CONCLUSIONS: Subtype distribution demonstrated distinct anatomic predilections. Surgery and sclerotherapy both achieve high effective rates when selected according to appropriate clinical indications. Macrocystic LMs appeared to have the b",
@@ -7316,10 +7316,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41275489/",
       "published_date": "2025-11",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 7,
       "lymphedema_type": "unknown",
       "abstract": "ObjectivesCellulitis is a common and often recurrent bacterial skin infection. Antibiotics are the first-line treatment for cellulitis and antibiotic prophylaxis is a known preventive measure for frequent recurrence. Evidence for other interventions targeting known risk factors (secondary prevention) remains unclear. This review evaluates the evidence for managing risk factors to prevent recurrent limb cellulitis.Study designA systematic review of studies on cellulitis risk factor management, excluding antibiotic prophylaxis, was conducted. Five databases were searched in February 2023 and June 2024. Eligible studies underwent narrative synthesis and quality assessment. Databases searched included MEDLINE, Scopus, Web of Science, CINAHL, and EMBASE, for the time period 1996-June 2024.Data synthesisSummary of major results; Of 1,116 screened papers, 25 met the criteria. Study designs varied, with only one randomized controlled trial. Nearly all studies addressed lymphoedema, showing that its management, particularly with compression, consistently reduced cellulitis recurrence. Although cellulitis guidelines detail the need to address many risk factors to reduce cellulitis, including tinea and ulcers, we did not find studies that linked the management of these conditions with cellulitis recurrence.ConclusionsEvidence strongly supports lymphoedema management in preventing cellulit",
@@ -7482,10 +7482,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41997536/",
       "published_date": "2026-04",
       "added_date": "2026-07-21",
-      "last_reviewed": "2026-07-21",
+      "last_reviewed": "2026-08-16",
       "run_id": "scan_2026-W30_001",
       "source": "pubmed",
-      "status": "active",
+      "status": "incorporated",
       "relevance_score": 7,
       "lymphedema_type": "unknown",
       "abstract": "OBJECTIVE: Observational trials have suggested that intermittent pneumatic compression (IPC) devices reduce lymphedema (LED) volume and improve patient-reported outcomes, but this type of trial is subject to bias. Systematic reviews (SRs) of randomized controlled trials (RCTs) provide the highest evidentiary strength for examining the impact of a therapeutic intervention and are important for evidence-based clinical practice guidelines. Few existing SRs, however, include recent RCTs and only a smaller number address LED of the lower extremities (LELED). Therefore, we conducted a SR based on PICO questions to identify RCTs that examined the effect of IPC on LELED for a clinical practice guideline. METHODS: For this SR, English-language RCTs in CINAHL, Embase, and MEDLINE published between January 1, 2010, and January 31, 2025, were searched and the PRISMA reporting method was used. Both intragroup and intergroup comparisons of the specified outcome measures were examined for statistical significance. The evidentiary quality of the RCTs and risk of bias were assessed using GRADE and the Cochrane risk of bias tool, respectively. RESULTS: In the PRISMA analysis, 141 articles were identified through a search of the databases and an additional 4 articles were discovered through other sources, for a total of 145 eligible RCTs. Twenty-one RCTs addressed upper extremity LED and seven LE",
@@ -9643,9 +9643,9 @@
       "doi": "10.1242/dmm.052932",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42528282/",
       "abstract": "Complex lymphatic anomalies (CLAs) are characterized by abnormal development of lymphatic vessels and can be caused by somatic activating mutations in KRAS, which stimulate MAPK and PI3K signaling. While KRAS/MAPK signaling is known to play a critical role in CLA pathogenesis, the contribution of KRAS/PI3Kalpha signaling remains unclear. Using mice carrying missense mutations in the RAS-binding domain of PI3Kalpha, this study shows RAS-PI3Kalpha binding contributes to developmental and KRASG12D-induced lymphangiogenesis.",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W32_001",
-      "lymphedema_type": "unknown",
+      "lymphedema_type": "primary",
       "scores": {
         "importance": 5,
         "evidence_strength": 2,
@@ -9690,7 +9690,8 @@
         "genetics",
         "clinical_trials",
         "management"
-      ]
+      ],
+      "last_reviewed": "2026-08-16"
     },
     {
       "id": "pm_42538047",
@@ -9769,9 +9770,9 @@
       "doi": "10.64898/2026.07.21.739861",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42539123/",
       "abstract": "Lymphatic valves are specialized structures within lymphatic vessels that ensure unidirectional lymph transport. Defective lymphatic valve formation is associated with lymphedema. This study reports that CXCL12/CXCR4 signaling, acting through flow-dependent AKT/FOXO1/FOXC2 activation, governs lymphatic valve formation in mice.",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W32_001",
-      "lymphedema_type": "unknown",
+      "lymphedema_type": "primary",
       "scores": {
         "importance": 6,
         "evidence_strength": 2,
@@ -9816,7 +9817,8 @@
         "genetics",
         "clinical_trials",
         "management"
-      ]
+      ],
+      "last_reviewed": "2026-08-16"
     },
     {
       "id": "pm_42541997",
@@ -9976,9 +9978,9 @@
       "doi": "10.1093/hmg/ddag070",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42544506/",
       "abstract": "Lymphatic malformations can lead to severe clinical complications. While genomic alterations have been identified in lymphatic malformations, the genomic landscape of complex lymphatic malformations remains poorly defined due to their rarity. This study reports an NRAS p.Q61R mutation in a central conducting lymphatic anomaly (CCLA) and a PPFIBP1::ROS1 fusion in a Gorham-Stout disease (GSD) patient, both described for the first time in their respective subtypes.",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W32_001",
-      "lymphedema_type": "unknown",
+      "lymphedema_type": "primary",
       "scores": {
         "importance": 5,
         "evidence_strength": 2,
@@ -10023,7 +10025,8 @@
         "genetics",
         "clinical_trials",
         "management"
-      ]
+      ],
+      "last_reviewed": "2026-08-16"
     },
     {
       "id": "pm_42546876",
@@ -10114,7 +10117,7 @@
       "doi": "10.1002/ajmg.a.70270",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42552906/",
       "abstract": "Pathogenic variants in KIF11 are linked to autosomal dominant syndromes with microcephaly, chorioretinopathy, lymphedema, and intellectual disability (MCLID), though adult presentations remain underreported. We report a 42-year-old female presenting with a de novo single-amino acid in-frame deletion in the KIF11 gene (c.1294_1296del; p.Glu432del), who exhibited severe intellectual disability, microcephaly, hypotonia, seizures, and self-injurious behavior. There was evidence of developmental delays, ophthalmologic findings, and impairments in speech and adaptive functioning in her clinical history. Trio whole exome sequencing identified a diagnostic pathogenic variant in KIF11 and a maternally inherited SCN3A variant of uncertain significance. The presentation of the case offers an unusual longitudinal perspective of over four decades, illustrating the variable expressivity and long-term outcome of KIF11 disorders. This report calls for the consideration of KIF11 variants in the differential diagnosis of syndromic developmental delay and microcephaly in adults and underlines the diagnostic as well as the prognostic importance of detailed genetic and phenotypic analysis, particularly in cases with de novo variants.",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W32_002",
       "lymphedema_type": "primary",
       "scores": {
@@ -10161,7 +10164,8 @@
         "genetics",
         "clinical_trials",
         "community"
-      ]
+      ],
+      "last_reviewed": "2026-08-16"
     },
     {
       "id": "pm_42552845",
@@ -10300,10 +10304,10 @@
         "Reinforces that KIF11-MCLMR patients may present with only a subset of the syndrome's classic features"
       ],
       "lymphedema_type": "primary",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W32_003",
       "added_date": "2026-08-08",
-      "last_reviewed": "2026-08-08",
+      "last_reviewed": "2026-08-16",
       "source": "pubmed"
     },
     {
@@ -10318,7 +10322,7 @@
       "doi": "10.1177/15578585261477183",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42569836/",
       "abstract": "There is no standardized method for identifying fibrosis in the subcutaneous tissue of lymphedematous limbs. This study evaluated the relationship between ultrasonographic findings and fibrosis severity in patients with lower limb lymphedema. A retrospective analysis included 92 sites in 40 limbs of 26 female patients undergoing lymphaticovenous anastomosis. Skin thickness and subcutaneous echogenicity were assessed preoperatively using an 18-MHz linear ultrasound probe and classified into four grades (U0-U3). Fibrosis severity was evaluated intraoperatively and classified into five grades (F0-F4). Receiver operating characteristic (ROC) curve analysis determined the diagnostic accuracy of skin thickness for predicting severe fibrosis (F3/F4), and a regression model was developed to predict fibrosis severity. Skin thickness was significantly greater in the calves (2.7 mm) than in the thighs (2.1 mm, p < 0.01) and increased with lymphedema stage. Fibrosis severity was higher above the superficial fascia and more prevalent in calves (p < 0.01). ROC analysis showed an area under the curve of 0.80 for calf (above the superficial fascia), with a cutoff of 2.65 mm. The regression model (R2 = 0.51, p < 0.001) demonstrated that skin thickness and fat echogenicity significantly predicted fibrosis severity. Ultrasound-based measurements of skin thickness and fat echogenicity are reliable and noninvasive predictors of fibrosis severity in patients with lymphedema. These findings support the use of ultrasound imaging to guide treatment planning and improve surgical outcomes. However, further validation is needed in diverse populations.",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W33_001",
       "lymphedema_type": "unknown",
       "scores": {
@@ -10366,7 +10370,8 @@
         "clinical_trials",
         "management",
         "community"
-      ]
+      ],
+      "last_reviewed": "2026-08-16"
     },
     {
       "id": "pm_42576190",
@@ -10381,7 +10386,7 @@
       "doi": "10.1097/PHM.0000000000003118",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42576190/",
       "abstract": "OBJECTIVE: To evaluate ultrasonographic changes in lower extremity tendons and plantar fascia of patients with chronic edema and their relationship with edema volume, pain, function, and quality of life. DESIGN: This observational case-control study included 53 patients with chronic lower extremity edema and 55 age- and sex-matched controls. Ultrasonography assessed the Achilles, tibialis posterior, peroneal, and patellar tendons and plantar fascia. Edema volume was calculated from limb circumferences. Outcomes included the Lower Extremity Functional Scale (LEFS), Lymphedema Quality of Life Questionnaire-Leg (LYMQOL-Leg), and Visual Analogue Scale (VAS). RESULTS: All tendons (except the patellar tendon) and plantar fascia were thicker in the edema group than controls (P<0.05). Differences in Achilles tendon and plantar fascia thickness remained significant after BMI adjustment (all P<0.01) and correlated positively with edema volume (P<0.05). Plantar fasciitis (50.9%) and Achilles tendinopathy (22.6%) were more frequent in the edema group (P<0.05). Patients had lower LEFS and higher LYMQOL-Leg and VAS scores (all P<0.01). CONCLUSION: Chronic lower extremity edema was associated with alterations in tendon and fascial morphology, particularly the Achilles tendon and plantar fascia. Musculoskeletal ultrasonography may complement clinical evaluation by providing information regarding tendon and fascial involvement.",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W33_002",
       "lymphedema_type": "unknown",
       "scores": {
@@ -10429,7 +10434,8 @@
         "clinical_trials",
         "management",
         "community"
-      ]
+      ],
+      "last_reviewed": "2026-08-16"
     },
     {
       "id": "pm_42594515",
@@ -10497,10 +10503,10 @@
         "No effect of sex/BMI/age on postoperative complication rates (Clavien-Dindo)"
       ],
       "lymphedema_type": "unknown",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W33_003",
       "added_date": "2026-08-15",
-      "last_reviewed": "2026-08-15",
+      "last_reviewed": "2026-08-16",
       "source": "pubmed"
     },
     {
@@ -10576,11 +10582,264 @@
         "Etiology of the underlying generalized lymphedema not specified in the abstract"
       ],
       "lymphedema_type": "unknown",
-      "status": "scan_added",
+      "status": "incorporated",
       "run_id": "scan_2026-W33_003",
       "added_date": "2026-08-15",
-      "last_reviewed": "2026-08-15",
+      "last_reviewed": "2026-08-16",
       "source": "pubmed"
+    },
+    {
+      "id": "pm_42591134",
+      "title": "Impaired lymphatic drainage in a child with hydrops fetalis and a novel variant in the PROX1 gene: case report and review of literature.",
+      "authors": [
+        "Domenico Umberto De Rose",
+        "Flaminia Pugnaloni",
+        "Simonetta Costa",
+        "Maria Cristina Digilio",
+        "Antonio Novelli",
+        "Andrea Dotta"
+      ],
+      "journal": "Frontiers in Cardiovascular Medicine",
+      "published_date": "2026-07-29",
+      "doi": "10.3389/fcvm.2026.1760172",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42591134/",
+      "abstract": "Case report of a preterm neonate born at 32 weeks with non-immune hydrops fetalis, congenital bilateral chylothorax and chylous ascites requiring peritoneal dialysis, who died at approximately seven months of age. Clinical exome sequencing identified a novel heterozygous PROX1 variant c.502C>T, p.(Arg168Trp). Accompanied by a literature review of PROX1 in human lymphatic development.",
+      "dimensions": [
+        "genetics",
+        "management"
+      ],
+      "subtopics": [
+        "PROX1",
+        "hydrops_fetalis",
+        "chylothorax",
+        "case_report",
+        "generalized_lymphatic_dysplasia"
+      ],
+      "entities_mentioned": [
+        "PROX1"
+      ],
+      "relevance_score": 5,
+      "scores": {
+        "importance": 4,
+        "evidence_strength": 2,
+        "novelty": 7,
+        "decision_usefulness": 2,
+        "claim_calibration": 7
+      },
+      "skepticism_flags": {
+        "single_arm": false,
+        "retrospective": false,
+        "propensity_matched": false,
+        "pre_post_only": false,
+        "small_n": true,
+        "short_followup": false,
+        "commercial_sponsor": false,
+        "surrogate_endpoint_only": false,
+        "bold_claim_volume_only": false,
+        "promotional_framing": false,
+        "abstract_only": false,
+        "no_full_methods": false,
+        "case_series": true,
+        "narrow_population": true,
+        "obesity_not_controlled": false
+      },
+      "lymphedema_type": "primary",
+      "novelty_assessment": "PROX1 is the master regulator of lymphatic endothelial identity but is only rarely reported as a monogenic cause of human lymphatic disease; a novel de novo-type missense variant with a lethal generalized lymphatic phenotype is a genuine addition to a very thin human variant catalog.",
+      "key_findings": [
+        "Novel heterozygous PROX1 missense variant c.502C>T p.(Arg168Trp) identified by clinical exome sequencing in a preterm neonate.",
+        "Phenotype comprised non-immune hydrops fetalis, congenital bilateral chylothorax and chylous ascites; the child died at ~7 months.",
+        "No functional validation of the variant is reported; pathogenicity rests on rarity, in-silico prediction and phenotype fit."
+      ],
+      "clinical_implications": "Supports including PROX1 on gene panels for non-immune hydrops/congenital chylothorax of unexplained cause. Does not establish a genotype-prognosis relationship from n=1.",
+      "added_date": "2026-08-16",
+      "last_reviewed": "2026-08-16",
+      "status": "incorporated",
+      "run_id": "deep_2026-W33_001"
+    },
+    {
+      "id": "pm_42576614",
+      "title": "RAS Inhibitor RMC-7977 Blocks Vascular Overgrowth of NRAS-Mutant Endothelial Cells",
+      "authors": [
+        "Sarah Alharbi",
+        "Sarah Merkle",
+        "Patricia Pastura",
+        "Christopher G McDaniel",
+        "Adam M Waters",
+        "Timothy D Le Cras"
+      ],
+      "journal": "Journal of Cellular and Molecular Medicine",
+      "published_date": "2026-08-11",
+      "doi": "10.1111/jcmm.71316",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42576614/",
+      "abstract": "RAS mutations occur in patients with several types of vascular anomalies, but effective treatments remain limited. This study evaluated the RAS(ON) multi-selective inhibitor RMC-7977 in human endothelial cells expressing mutant NRAS, assessing effects on vascular overgrowth phenotypes.",
+      "dimensions": [
+        "pharmacological",
+        "genetics"
+      ],
+      "subtopics": [
+        "NRAS",
+        "RAS_inhibitor",
+        "RMC-7977",
+        "vascular_anomaly",
+        "preclinical"
+      ],
+      "entities_mentioned": [
+        "NRAS",
+        "RMC-7977",
+        "KRAS"
+      ],
+      "relevance_score": 5,
+      "scores": {
+        "importance": 5,
+        "evidence_strength": 2,
+        "novelty": 7,
+        "decision_usefulness": 3,
+        "claim_calibration": 8
+      },
+      "skepticism_flags": {
+        "single_arm": false,
+        "retrospective": false,
+        "propensity_matched": false,
+        "pre_post_only": false,
+        "small_n": false,
+        "short_followup": false,
+        "commercial_sponsor": false,
+        "surrogate_endpoint_only": true,
+        "bold_claim_volume_only": false,
+        "promotional_framing": false,
+        "abstract_only": false,
+        "no_full_methods": false,
+        "case_series": false,
+        "narrow_population": true,
+        "obesity_not_controlled": false
+      },
+      "lymphedema_type": "primary",
+      "novelty_assessment": "First report applying a pan-RAS(ON) inhibitor to endothelial cells carrying a vascular-anomaly NRAS mutation. Directly relevant to RAS-driven complex lymphatic anomalies, where MEK inhibition is the current off-label standard and does not work in all patients.",
+      "key_findings": [
+        "RMC-7977, a RAS(ON) multi-selective inhibitor, reduced overgrowth phenotypes in human endothelial cells expressing mutant NRAS.",
+        "Proposes upstream RAS inhibition as an alternative to downstream MEK inhibition for RAS-mutant vascular/lymphatic anomalies.",
+        "Cell-culture level only; no animal efficacy or human data reported in the abstract."
+      ],
+      "clinical_implications": "Pipeline-relevant only. Provides a preclinical rationale for testing RAS(ON) inhibitors in RAS-mutant complex lymphatic anomalies, a population in which trametinib failures are documented (see SHOC2 report this cycle). No clinical inference is warranted.",
+      "added_date": "2026-08-16",
+      "last_reviewed": "2026-08-16",
+      "status": "incorporated",
+      "run_id": "deep_2026-W33_001"
+    },
+    {
+      "id": "pm_42602555",
+      "title": "Macrocystic lymphatic malformation of the gluteal region complicated by abscess formation: the crucial role of multimodal imaging in pediatric emergency care - case report and literature review.",
+      "authors": [],
+      "journal": "Journal of Ultrasonography",
+      "published_date": "2026-06-30",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42602555/",
+      "abstract": "Case report of a 2-year-old girl with a known macrocystic lymphatic malformation of the gluteal region who developed superinfection after minor blunt trauma, described through sequential ultrasound and contrast-enhanced MRI.",
+      "dimensions": [
+        "management"
+      ],
+      "subtopics": [
+        "lymphatic_malformation",
+        "infection",
+        "imaging",
+        "case_report",
+        "pediatric"
+      ],
+      "entities_mentioned": [],
+      "relevance_score": 2,
+      "scores": {
+        "importance": 2,
+        "evidence_strength": 1,
+        "novelty": 3,
+        "decision_usefulness": 1,
+        "claim_calibration": 8
+      },
+      "skepticism_flags": {
+        "single_arm": true,
+        "retrospective": false,
+        "propensity_matched": false,
+        "pre_post_only": false,
+        "small_n": true,
+        "short_followup": false,
+        "commercial_sponsor": false,
+        "surrogate_endpoint_only": false,
+        "bold_claim_volume_only": false,
+        "promotional_framing": false,
+        "abstract_only": false,
+        "no_full_methods": false,
+        "case_series": true,
+        "narrow_population": true,
+        "obesity_not_controlled": false
+      },
+      "lymphedema_type": "primary",
+      "novelty_assessment": "Single case; infection of a macrocystic lymphatic malformation after trauma is a recognised complication, not a new observation.",
+      "key_findings": [
+        "Superinfection of a known macrocystic lymphatic malformation followed minor blunt trauma in a 2-year-old.",
+        "Serial ultrasound (increasing cyst-wall vascularity at 72h) plus contrast-enhanced MRI guided the diagnosis."
+      ],
+      "clinical_implications": "Reinforces existing practice: infection is a known complication of lymphatic malformations and serial imaging can distinguish it from lesion growth. Not practice-changing.",
+      "added_date": "2026-08-16",
+      "last_reviewed": "2026-08-16",
+      "status": "incorporated",
+      "run_id": "deep_2026-W33_001"
+    },
+    {
+      "id": "pm_42565065",
+      "title": "Omental Cysts in the Pediatric Population: Diagnostic Challenges and Surgical Outcomes.",
+      "authors": [],
+      "journal": "Journal of Indian Association of Pediatric Surgeons",
+      "published_date": "2026-03-20",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42565065/",
+      "abstract": "Retrospective single-department review (2015-2024) of nine children (median age 4 years) who underwent omentectomy for omental cysts, a rare intra-abdominal lymphatic malformation accounting for approximately 2% of intra-abdominal lymphatic lesions. Presentation was usually abdominal pain or distension; preoperative diagnosis was frequently uncertain.",
+      "dimensions": [
+        "management"
+      ],
+      "subtopics": [
+        "lymphatic_malformation",
+        "abdominal",
+        "pediatric",
+        "surgery",
+        "case_series"
+      ],
+      "entities_mentioned": [],
+      "relevance_score": 3,
+      "scores": {
+        "importance": 2,
+        "evidence_strength": 2,
+        "novelty": 3,
+        "decision_usefulness": 2,
+        "claim_calibration": 8
+      },
+      "skepticism_flags": {
+        "single_arm": true,
+        "retrospective": true,
+        "propensity_matched": false,
+        "pre_post_only": false,
+        "small_n": true,
+        "short_followup": false,
+        "commercial_sponsor": false,
+        "surrogate_endpoint_only": false,
+        "bold_claim_volume_only": false,
+        "promotional_framing": false,
+        "abstract_only": false,
+        "no_full_methods": false,
+        "case_series": true,
+        "narrow_population": true,
+        "obesity_not_controlled": false
+      },
+      "lymphedema_type": "primary",
+      "novelty_assessment": "Small institutional case series of a rare abdominal lymphatic malformation subtype; descriptive, no new mechanism or comparative outcome.",
+      "key_findings": [
+        "Nine children underwent omentectomy for omental cysts over a decade at one department.",
+        "Preoperative diagnosis was often unclear because clinical and radiological features are nonspecific.",
+        "No comparator group; outcome reporting is descriptive."
+      ],
+      "clinical_implications": "Supports keeping omental cyst in the differential of pediatric abdominal pain/distension. Too small and uncontrolled to inform operative choice.",
+      "added_date": "2026-08-16",
+      "last_reviewed": "2026-08-16",
+      "status": "incorporated",
+      "run_id": "deep_2026-W33_001"
     }
   ]
 }

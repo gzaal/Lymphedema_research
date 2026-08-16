@@ -1,6 +1,6 @@
 # Pharmacological Treatments for Lymphedema
 
-*Last updated: June 14, 2026 (W24 deep cycle)*
+*Last updated: August 16, 2026 (W33 deep cycle)*
 
 This document summarizes the current state of drug-based treatments for lymphedema. It is written for patients and caregivers who want a thorough understanding of what is being used, what is being tested, and what may be coming. Technical terms are explained when first introduced.
 
@@ -89,9 +89,21 @@ The review is consolidation, not new evidence — but it documents the field's t
 
 **Prenatal sirolimus use (W32 2026 update):** A *Paediatric Drugs* (2025) report describes two cases of extensive fetal capillary-lymphatic-venous malformation (CLVM) treated with oral sirolimus starting in utero (from 32–33 weeks' gestation), continuing postnatally, in pregnancies complicated by intralesional bleeding and (in one case) polyhydramnios. This adds a prenatal-initiation data point to the case-level evidence base above — it does not change the confidence tier (still single-arm case reports, no comparator) but is notable as one of very few published prenatal sirolimus exposures for a lymphatic anomaly.
 
+**A documented treatment failure — worth as much attention as the successes (W33 2026 update):** Almost everything written above comes from published case reports of patients who *responded*. That is a structurally biased evidence base: successful n=1 targeted-therapy cases get written up, failures usually do not. So it is worth recording a counterexample. In a July 2026 report (*American Journal of Medical Genetics Part A*), a patient with central conducting lymphatic anomaly and a **SHOC2** variant — a RAS-MAPK pathway gene — was given **trametinib and did not improve**. Laboratory work on the variant suggested it acts through non-canonical mTOR signalling rather than the canonical RAS-MAPK route, which would explain why a MEK inhibitor did nothing.
+
+*What to take from this:* one uncontrolled failure does not show that trametinib is ineffective, just as one uncontrolled success does not show that it works. What it does show is that **finding a variant in the RAS pathway is not enough to predict that a MEK inhibitor will help.** For families weighing a targeted drug for a severe lymphatic anomaly, this is a reason to ask whether the specific variant's *mechanism* has been characterised — not just which pathway it sits in. As of this cycle, the confidence rating for mTOR/MEK-targeted therapy in neonatal lymphatic anomalies was deliberately **not** raised, despite a new supportive report, because of this case.
+
+**Sirolimus in preterm neonates with non-immune hydrops (W33 2026 update):** A report from a level IV neonatal intensive care unit (*Journal of Perinatology*, June 2026) describes an imaging-anchored response phenotype for sirolimus in preterm neonates with non-immune hydrops caused by vascular and lymphatic anomalies. It is recorded here for completeness only: **no abstract or methods are available**, so the number of infants, the comparator and the definition of "response" cannot be checked. It should not be counted as evidence either way.
+
 ### Emerging downstream-druggable axis — KRAS / MMP and lymphatic valve loss (2026 preclinical)
 
 Bowles et al. (*Arteriosclerosis, Thrombosis, and Vascular Biology*, 2026) showed in mice and human dermal lymphatic endothelial cells that lymphatic-restricted KRAS-G12D drives **valve loss via matrix metalloproteinase (MMP) upregulation**, and that pharmacologic MMP inhibition rescues valve formation in 3D culture. This nominates MMP inhibition as a candidate downstream strategy in KRAS-mutant lymphatic disease (chylothorax, chylous ascites, KRAS-driven lymphatic malformations) — orthogonal to upstream MEK-pathway inhibition. *Limits:* mouse + 3D cell culture only; no MMP inhibitor in human lymphatic-disease trials; broad MMP inhibition has been historically toxic in oncology. This is a 5+ year hypothesis statement and not a near-term clinical lead. See the Genetics & Biomarkers document for fuller mechanistic context.
+
+**Two 2026 additions widening where the RAS pathway can be blocked (W33 update):** Both are laboratory work, and neither has been tested in a patient.
+- *Disease Models & Mechanisms* (July 2026): mice carrying mutations in the RAS-binding domain of **PI3Kα** show that RAS-PI3Kα binding contributes to both normal and KRAS-G12D-driven lymphangiogenesis. In plain terms, KRAS in lymphatic overgrowth does not act only through the MEK arm that trametinib targets — the PI3K arm is engaged too, which may be part of why MEK inhibition alone does not always work.
+- *Journal of Cellular and Molecular Medicine* (August 2026): **RMC-7977**, a RAS(ON) multi-selective inhibitor, reduced overgrowth in human endothelial cells carrying a mutant NRAS. This proposes blocking RAS itself, *upstream*, rather than blocking MEK downstream.
+
+*Reading these together with the trametinib failure above:* there is a coherent mechanistic argument that the current MEK-inhibitor-first approach targets only part of the problem. Coherence is an argument for running trials, not evidence of benefit. This is cell-culture and mouse work with no animal efficacy data in a lymphatic-anomaly disease model and no human data at all. Nothing here should change any current treatment decision.
 
 ---
 

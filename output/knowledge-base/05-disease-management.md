@@ -1,6 +1,6 @@
 # Lymphedema Disease Management & Guidelines
 
-*Last updated: June 14, 2026 (W24 deep cycle)*
+*Last updated: August 16, 2026 (W33 deep cycle)*
 
 This document covers how lymphedema is diagnosed, staged, and treated in clinical practice — from initial diagnosis through long-term management, including physical therapy, surgical options, and the key guidelines from international organizations.
 
@@ -166,6 +166,10 @@ Sequential gradient pneumatic pumps are adjuncts — most useful in the maintena
 
 **Patient-reported outcomes, large survey (W24 2026):** A survey of 10,543 lower-extremity-lymphedema patients using pneumatic compression (*JVS-Venous and Lymphatic Disorders*, 2026) found high satisfaction that improved with frequency of use; daily users self-reported the greatest benefit (swelling −58%, heaviness −34%, pain −25%), stable between 45- and 90-day assessments. *Interpretation:* this supports adherence counseling for daily use, but it is an **uncontrolled satisfaction survey** with self-reported volume claims and mixed etiology — it is not evidence of improved lymphatic *function*, and the magnitude of self-reported "swelling reduction" should not be read as objective volume change.
 
+**The randomised evidence is concentrated in the wrong limb (W33 2026 update):** A systematic review conducted to inform a clinical practice guideline (*JVS-Venous and Lymphatic Disorders*, April 2026) searched for randomised controlled trials of intermittent pneumatic compression published between 2010 and January 2025. Of **145 eligible lymphedema RCTs, 21 addressed the upper extremity and only 7 met criteria for the lower extremity.**
+
+*Why this matters specifically for primary lymphedema:* primary lymphedema is predominantly a **lower-limb** disease, while the upper-limb randomised evidence comes largely from breast-cancer-related lymphedema — a different cause, a different limb, and a different patient population. So recommendations for pneumatic compression in lower-limb primary lymphedema are substantially extrapolated rather than directly tested. This is a reason to hold calibrated expectations and to judge the device by whether it helps *you* over time, not a reason to avoid a low-risk therapy. Note the pattern when read alongside the satisfaction survey above: very high patient-reported satisfaction sitting on a thin randomised base in the limb that actually matters here.
+
 ---
 
 ## Surgical Options
@@ -192,6 +196,10 @@ Surgery should be considered when:
 **Peri-procedural pain control under awake LVA (2026):** Iwanaga et al. (*Plastic and Reconstructive Surgery — Global Open*, April 2026) studied 47 patients (197 sites, 394 injections) at a Tokyo center performing awake LVA. **Longer EMLA (lidocaine/prilocaine) cream application time before local-anesthetic injection significantly reduced injection pain** (P<0.05); **adding vibratory stimulation did not** (P=0.59). Patients with more severe lymphedema reported lower VAS scores, suggesting reduced pain sensitivity in advanced disease. *Practical takeaway:* allow adequate EMLA dwell time (the paper supports the conventional 30–60 minutes) before injection in awake LVA; vibration is unnecessary as a pain-reduction add-on. This is procedural detail only — it does not affect the surgical efficacy evidence base for LVA.
 
 **LVA for pain — a null result that the headline overstates (W24 2026):** A retrospective study of 14 patients / 25 limbs (*J Plast Reconstr Surg*, 2026) titled as though LVA "reduces pain" actually reported a **non-significant** primary endpoint: mean VAS 3.1 → 2.9 (P=0.23), with only 35.7% improving and 21.4% worsening. Any apparent pain benefit correlated with post-operative **weight loss** (r=0.49) and limb-circumference reduction (r=0.42) — i.e., confounded by volume/weight change rather than a demonstrated LVA effect. An exploratory signal (sharp/throbbing pain responded; "heaviness" tended to worsen) is hypothesis-generating only. *Takeaway:* current evidence does **not** support LVA as a treatment for lymphedema-associated pain.
+
+**Do patient characteristics predict who benefits? (W33 2026 update)** A retrospective multicentre cohort drawing on a prospectively maintained lymphedema database (2016–2025) examined sex, age and BMI as predictors of long-term outcome after LVA or VLNT (*Journal of Plastic, Reconstructive & Aesthetic Surgery*, August 2026). **Male** patients showed greater response in lower-limb lymphedema at 12 and 24 months after LVA and at 12 months after VLNT; **higher BMI** was associated with a less favourable response after upper-limb VLNT at 12 and 18 months, with no consistent BMI effect in the lower limb; age showed no consistent association; and none of the three affected complication rates.
+
+*How much weight to give this: not much yet.* Patient selection for lymphatic surgery currently rests on ISL stage and ICG pattern, and these results are not ready to change that. The study is retrospective with no control arm and volume-based surrogate outcomes. The reported effects appear in some sex × limb × timepoint combinations and not others, with no correction for the many comparisons made — a pattern that often reflects chance. Most importantly, **BMI is not a background variable here, it is entangled with the outcome**: weight loss on its own reduces limb volume, so a "BMI predicts volume response" result is partly definitional. The primary-lymphedema subgroup is not reported separately. Treat these as hypotheses for a prospective study.
 
 ### Vascularized Lymph Node Transfer (VLNT)
 
@@ -254,6 +262,19 @@ Carls et al. (*International Journal of Infectious Diseases*, 2026) used the Tri
 
 *What this means for patients:* This is a population-level confirmation of a long-established clinical observation. The dataset includes both primary and secondary lymphedema; primary-lymphedema-specific risk is not separately reported. Practical implications for primary-lymphedema patients are unchanged — **daily skin and nail care, treatment of tinea pedis and onychomycosis, weight management, and early antibiotics for any suspicious skin change** remain the foundation of cellulitis prevention. Patients with ≥3 episodes per year should be considered for prophylactic penicillin.
 
+### Preventing Cellulitis Without Antibiotics: What the Evidence Actually Says (W33 2026 update)
+
+A systematic review (*Phlebology*, November 2025) asked a focused question: leaving antibiotic prophylaxis aside, which interventions targeting the *risk factors* for recurrent limb cellulitis actually have evidence behind them? Five databases were searched through June 2024. Of 1,116 papers screened, **25 met criteria — and only one was a randomised controlled trial.**
+
+The findings:
+- **Nearly every included study concerned lymphoedema**, confirming it as the dominant modifiable risk factor for recurrent cellulitis.
+- **Lymphoedema management — particularly compression — was consistently associated with reduced cellulitis recurrence.**
+- **No studies were found** linking the management of other guideline-listed risk factors (tinea, ulcers) to cellulitis recurrence.
+
+*Why this deserves attention:* cellulitis rate is a **patient-important** outcome — it means hospital admissions, antibiotics, time off work, and progressive lymphatic damage. It sits far above limb volume in what actually matters. Most lymphedema research measures volume; this review is one of the few syntheses aimed at the outcome patients care about. It reasonably supports framing compression to patients as **infection prevention**, not only swelling control — which for many people is a more motivating reason to wear a garment daily.
+
+*Why to stay cautious:* a systematic review is only as strong as what goes into it, and **24 of the 25 included studies were not randomised**. This is a well-organised summary of weak evidence, not strong evidence. The studies are also not separated by cause of lymphoedema, so there is no primary-lymphedema-specific figure. And the absence of studies on treating tinea or ulcers is a **gap in the research**, not a finding that treating them is useless — foot fungal infection is a well-recognised bacterial entry point and treating it remains sensible practice. *Confidence: low_to_moderate.*
+
 ---
 
 ## Special Populations
@@ -290,6 +311,14 @@ This is a **practice-consensus framework**, not new evidence. The Sharma et al. 
 - **Molecular testing performed in only 13.6%** — but pathogenic findings in 100% of those tested
 
 The yield-when-tested figure (100% pathogenic) is consistent with the broader two-center vascular-anomaly testing analysis discussed in the Genetics & Biomarkers document (~70% P/LP yield in vascular anomalies). The gap between framework recommendations and bedside uptake is real and remains the most actionable improvement target for pediatric CLA care.
+
+**Largest pediatric lymphatic malformation series to date — surgery and sclerotherapy performed comparably (W33 2026 update):** A decade-long retrospective review of **478 children** treated at Beijing Children's Hospital, 2014–2024 (*BMC Pediatrics*, July 2026), found the head and neck to be the most involved site (45.0%), with cyst morphology showing distinct anatomic patterns (macrocystic in pelvic/abdominal lesions, mixed in head and neck, microcystic in trunk and extremities; p<0.01). **Macrocystic lesions responded best across every treatment modality** (p<0.05), and there was **no statistically significant difference in effective rate between surgery and sclerotherapy**.
+
+*For families:* this is consistent with how good centres already work — the choice between surgery and sclerotherapy should follow the lesion's morphology and location rather than a general institutional preference — and it supports the message that macrocystic lesions have the better outlook. *The important caveat:* treatment was chosen by the treating clinicians, not assigned at random. Easier lesions may have been routed to one approach and harder ones to the other, so "no difference" here is **not** a demonstration that the two treatments are equally effective. "Effective rate" is also not a standardised outcome measure across centres.
+
+**Fetal lymphatic malformations — a size measure that may help plan delivery (W33 2026 update):** A single-centre retrospective review of 18 fetuses with second- and third-trimester non-nuchal lymphatic malformations (10 cervical, 8 axillary; *Prenatal Diagnosis*, July 2026) used a **lymphatic malformation volume ratio (LVR)**, normalising lesion volume to head circumference. Uncomplicated cervical lesions grew slowly (0.3 cm²/week). Intralesional bleeding (3 cases) occurred with LVR > 11 cm² alongside much faster growth (2.6 vs 0.3 cm²/week, p=0.005). All cases with LVR > 5 cm² needed a tracheostomy after birth, and all with LVR > 4 cm² had delivery complications.
+
+*Why it could matter:* prenatal counselling for these lesions currently has almost no quantitative anchor, and a normalised size measure could eventually support planning — having an airway team present, or considering an EXIT procedure. *Why it is not a decision rule yet:* the thresholds were derived and tested in the same 18-fetus dataset, with three bleeding events underpinning one of them, and no independent validation. That is the classic setting for cut-points that look sharper than they are. The authors themselves describe the observations as exploratory.
 
 **Sclerotherapy comparator data — pediatric cystic LM with intracapsular hemorrhage (2026):** A retrospective Chinese comparative cohort (n=74; 37 receiving pingyangmycin-polidocanol foam [PPF], 37 pingyangmycin alone [PYM]; *Medicine Baltimore*, 2026) reported that **PPF achieved larger first-session volume reduction** (23.0 vs 12.2 cm³, P=0.028), **fewer sessions** (median 2 vs 3, P=0.023), **better Achauer III/IV response rate** (83.8% vs 73.0%, P=0.020), and **superior pain relief** (73.6% vs 41.7%, P=0.036). Adverse events and recurrence rates were comparable. *Limits:* retrospective non-randomised allocation; single-center; surrogate volume endpoint. The signal is consistent with the broader sclerotherapy literature — combination/foamed agents tend to outperform single agents — but does not displace doxycycline or bleomycin where those are standard. Hypothesis-generating, not practice-changing.
 
